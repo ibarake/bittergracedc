@@ -15,8 +15,11 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
 #shopify-section-image--image-with-text #imwtxt-text{
   margin-left: 0%;
 }
-#shopify-section-image--image-with-text .large--one-half{
+#shopify-section-image--image-with-text .large--one-half:nth-child(2){
   width: 70%;
+}
+#shopify-section-image--image-with-text .large--one-half:nth-child(1){
+  width: 30%;
 }
 #imwtxt-text {
     padding: 30px 30px 30px 0px;   
