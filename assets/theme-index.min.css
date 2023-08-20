@@ -5650,12 +5650,6 @@ div#rellax--image--image-with-text {
   }
 }
 @media (min-width: 768px) {
-  #shopify-section-image--image-with-text .large--one-half:nth-child(2){
-  width: 100%;
-}
-#shopify-section-image--image-with-text .large--one-half:nth-child(1){
-  width: 100%;
-}
   .plyr__captions {
     font-size: 18px;
   }
@@ -6075,6 +6069,12 @@ a.plyr__control::before {
   margin-right: 10px;
 }
 @media (max-width: 767px) {
+    #shopify-section-image--image-with-text .large--one-half:nth-child(2){
+  width: 100%;
+}
+#shopify-section-image--image-with-text .large--one-half:nth-child(1){
+  width: 100%;
+}
   .plyr__time + .plyr__time {
     display: none;
   }
