@@ -1,1 +1,2464 @@
-{"current":{"color_body_text":"#333333","color_primary":"#945d45","sale_badge_color":"#ceb8a4","sale_price_color":"#945d45","cart_color":"#945d45","color_primary_navigation":"#333333","color_primary_navigation_hover":"#704f38","header-transparent-text":"#ffffff","mobile-menu-text":"#333333","mobile-menu-text-hover":"#945d45","color_primary_button_background":"#704f38","color_primary_button_background_hover":"#945d45","color_primary_button_text_hover":"#fff","color_secondary_button_background":"#c6aa9d","color_secondary_button_background_hover":"#704f38","colorSchemeLightBackground":"#faf8f8","homepage-sections-accent-primary-color":"#c2b2a3","homepage-sections-accent-secondary-color":"#fff","colorSchemeDarkBackground":"#704f38","pop-up-background-color":"#c2b2a3","cart-drawer-text":"#293928","color_footer_bg":"#eceaea","color_footer_text":"#636363","type_header_font":"bauer_bodoni_n4","header-text-size":48,"heading_spacing":1,"type_base_font":"avenir_next_n4","typography-body-font-size":17,"type_navigation_font":"madera_n4","header_font_size":15,"header_font_case":"uppercase","button_text_case":"uppercase","button_font_size":14,"button_font_style":"normal","product_page_font_size":22,"product_page_font_style":"light","logo_font_size":17,"announcement_text_size":12,"announcement_text_case":"uppercase","ajax_cart_method":"drawer","show_reviews":false,"product-grid":"natural","quick_shop_enable":true,"quick_add_enable":true,"sm_facebook_link":"https:\/\/www.facebook.com\/bittergracedc","sm_instagram_link":"https:\/\/www.instagram.com\/bittergracedc\/","sm_pinterest_link":"","sm_youtube_link":"https:\/\/www.youtube.com\/channel\/UC8TpZdDwkrus6HgZoGd9v2g\/videos?view_as=subscriber","share_twitter":false,"popup--enable":false,"pop-up-time":"7","desktop-popup-style":"fullscreen","popup--test-mode":false,"favicon":"shopify:\/\/shop_images\/BG_Beige_Logo.png","checkout_logo_image":"shopify:\/\/shop_images\/bitter-grace-sustainable-lifestyle-brand.png","checkout_logo_position":"center","checkout_logo_size":"large","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#faf8f8","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#945d45","checkout_button_color":"#945d45","checkout_error_color":"#e32c2b","sections":{"announcement-bar":{"type":"announcement-bar","settings":{"enable_announcement_bar":true,"message_text":"<p>✣ CONSCIOUS LIVING - ETHICAL - WOMAN-OWNED ✣<\/p>","message_link":"shopify:\/\/pages\/our-mission","announcement-bar--background-color":"#704f38","announcement-bar--text-color":"#ffffff","enable_social_icons":false}},"header":{"type":"header","blocks":{"4460fa99-cb68-4104-92e3-29969f6624c0":{"type":"content","settings":{"mega-menu":"Shop","mega_image_1":"shopify:\/\/shop_images\/Gift_Card.png","mega_image_header_1":"","mega_image_subheader_1":"","mega_image_link_1":"https:\/\/bittergracedc.com\/products\/gift-card","mega_image_header_2":"","mega_image_subheader_2":"","mega_image_link_2":""}}},"block_order":["4460fa99-cb68-4104-92e3-29969f6624c0"],"custom_css":[".site-nav,.site-nav--mobile {margin: 0 !important;}",".top-links ul li {font-size: 0.9vw !important;}",".site-header .site-header__wrapper .site-header__wrapper__left {padding-left: 8px !important;}",".site-header .site-header__wrapper > * {margin: 0 3px;}","@media screen and (max-width: 768px) {.site-header__logo-image img {width: 9em !important; } .site-nav__link {transform: scale(0.6); }}"],"settings":{"sticky_header":true,"logo":"shopify:\/\/shop_images\/BG_Logo_BROWN_1.png","logo-placement":"center","logo_padding":10,"logo_max_width":250,"logo_max_width_mobile":100,"mobile-menu-logo--enabled":true,"label-enable":false,"cart-style":"shopping-bag","cart-number":"quantity","enable_search":false,"overlay_header_homepage":false,"overlay_header_collection":true,"overlay_header_list_collection":false,"overlay_header_contact":true,"overlay_logo":"shopify:\/\/shop_images\/Bitter_Grace_DC_Boutique.png","overlay_opacity":0,"show_locale_selector":false,"show_currency_selector":false,"main_linklist":"bitter-grace-reimagined-main-menu","dropdown_alignment":"left","enable_mega_menu":true}},"image--slideshow":{"type":"image--slideshow","blocks":{"876ab2a5-eac9-4739-955e-41d6f620fec9":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BGBanner_Updated.jpg","mobile_image":"shopify:\/\/shop_images\/BGBanner_Updated.jpg","title":"Workwear Reimagined","text":"<p>Comfortable and timeless workwear<br\/>for the modern woman.<\/p>","button_label":"▹ SHOP THE COLLECTION","button_link":"shopify:\/\/collections\/workwear-reimagined","caption-background":"#faf8f8","caption-text":"#000000","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"left","captionAlignment":"left"}},"slideshow-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Moving_2000_x_900_px_3.png","mobile_image":"shopify:\/\/shop_images\/Screen_Shot_2023-07-25_at_11.20.45_AM.png","title":"We're moving locations!","text":"<p>Learn more about our new chapter...<\/p>","button_label":"▹ MORE","button_link":"shopify:\/\/pages\/visit-us","caption-background":"#faf8f8","caption-text":"#000000","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"right","captionAlignment":"right"}},"e53b2314-769e-4b25-b6c4-b46e3b6405f7":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/personal-styling-experience-washington-dc.jpg","mobile_image":"shopify:\/\/shop_images\/personal-styling-near-me.jpg","title":"Personal Styling","text":"<p>Elevate Your Personal Style<\/p>","button_label":"▹ LEARN MORE","button_link":"shopify:\/\/pages\/personal-styling","caption-background":"rgba(0,0,0,0)","caption-text":"#ffffff","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"center","captionAlignment":"center"}},"96db5bb4-04bc-4cc7-b974-199844f6124b":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg","mobile_image":"shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg","title":"Sustainably-Made Cashmere","text":"<p>Versatile, hand-crafted<br\/>cashmere staples<\/p>","button_label":"▹ SHOP THE COLLECTION","button_link":"https:\/\/bittergracedc.com\/collections\/sustainable-cashmere","caption-background":"rgba(0,0,0,0)","caption-text":"#333333","button-text":"#ffffff","button-background":"#000000","captionHorizontal":"right","captionAlignment":"right"}}},"block_order":["876ab2a5-eac9-4739-955e-41d6f620fec9","slideshow-0","e53b2314-769e-4b25-b6c4-b46e3b6405f7","96db5bb4-04bc-4cc7-b974-199844f6124b"],"settings":{"slider-animation":"fade","slider-width":"full-screen","slider-slide-time":5,"caption-heading-size":40,"caption-subheading-size":18,"caption-button-size":16,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"collection--collection-list":{"type":"collection--collection-list","blocks":{"collection-0":{"type":"featured_collection","settings":{"collection":"new-arrivals","collection_img":"shopify:\/\/shop_images\/BG-037.jpg","subheading":"","overlay-btn-text":"▹ Shop NEW ARRIVALS","show-gradient-overlay":false,"overlay_font_color":"#333333","overlay_color":"#323232"}},"collection-2":{"type":"featured_collection","disabled":true,"settings":{"collection":"jewelry-styles","collection_img":"shopify:\/\/shop_images\/handcrafted-diamond-boob-earrings.png","subheading":"","overlay-btn-text":"▹ Shop Jewelry","show-gradient-overlay":false,"overlay_font_color":"#333333","overlay_color":"#323232"}},"51b1c3a2-477d-4c1a-9487-1a5e354622b4":{"type":"featured_collection","disabled":true,"settings":{"collection":"mothers-day-gift-guide","collection_img":"shopify:\/\/shop_images\/VOLO_SILVER_031d205c-1a1f-4fa8-9159-aef40228f6b3.png","subheading":"","overlay-btn-text":"Shop now","show-gradient-overlay":false,"overlay_font_color":"#333333","overlay_color":"#323232"}},"collection-1":{"type":"featured_collection","settings":{"collection":"feel-good-self-care","collection_img":"shopify:\/\/shop_images\/handpoured-white-tea-soy-candle.png","subheading":"","overlay-btn-text":"▹ Shop FOR THE HOME","show-gradient-overlay":false,"overlay_font_color":"#333333","overlay_color":"#323232"}}},"block_order":["collection-0","collection-2","51b1c3a2-477d-4c1a-9487-1a5e354622b4","collection-1"],"settings":{"colors":"white","title":"","richtext":"","items-per-row":3,"fill-the-area":true,"remove-spacing":false,"section-width":"full","content-position":"overlay"}},"image--gallery":{"type":"image--gallery","blocks":{"gallery-0":{"type":"image","settings":{"subheading":"10% of each purchase goes to support Women’s HQ.","title":"YOUR PURCHASE MAKES A DIFFERENCE","overlay-btn-text":"","show-gradient-overlay":false,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-1":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-2":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"a9fcc0d6-b914-44d2-8a2c-5e46c63e6b3b":{"type":"image","settings":{"subheading":"","title":"","overlay-btn-text":"","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#323232"}}},"block_order":["gallery-0","gallery-1","gallery-2","a9fcc0d6-b914-44d2-8a2c-5e46c63e6b3b"],"disabled":true,"settings":{"colors":"light","title":"","richtext":"","remove-spacing":true,"section-width":"full","content-position":"overlay"}},"image--gallery-0":{"type":"image--gallery","blocks":{"gallery-0-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC02215_1500x_b4e0f177-a9a9-4111-9886-d8df92026a97.jpg","link":"shopify:\/\/products\/bitter-grace-charcoal-cropped-long-sleeve-sweatshirt","subheading":"","title":"Charcoal Cropped Long Sleeve Sweatshirt","overlay-btn-text":"▹ SHOP THE LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC02240_1500x_b66249cd-a87f-4649-a3d2-1fa5ff5f1ec3.jpg","link":"shopify:\/\/products\/bitter-grace-mint-tie-dye-high-low-sweatshirt","subheading":"","title":"Mint Tie Dye High-Low Sweatshirt","overlay-btn-text":"▹ SHOP THE LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC02301_1500x_ae23e503-ae37-44af-858f-f76812f985b3.jpg","link":"shopify:\/\/products\/bitter-grace-tie-dye-cropped-t-shirt","subheading":"","title":"Tie Dye Cropped T-Shirt","overlay-btn-text":"▹ SHOP THE LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/DSC02276_1500x_f199e164-63cc-4d79-8f6f-e0feb18b79bd.jpg","link":"shopify:\/\/products\/bitter-grace-cropped-sweatshirt-with-dropped-puff-sleeves","subheading":"","title":"Cropped Sweatshirt with Dropped Puff Sleeves","overlay-btn-text":"▹ SHOP THE LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}}},"block_order":["gallery-0-0","gallery-0-1","gallery-0-2","gallery-0-3"],"disabled":true,"settings":{"colors":"white","title":"","richtext":"","remove-spacing":true,"section-width":"full","content-position":"hover"}},"footer--newsletter":{"type":"footer--newsletter","settings":{"show_section":false,"colors":"white","newsletter_heading":"Join our Mailing List","newsletter_description":""}},"footer":{"type":"footer","blocks":{"e51df719-6c89-4e95-86fc-4972a84798f9":{"type":"imageAndtext","settings":{"imageLogo":"shopify:\/\/shop_images\/BG_LOGO_CREAM.png","linkLogo":"","description":"Your reality is defined by your self-image. We help you dress with purpose. Your reality is defined by your self-image. We help you dress with purpose."}},"footer-0":{"type":"text","settings":{"title":"Visit Our Flagship Store","richtext":"<p><a href=\"\/pages\/visit-us\" title=\"Visit Us\">BITTER GRACE DC<\/a><br\/>526 8th St SE, Suite A<br\/>Washington, DC 20003<\/p>"}},"footer-1":{"type":"menu","settings":{"menu_title":"Links","footer_linklist":"bitter-grace-reimagined-quick-links"}},"footer-3":{"type":"social","settings":{"social_title":"Get connected"}}},"block_order":["e51df719-6c89-4e95-86fc-4972a84798f9","footer-0","footer-1","footer-3"],"custom_css":["footer {background-color: var(--color-scheme-dark-background); width: 100%;}","footer a,.footer-content {color: var(--color-scheme-feature-text-transparent60);}","footer .footer-header {color: var(--color-scheme-feature-text);}",".footer-article,.footer-article a,.footer-content a {color: var(--color-scheme-feature-text-transparent60);}",".social-media-footer ul li a {color: var(--color-scheme-feature-text-transparent60); transition: all 0.15s ease-in-out 0s;}","footer a:active,footer a:hover {color: var(--cart-background-color);}"],"settings":{"footer_text":"","show_methods_of_payment":false,"alignment":"left","show_locale_selector":true,"show_currency_selector":true}},"template--product":{"type":"template--product","settings":{"show_quantity_selector":true,"show_tags":false,"show_collections":false,"show_type":false,"show_vendor":false,"show_sku":false,"shipping_policy":true,"tax_included":false,"show_smart_checkout":true,"trust-badge_max_width":180,"show_discount":"percentage","description_position":"inline_bottom","enable_readmore":false,"enable_sticky":true,"enable_out_of_stock_form":false,"product_variant_style":"swatches","thumbnail_changes_variant":true,"hide_soldout_variants":false,"image_size":"medium","image-display":"thumbnails","thumbnail_position":"below","enable_image_zoom":false,"enable_video_loop":false}},"template--collection":{"type":"template--collection","settings":{"show-collection-image":true,"parallax":true,"collection-image-size":"20vh","collection-layout":"sidebar","show-collection-description":true,"tags_enable":false,"collection-show-sort-by":true,"sort-by-manual":true,"sort-by-price-ascending":true,"sort-by-price-descending":true,"sort-by-title-ascending":false,"sort-by-title-descending":false,"sort-by-created-ascending":false,"sort-by-created-descending":false,"sort-by-best-selling":true,"desktop-products-per-row":3,"tablet-products-per-row":2,"mobile-products-per-row":1,"collection-products-per-page":5,"pagination_options":"pagination_infinite_scrolling","hover-effect":true,"show-vendor":true}},"template--collections-list":{"type":"template--collections-list","settings":{"banner-image-size":"20vh","parallax":true,"show_title":true,"hover-effect":true,"layout":"preview","items_per_row":4,"show_options":"all"}},"text--testimonials":{"type":"text--testimonials","blocks":{"text--testimonials-0":{"type":"text","settings":{"testimonial_text":"<p>“This online boutique is one of my favorite places to shop of all time! Bitter Grace Boutique has positioned itself to be a leader in the purposeful fashion market. I always feel great that a portion of my purchases are paid forward to organizations I believe in.”<\/p>","customer_name":"- Alev","link":"","stars":5}},"fddf51f6-c99e-475b-8683-fbbc40689bec":{"type":"text","settings":{"testimonial_text":"<p>“By way of the Bitter Grace and the Inner Elegance Community, I’ve met some of the most empowering and talented people I&#x27;ve had the pleasure of meeting. I love how it&#x27;s all tied by this concept that Elegance comes from within.”<\/p>","customer_name":"- Jane","link":"","stars":5}},"6675c8d8-5858-483d-9e22-fa0c2aa7cff7":{"type":"text","settings":{"testimonial_text":"<p>“The clothing you carry is beautiful, the encouragement to each of us is wonderful, and your support to our community and those in need is priceless. I highly recommend Bitter Grace!”<\/p>","customer_name":"- Bonnie","link":"","stars":5}}},"block_order":["text--testimonials-0","fddf51f6-c99e-475b-8683-fbbc40689bec","6675c8d8-5858-483d-9e22-fa0c2aa7cff7"],"settings":{"colors":"accent","circle_images":true,"title":"What Our Clients Say About Us"}},"image--image-with-text":{"type":"image--image-with-text","custom_css":["{padding: 1% 0%; background-color: var(--color-scheme-light-background);}","img {height: 35em; width: 52vh;}"],"settings":{"colors":"light","image":"shopify:\/\/shop_images\/worwear-that_s-comfortable.jpg","text_overlapping_image":false,"section-width":"full","layout":"left","text_alignment":"center","title":"TIMELESS WORKWEAR YOU'LL REACH FOR DAILY","text":"<p>Sustainably Made Workwear Collection<\/p>","button_label":"▹ Shop WORKWEAR","button_link":"shopify:\/\/collections\/workwear-reimagined"}},"image--image-with-text-1":{"type":"image--image-with-text","custom_css":["img {height: 29em;}"],"settings":{"colors":"light","image":"shopify:\/\/shop_images\/Inner_Elegance_Community_Washington_DC.jpg","text_overlapping_image":false,"section-width":"full","layout":"right","text_alignment":"center","title":"JOIN US INSIDE THE INNER ELEGANCE COMMUNITY","text":"<p>When you surround yourself with like-minded individuals and invest in yourself both internally & externally, you become limitless.<\/p>","button_label":"▹ LEARN MORE","button_link":"https:\/\/www.innerelegancecircle.com"}},"newsletter--newsletter":{"type":"newsletter--newsletter","settings":{"colors":"dark"}},"products--featured-product":{"type":"products--featured-product","disabled":true,"settings":{"title":"Featured product","richtext":"","featured_product":"","product_variant_style":"dropdowns","hide_soldout_variants":false,"show-vendor":false,"show_product_description":true,"show_quantity_selector":true,"show_smart_checkout":true,"show_discount":"percentage","image-placement":"left","enable_video_loop":false}},"blog--blog-posts":{"type":"blog--blog-posts","settings":{"blog":"news","blog_show_date":true}},"image--logo-list":{"type":"image--logo-list","blocks":{"image--logo-list-0":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/washington-football-team.png","link":"https:\/\/www.washingtonfootball.com\/ben\/shop-black"}},"image--logo-list-1":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/Washingtonian-featuring-bitter-grace.png","link":"https:\/\/www.washingtonian.com\/2019\/08\/27\/you-can-meditate-and-shop-local-goods-from-women-owned-businesses-at-this-dc-self-care-retreat\/"}},"image--logo-list-2":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/HillRag-features-bitter-grace.png","link":"https:\/\/www.hillrag.com\/2020\/12\/16\/bitter-grace-boasts-unique-clothing-and-accessories\/"}},"image--logo-list-3":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/arlington-magazine-features-bitter-grace.png","link":"https:\/\/www.arlingtonmagazine.com\/fashion-find-bitter-grace-boutique\/"}},"722895ef-d831-454e-b7da-5e89a66a2f82":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/Copy_of_Untitled_1.png","link":"https:\/\/wjla.com\/sports\/washington-football-team\/shop-black-washington-football-team-promotes-small-businesses-owned-by-people-of-color"}}},"block_order":["image--logo-list-0","image--logo-list-1","image--logo-list-2","image--logo-list-3","722895ef-d831-454e-b7da-5e89a66a2f82"],"settings":{"colors":"light","width":150,"title":"As seen in"}},"video--video-hero":{"type":"video--video-hero","disabled":true,"settings":{"url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","desktopHeight":"450","mobileHeight":"350","title":"Share your story","subheading":"Here's your chance to make a great first impression","textAlignment":"center","textColor":"#000000","textShadow":false,"heading--text-size":38,"subheading--text-size":24,"button_link":"shopify:\/\/collections\/all","button_label":"Shop now","button-text":"#ffffff","button-background":"#000000"}},"template--page":{"type":"template--page","blocks":{"46180c0a-cc10-4f49-af57-faab92b91c8a":{"type":"image_picker","settings":{"sidebar_image":"shopify:\/\/shop_images\/laying-on-the-beach.jpg","image_title":"Personal Stylist Washington D.C.","image_link":""}},"70bc1c26-2c57-4b45-9b1e-7378bae8416d":{"type":"text","settings":{"title":"test"}},"599713b5-e04b-4f33-9b8f-c3572dbfe025":{"type":"image_picker","settings":{"image_title":"","image_link":""}}},"block_order":["46180c0a-cc10-4f49-af57-faab92b91c8a","70bc1c26-2c57-4b45-9b1e-7378bae8416d","599713b5-e04b-4f33-9b8f-c3572dbfe025"],"settings":{"page_width":"narrow","show_sidebar":false}},"template--product--recommendations":{"type":"template--product--recommendations","settings":{"show_product_recommendations":true,"product_recommendations_heading":"You may also like"}},"template--product--recently-viewed":{"type":"template--product--recently-viewed","settings":{"enable_recently_viewed":true,"recently_viewed_title":"Recently viewed products"}},"template--blog":{"type":"template--blog","settings":{"show_author_name":true,"blog-sidebar-image":"shopify:\/\/shop_images\/bravely-be-you.jpg","show_blog_tags":true,"show_recent_posts":false,"blog_show_date":false}},"template--article":{"type":"template--article","settings":{"show_blog_tags":true,"show_recent_posts":true,"blog_show_date":false}},"16100319042eec0318":{"type":"video--video-hero","settings":{"url":"https:\/\/youtu.be\/jloJXWVgM7s","desktopHeight":"650","mobileHeight":"fullscreen","title":"Behind-the-Scenes of Creating Workwear Reimagined","subheading":"Designed in DC, Handcrafted in Colombia","textAlignment":"bottom-right","textColor":"#ffffff","textShadow":false,"heading--text-size":56,"subheading--text-size":20,"button_link":"shopify:\/\/collections\/workwear-reimagined","button_label":"▹ SHOP NEW ARRIVALS","button-text":"#ffffff","button-background":"#704f38"}},"1610049303ae374df1":{"type":"text--text-adverts","blocks":{"1610049303ae374df1-0":{"type":"text","settings":{"heading":"YOUR PURCHASE MAKES A DIFFERENCE","subheading":"10% of each purchase goes to support Women’s HQ.","link":""}},"1610049303ae374df1-1":{"type":"text","settings":{"heading":"SUSTAINABILITY OR NOTHING","subheading":"We partner with designers and create fashions with sustainability in mind.","link":""}},"1610049303ae374df1-2":{"type":"text","settings":{"heading":"INTERNAL & EXTERNAL ELEGANCE","subheading":"Your reality is defined by your self-image. We help you dress with purpose.","link":""}}},"block_order":["1610049303ae374df1-0","1610049303ae374df1-1","1610049303ae374df1-2"],"settings":{"colors":"accent"}},"1610050509959a5e19":{"type":"text--rich-text","disabled":true,"settings":{"colors":"white","title":"Our Ethos: Bravely Be You.","text":"","button_label":"","button_link":""}},"template--page-contact":{"type":"template--page-contact","blocks":{"3988f145-d8f3-4788-a333-48b6f8ee54d9":{"type":"text","settings":{"field-type":"text","form-field-label":"First Name","required":true}},"57ab2f52-77db-4abd-8996-d19f71be3eea":{"type":"text","settings":{"field-type":"text","form-field-label":"Last Name","required":false}},"680194c8-6021-4e91-8d43-decdaac49729":{"type":"text","settings":{"field-type":"email","form-field-label":"Email","required":true}},"9b3b8f30-c7c4-4fe2-902b-393bd5c5e4b3":{"type":"text","settings":{"field-type":"phone","form-field-label":"Phone Number","required":true}},"31256608-dc63-4f3f-9ea2-0255c017abfe":{"type":"text","settings":{"field-type":"textbox","form-field-label":"Message:","required":true}}},"block_order":["3988f145-d8f3-4788-a333-48b6f8ee54d9","57ab2f52-77db-4abd-8996-d19f71be3eea","680194c8-6021-4e91-8d43-decdaac49729","9b3b8f30-c7c4-4fe2-902b-393bd5c5e4b3","31256608-dc63-4f3f-9ea2-0255c017abfe"],"settings":{"banner_image":"shopify:\/\/shop_images\/Bitter_Grace_DC_in_Capitol_Hill.jpg","banner-image-size":"40vh","parallax":true,"layout":"left","show-map":true,"height":"40vw","map_address":"526 8th St SE, Suite A, Washington, DC 20003","api_key":"","background_image":"shopify:\/\/shop_images\/bravely-be-you-is-our-motto.jpg"}},"1611596786bbc1fbeb":{"type":"image--gallery","blocks":{"1611596786bbc1fbeb-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/grey-wrap-dress.jpg","link":"shopify:\/\/products\/the-hemp-wrap-dress","subheading":"","title":"Hemp Wrap Dress","overlay-btn-text":"▹ SHOP THIS LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"1611596786bbc1fbeb-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/white-work-blazer.jpg","link":"shopify:\/\/products\/the-cotton-boyfriend-blazer","subheading":"","title":"Cotton Boyfriend Blazer","overlay-btn-text":"▹ SHOP THIS LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"1611596786bbc1fbeb-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/grey-linen-shirt.jpg","link":"shopify:\/\/products\/the-hemp-boyfriend-shirt","subheading":"","title":"Hemp Boyfriend Shirt","overlay-btn-text":"▹ SHOP THIS LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}},"475edd64-7abb-4f08-b305-70936c91a5d1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/white-wrap-dress.jpg","link":"shopify:\/\/products\/the-cotton-coat-dress","subheading":"","title":"Cotton Coat Dress","overlay-btn-text":"▹ SHOP THIS LOOK","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}}},"block_order":["1611596786bbc1fbeb-0","1611596786bbc1fbeb-1","1611596786bbc1fbeb-2","475edd64-7abb-4f08-b305-70936c91a5d1"],"custom_css":[".grid-item__title {height: 35%;}"],"settings":{"colors":"white","title":"","richtext":"","remove-spacing":true,"section-width":"full","content-position":"hover"}},"16127484542f981c8f":{"type":"image--image-with-text-overlay","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/personal-styling-experience-washington-dc.jpg","image_height":"30vw","bg_image_overlay_opacity":25,"parallax":true,"title":"Personal Styling","text":"<p>Rediscover your personal style. Ignite your Confidence. Align the next phase of your life with your self-image and purpose.<\/p>","colors":"white","textPosition":"center","textAlignment":"center","heading--text-size":26,"text--text-size":18,"button_label":"▹ BOOK APPOINTMENT","button_link":"shopify:\/\/pages\/personal-styling"}},"1630275458948ebbb4":{"type":"advanced-layout--hero","blocks":{"1630275458948ebbb4-0":{"type":"text","settings":{"hero-menu-heading":"Highlight your best sellers","hero-menu-subheading":"Link to any collection, product or page","hero-menu-link":"","featured_image_size":"medium"}},"1630275458948ebbb4-1":{"type":"text","disabled":true,"settings":{"hero-menu-heading":"Promote a new collection","hero-menu-subheading":"Link to any collection, product or page","hero-menu-link":"","featured_image_size":"medium"}},"f63abed5-df32-4654-8230-c71ab99970ed":{"type":"text","settings":{"hero-menu-heading":"Highlight your best sellers","hero-menu-subheading":"Link to any collection, product or page","hero-menu-link":"","featured_image_size":"medium"}}},"block_order":["1630275458948ebbb4-0","1630275458948ebbb4-1","f63abed5-df32-4654-8230-c71ab99970ed"],"disabled":true,"settings":{"homepage-hero-featured-content":"homepage-hero-image-selection","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","homepage-hero-video-autoplay":false,"homepage-hero-video-loop":false,"homepage-hero-video-mute":false,"home-page-hero-image":"shopify:\/\/shop_images\/Sustainable-athleisure.jpg","image_overlay_opacity":0,"homepage-hero-image-heading":"Athleisure","homepage-hero-image-description":"Elevated Every Day","text-color":"#ffffff","homepage-hero-image-button-label":"▹ PRE-ORDER NOW","homepage-hero-image-link":""}},"multicolumn-product":{"type":"multicolumn-product","settings":{"multicolumn-short-title1":"DESING","multicolumn-short-title2":"QUALITY","multicolumn-short-title3":"SUSTAINABILITY","multicolumn-main-title1":"Comfortable and Sophostocated","multicolumn-main-title2":"Peruvian Pima Cotton","multicolumn-main-title3":"GOTS and Oeko-Tex Certified","paragraph-item-1":"Our droped-Back Dress features a \nflowing sil houette, anchored by a flouid drope at the back and side slits \nfor freedom of movement.","paragraph-item-2":"Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima","paragraph-item-3":"Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima"}},"text-and-two-images":{"type":"text-and-two-images","settings":{"title":"Title","paragraph":"paragraph","left-image":"shopify:\/\/shop_images\/DSC01907_2227747f-f30e-43c6-8082-4abb1abcad07.jpg","right-image":"shopify:\/\/shop_images\/Web_Large-_2020-09-07_Bitter_Grace16878.jpg"}},"template--style-with":{"type":"template--style-with","custom_css":[".quick-add-button-variants {display: flex; margin: auto; align-items: center; justify-content: center; width: 57%; height: 2.5em; padding: 10px 15px;}"],"settings":{"show_product_recommendations":true,"product_recommendations_heading":"You may also like"}},"product-left":{"type":"product-left","blocks":{"2a8a7f51-da18-475b-9872-3a55386ed9d1":{"type":"Collection","settings":{"f-image":"shopify:\/\/shop_images\/BNT_D4.png","collection":"sustainable-cashmere","button-text":"See more accesories","url-button":"","box_position":"left"}},"9e367cd6-927f-4819-be41-c972fc590292":{"type":"Collection","settings":{"f-image":"shopify:\/\/shop_images\/SWD_D2.png","collection":"sustainable-cashmere","button-text":"See more accesories","url-button":"","box_position":"right"}},"1e1394c0-b879-4e1d-86a3-49e86dcfa37b":{"type":"Collection","settings":{"f-image":"shopify:\/\/shop_images\/SWD.png","collection":"sustainable-cashmere","button-text":"See more accesories","url-button":"","box_position":"left"}}},"block_order":["2a8a7f51-da18-475b-9872-3a55386ed9d1","9e367cd6-927f-4819-be41-c972fc590292","1e1394c0-b879-4e1d-86a3-49e86dcfa37b"],"settings":{"collection-as":""}},"title-and-text-product":{"type":"title-and-text-product","settings":{}}},"content_for_index":["1630275458948ebbb4","image--slideshow","1610049303ae374df1","1610050509959a5e19","collection--collection-list","image--image-with-text","1611596786bbc1fbeb","16100319042eec0318","image--gallery-0","image--image-with-text-1","16127484542f981c8f","text--testimonials","products--featured-product","image--logo-list","video--video-hero"],"blocks":{"855628211100114053":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507","disabled":false,"settings":{}},"1449514830453105753":{"type":"shopify:\/\/apps\/slots-appointment-scheduling\/blocks\/appointment-scheduler-embed\/eaf7446e-338e-4b9e-81ce-08f8dd90199c","disabled":true,"settings":{}}}},"presets":{"Queenstown":{"homepage-sections-accent-primary-color":"#627647","homepage-sections-accent-secondary-color":"#fff","colorSchemeDarkBackground":"#333","color_footer_bg":"#f2f2f2","color_footer_text":"#636363","type_header_font":"neuzeit_office_soft_rounded_n7","header-text-size":28,"type_base_font":"neuzeit_office_n4","type_navigation_font":"neuzeit_office_soft_rounded_n7","header_font_size":14,"button_font_style":"normal","heading_spacing":0,"product_page_font_size":24,"product_page_font_style":"normal","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#333","checkout_button_color":"#333","checkout_error_color":"#f26c4f","color_primary_button_text_hover":"#eeeeee","quick_add_enable":true,"sections":{"announcement-bar":{"type":"announcement-bar","settings":{"announcement-bar--background-color":"#242424","announcement-bar--text-color":"#ffffff","enable_social_icons":true}},"header":{"type":"header","settings":{"sticky_header":true,"logo-placement":"center","logo_padding":15,"logo_max_width":160,"label-enable":true,"overlay_header_homepage":true,"main_linklist":"main-menu"}},"image--slideshow":{"type":"image--slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"button_label":"Shop now","button_link":"shopify:\/\/collections\/all","captionHorizontal":"right","captionAlignment":"right"}}},"block_order":["slideshow-0"],"settings":{"caption-heading-size":40,"caption-subheading-size":20,"caption-button-size":14,"show-slide-dots":true,"show-slide-arrows":false}},"collection--collection-list":{"type":"collection--collection-list","blocks":{"collection-0":{"type":"featured_collection","settings":{"subheading":"Subheading","overlay-btn-text":"Shop now","show-gradient-overlay":true}},"collection-1":{"type":"featured_collection","settings":{"subheading":"Subheading","overlay-btn-text":"Shop now","show-gradient-overlay":true}}},"block_order":["collection-0","collection-1"],"settings":{"colors":"white","title":"","richtext":"","items-per-row":2,"remove-spacing":false,"content-position":"below-image"}},"collection--featured-collection":{"type":"collection--featured-collection","settings":{"rows":1,"hover-effect":true,"show-vendor":false}},"video--video-hero":{"type":"video--video-hero","settings":{"desktopHeight":"550","mobileHeight":"350","textAlignment":"center-left","button_link":"shopify:\/\/collections\/all","button_label":"Learn more"}},"collection--featured-collection-1":{"type":"collection--featured-collection","settings":{"hover-effect":true,"show-vendor":false}},"image--text-with-image-overlay-1":{"type":"image--image-with-text-overlay","settings":{"image_height":"30vw","bg_image_overlay_opacity":0,"parallax":true,"button_label":"Shop now","button_link":"shopify:\/\/collections\/all"}},"image--logo-list":{"type":"image--logo-list","blocks":{"image--logo-list-0":{"type":"logo_image","settings":{}},"image--logo-list-1":{"type":"logo_image","settings":{}},"image--logo-list-2":{"type":"logo_image","settings":{}},"image--logo-list-3":{"type":"logo_image","settings":{}}},"block_order":["image--logo-list-0","image--logo-list-1","image--logo-list-2","image--logo-list-3"],"settings":{"colors":"dark"}},"text--testimonials":{"type":"text--testimonials","blocks":{"testimonials-0":{"type":"text","settings":{"image":"","testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe","link":"","stars":5}},"testimonials-1":{"type":"text","settings":{"image":"","testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe","link":"","stars":5}},"testimonials-2":{"type":"text","settings":{"image":"","testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe","link":"","stars":5}}},"block_order":["testimonials-0","testimonials-1","testimonials-2"],"settings":{}},"image--image-with-text-1":{"type":"image--image-with-text","settings":{"colors":"white","text_overlapping_image":true,"text_alignment":"left","button_label":"Shop now","button_link":"shopify:\/\/collections\/all"}},"products--featured-product":{"type":"products--featured-product","settings":{"product_variant_style":"swatches"}},"image--gallery":{"type":"image--gallery","blocks":{"gallery-0":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-1":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-2":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-3":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}}},"block_order":["gallery-0","gallery-1","gallery-2","gallery-3"],"settings":{"title":"Gallery","content-position":"hover"}},"image--gallery-0":{"type":"image--gallery","blocks":{"gallery-0-0":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-0-1":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-0-2":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}},"gallery-0-3":{"type":"image","settings":{"subheading":"Subheading","title":"Title"}}},"block_order":["gallery-0-0","gallery-0-1","gallery-0-2","gallery-0-3"],"settings":{"content-position":"hover"}},"blog--blog-posts":{"type":"blog--blog-posts","settings":{}},"text--text-adverts":{"type":"text--text-adverts","blocks":{"advert-0":{"type":"text","settings":{}},"advert-1":{"type":"text","settings":{}}},"block_order":["advert-0","advert-1"],"settings":{"colors":"dark"}},"footer--newsletter":{"type":"footer--newsletter","settings":{"show_section":true,"colors":"white"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{}},"footer-1":{"type":"menu","settings":{}},"footer-2":{"type":"newsletter","settings":{}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"show_methods_of_payment":false}},"template--page-contact":{"type":"template--page-contact","blocks":{"form-1":{"type":"text","settings":{"field-type":"text","form-field-label":"","required":false}},"form-2":{"type":"text","settings":{"field-type":"email","form-field-label":"","required":false}},"form-3":{"type":"text","settings":{"field-type":"textbox","form-field-label":"","required":false}}},"block_order":["form-1","form-2","form-3"],"settings":{}},"template--product":{"type":"template--product","settings":{"trust-badge_max_width":180,"thumbnail_changes_variant":true,"image-display":"thumbnails"}},"template--collection":{"type":"template--collection","settings":{"show-collection-image":false,"tags_enable":false,"desktop-products-per-row":2,"hover-effect":true}},"template--collections-list":{"type":"template--collections-list","settings":{"show_title":true,"hover-effect":true}},"template--page":{"type":"template--page","blocks":{"template--page-block-1":{"type":"image_picker","settings":{"image_title":"","image_link":""}},"template--page-block-2":{"type":"text","settings":{}},"template--page-block-3":{"type":"richtext","settings":{}}},"block_order":["template--page-block-1","template--page-block-2","template--page-block-3"],"settings":{"show_sidebar":true}}},"content_for_index":["image--slideshow","collection--collection-list","collection--featured-collection","video--video-hero","collection--featured-collection-1","image--text-with-image-overlay-1","image--logo-list","text--testimonials","image--image-with-text-1","products--featured-product","image--gallery","image--gallery-0","blog--blog-posts","text--text-adverts"]},"Byron":{"sale_badge_color":"#952525","sale_price_color":"#952525","cart_color":"#333","header-bg-color":"#f8f8f8","header-transparent-text":"#333333","mobile-menu-bg":"#333","mobile-menu-text":"#f8f8f8","mobile-menu-text-hover":"#e8e8e8","color_primary_button_background":"#000","color_primary_button_text":"#f8f8f8","color_primary_button_background_hover":"#1e1d1d","color_primary_button_text_hover":"#f8f8f8","color_secondary_button_text":"#f8f8f8","color_secondary_button_background_hover":"#333","color_secondary_button_text_hover":"#f8f8f8","colorSchemeLightBackground":"#e8e8e8","colorSchemeLightText":"#333","homepage-sections-accent-primary-color":"#333","homepage-sections-accent-secondary-color":"#f8f8f8","colorSchemeDarkBackground":"#333","colorSchemeDarkText":"#f8f8f8","pop-up-background-color":"#333","pop-up-text-color":"#f8f8f8","cart-drawer-bg":"#f8f8f8","color_footer_bg":"#f8f8f8","type_header_font":"bitter_n7","heading_spacing":0,"type_base_font":"neuzeit_office_n4","type_navigation_font":"neuzeit_office_n7","header_font_size":12,"header_font_case":"uppercase","button_style":"square","announcement_text_size":12,"announcement_text_spacing":1,"announcement_text_style":"bold","cart_notes_enable":true,"show_reviews":true,"enable_breadcrumbs":false,"desktop-popup-style":"slide-up","checkout_logo_size":"small","checkout_accent_color":"#333","checkout_button_color":"#333","checkout_error_color":"#952525","sections":{"announcement-bar":{"type":"announcement-bar","settings":{"enable_announcement_bar":false,"message_link":"","announcement-bar--background-color":"#242424","announcement-bar--text-color":"#ffffff","enable_social_icons":true}},"header":{"type":"header","settings":{"sticky_header":true,"logo_padding":15,"logo_max_width":110,"mobile-menu-logo--enabled":false,"label-enable":false,"overlay_header_homepage":true,"main_linklist":"main-menu","dropdown_alignment":"left","enable_mega_menu":true}},"footer--newsletter":{"type":"footer--newsletter","settings":{"show_section":true,"colors":"dark"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{}},"footer-1":{"type":"menu","settings":{}},"footer-2":{"type":"newsletter","settings":{}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"show_methods_of_payment":false}},"template--page-contact":{"type":"template--page-contact","blocks":{"form-1":{"type":"text","settings":{"field-type":"text","form-field-label":"","required":false}},"form-2":{"type":"text","settings":{"field-type":"email","form-field-label":"","required":false}},"form-3":{"type":"text","settings":{"field-type":"textbox","form-field-label":"","required":false}}},"block_order":["form-1","form-2","form-3"],"settings":{"layout":"right"}},"template--product":{"type":"template--product","settings":{"enable_out_of_stock_form":true,"thumbnail_changes_variant":true,"image-display":"thumbnails","enable_image_zoom":true}},"template--collection":{"type":"template--collection","settings":{"show-collection-image":false,"collection-image-size":"30vh","show-collection-description":true,"tags_enable":false,"desktop-products-per-row":2,"collection-products-per-page":3,"hover-effect":true}},"template--collections-list":{"type":"template--collections-list","settings":{"show_title":true,"hover-effect":true}},"video--video-hero":{"type":"video--video-hero","settings":{"title":"","subheading":""}},"collection--featured-collection":{"type":"collection--featured-collection","settings":{"title":"Title","hover-effect":true,"show_view_all":true}},"image--slideshow":{"type":"image--slideshow","blocks":{"image--slideshow-0":{"type":"image","settings":{"button_label":"Shop now","button_link":"shopify:\/\/collections\/all","captionHorizontal":"right","captionAlignment":"right"}},"image--slideshow-1":{"type":"image","settings":{"button_label":"Shop now","button_link":"shopify:\/\/collections\/all","captionHorizontal":"right","captionAlignment":"right"}}},"block_order":["image--slideshow-0","image--slideshow-1"],"settings":{"slider-width":"full-width"}},"collection--featured-collection-1":{"type":"collection--featured-collection","settings":{"title":"Title","hover-effect":true,"show_view_all":true}},"video--video-hero-1":{"type":"video--video-hero","settings":{"desktopHeight":"550","button_link":"shopify:\/\/collections\/all","button_label":"Shop now"}},"text--testimonials":{"type":"text--testimonials","blocks":{"text--testimonials-0":{"type":"text","settings":{"testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe","link":"","stars":5}},"text--testimonials-1":{"type":"text","settings":{"image":"","testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe","link":"","stars":5}}},"block_order":["text--testimonials-0","text--testimonials-1"],"settings":{}},"collection--collection-list":{"type":"collection--collection-list","blocks":{"collection--collection-list-0":{"type":"featured_collection","settings":{}},"collection--collection-list-1":{"type":"featured_collection","settings":{}},"collection--collection-list-2":{"type":"featured_collection","settings":{}},"collection--collection-list-3":{"type":"featured_collection","settings":{}},"collection--collection-list-4":{"type":"featured_collection","settings":{}}},"block_order":["collection--collection-list-0","collection--collection-list-1","collection--collection-list-2","collection--collection-list-4"],"settings":{"colors":"white","title":"","section-width":"content","content-position":"hover"}},"blog--blog-posts":{"type":"blog--blog-posts","settings":{"blog":"news","post_limit":2}},"image--gallery":{"type":"image--gallery","blocks":{"image--gallery-0":{"type":"image","settings":{}},"image--gallery-1":{"type":"image","settings":{}},"image--gallery-2":{"type":"image","settings":{}},"image--gallery-3":{"type":"image","settings":{}}},"block_order":["image--gallery-0","image--gallery-1","image--gallery-2","image--gallery-3"],"settings":{"title":"Title","remove-spacing":false,"section-width":"content"}}},"content_for_index":["video--video-hero","collection--featured-collection","image--slideshow","collection--featured-collection-1","video--video-hero-1","text--testimonials","collection--collection-list","blog--blog-posts","image--gallery"]},"Cannes":{"color_primary_button_text_hover":"#eeeeee","homepage-sections-accent-primary-color":"#f5ebe9","colorSchemeDarkBackground":"#333","color_footer_bg":"#f2f2f2","color_footer_text":"#636363","type_header_font":"madera_n4","header-text-size":22,"type_base_font":"avenir_next_n4","typography-body-font-size":16,"type_navigation_font":"madera_n4","header_font_size":15,"button_text_case":"uppercase","product_page_font_size":28,"ajax_cart_method":"added","show_reviews":true,"pop-up-time":"7","desktop-popup-style":"fullscreen","checkout_logo_size":"small","checkout_accent_color":"#333333","checkout_button_color":"#f5ebe9","checkout_error_color":"#e32c2b","sections":{"announcement-bar":{"type":"announcement-bar","settings":{"announcement-bar--text-color":"#424242"}},"header":{"type":"header","settings":{"logo-placement":"center","logo_padding":25,"logo_max_width":150,"overlay_header_homepage":true}},"image--slideshow":{"type":"image--slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"button_label":"Shop now","captionAlignment":"right"}}},"block_order":["slideshow-0"],"settings":{"caption-heading-size":40,"caption-subheading-size":18,"caption-button-size":16}},"collection--collection-list":{"type":"collection--collection-list","blocks":{"collection-0":{"type":"featured_collection","settings":{"subheading":"","show-gradient-overlay":false,"overlay_font_color":"#fff"}},"collection-1":{"type":"featured_collection","settings":{"subheading":"","show-gradient-overlay":false,"overlay_font_color":"#fff"}},"collection-2":{"type":"featured_collection","settings":{"subheading":"","show-gradient-overlay":false,"overlay_font_color":"#fff"}}},"block_order":["collection-0","collection-1","collection-2"],"settings":{"colors":"white","title":"","items-per-row":2}},"image--gallery":{"type":"image--gallery","blocks":{"gallery-0":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-1":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-2":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/pomme_shoot16794.jpg","link":"shopify:\/\/products\/juliette-cami","subheading":"£41.00","title":"Juliette Cami","overlay-btn-text":"SHOP NOW","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}}},"block_order":["gallery-0","gallery-1","gallery-2","gallery-3"],"settings":{"content-position":"hover"}},"image--gallery-0":{"type":"image--gallery","blocks":{"gallery-0-0":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-1":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-2":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","subheading":"Subheading","title":"Title","overlay-btn-text":"SHOP NOW","overlay_font_color":"#333333","overlay_color":"#ffffff"}},"gallery-0-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/pomme_shoot16794.jpg","link":"shopify:\/\/products\/juliette-cami","subheading":"£41.00","title":"Juliette Cami","overlay-btn-text":"SHOP NOW","show-gradient-overlay":true,"overlay_font_color":"#333333","overlay_color":"#ffffff"}}},"block_order":["gallery-0-0","gallery-0-1","gallery-0-2","gallery-0-3"],"settings":{"content-position":"hover"}},"footer--newsletter":{"type":"footer--newsletter","settings":{"colors":"white"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{"title":"Contact us","richtext":"<p>Shorditch High Street<br>London, UK<br>L1 3HG<\/p>\n<p><\/p>\n<p>enquiry@cannes.com<\/p>"}},"footer-1":{"type":"menu","settings":{"menu_title":"Links","footer_linklist":"footer"}},"footer-2":{"type":"newsletter","settings":{"newsletter_title":"Newsletter","footer_newsletter_description":""}},"footer-3":{"type":"social","settings":{"social_title":"Get connected"}}},"block_order":["footer-0","footer-1","footer-2","footer-3"],"settings":{}},"template--product":{"type":"template--product","settings":{"trust-badge_max_width":180,"thumbnail_changes_variant":true,"image-display":"thumbnails"}},"template--collection":{"type":"template--collection","settings":{"show-collection-image":false,"tags_enable":false,"desktop-products-per-row":2,"collection-products-per-page":4,"hover-effect":true}},"template--collections-list":{"type":"template--collections-list","settings":{"show_title":true,"hover-effect":true}},"text--testimonials":{"type":"text--testimonials","blocks":{"text--testimonials-0":{"type":"text","settings":{"testimonial_text":"<p>\"Show off incredible feedback from your customers\"<\/p>","customer_name":"John Doe"}}},"block_order":["text--testimonials-0"],"settings":{"colors":"accent","title":""}},"image--image-with-text":{"type":"image--image-with-text","settings":{"button_label":"Shop now","button_link":"shopify:\/\/collections"}},"image--image-with-text-1":{"type":"image--image-with-text","settings":{"layout":"right","button_label":"Shop now","button_link":"shopify:\/\/collections"}},"newsletter--newsletter":{"type":"newsletter--newsletter","settings":{"colors":"dark"}},"products--featured-product":{"type":"products--featured-product","settings":{}},"blog--blog-posts":{"type":"blog--blog-posts","settings":{"blog":"news","blog_show_date":true}},"image--logo-list":{"type":"image--logo-list","blocks":{"image--logo-list-0":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/Asset_2.png","link":""}},"image--logo-list-1":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/logo2.png","link":""}},"image--logo-list-2":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/logo1.png","link":""}},"image--logo-list-3":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/logo3.png","link":""}},"image--logo-list-4":{"type":"logo_image","settings":{"image":"shopify:\/\/shop_images\/logo4.png","link":""}}},"block_order":["image--logo-list-0","image--logo-list-1","image--logo-list-2","image--logo-list-3","image--logo-list-4"],"settings":{"colors":"light","width":130,"title":"As seen in"}},"video--video-hero":{"type":"video--video-hero","settings":{"desktopHeight":"450","mobileHeight":"350","heading--text-size":38,"button_link":"shopify:\/\/collections\/all","button_label":"Shop now"}}},"content_for_index":["image--slideshow","collection--collection-list","image--gallery","image--gallery-0","text--testimonials","image--image-with-text","image--image-with-text-1","products--featured-product","image--logo-list","video--video-hero"]}}}
+{
+  "current": {
+    "color_body_text": "#333333",
+    "color_primary": "#945d45",
+    "sale_badge_color": "#ceb8a4",
+    "sale_price_color": "#945d45",
+    "cart_color": "#945d45",
+    "color_primary_navigation": "#333333",
+    "color_primary_navigation_hover": "#704f38",
+    "header-transparent-text": "#ffffff",
+    "mobile-menu-text": "#333333",
+    "mobile-menu-text-hover": "#945d45",
+    "color_primary_button_background": "#704f38",
+    "color_primary_button_background_hover": "#945d45",
+    "color_primary_button_text_hover": "#fff",
+    "color_secondary_button_background": "#c6aa9d",
+    "color_secondary_button_background_hover": "#704f38",
+    "colorSchemeLightBackground": "#faf8f8",
+    "homepage-sections-accent-primary-color": "#c2b2a3",
+    "homepage-sections-accent-secondary-color": "#fff",
+    "colorSchemeDarkBackground": "#704f38",
+    "pop-up-background-color": "#c2b2a3",
+    "cart-drawer-text": "#293928",
+    "color_footer_bg": "#eceaea",
+    "color_footer_text": "#636363",
+    "type_header_font": "bauer_bodoni_n4",
+    "header-text-size": 48,
+    "heading_spacing": 1,
+    "type_base_font": "avenir_next_n4",
+    "typography-body-font-size": 17,
+    "type_navigation_font": "madera_n4",
+    "header_font_size": 15,
+    "header_font_case": "uppercase",
+    "button_text_case": "uppercase",
+    "button_font_size": 14,
+    "button_font_style": "normal",
+    "product_page_font_size": 22,
+    "product_page_font_style": "light",
+    "logo_font_size": 17,
+    "announcement_text_size": 12,
+    "announcement_text_case": "uppercase",
+    "ajax_cart_method": "drawer",
+    "show_reviews": false,
+    "product-grid": "natural",
+    "quick_shop_enable": true,
+    "quick_add_enable": true,
+    "sm_facebook_link": "https:\/\/www.facebook.com\/bittergracedc",
+    "sm_instagram_link": "https:\/\/www.instagram.com\/bittergracedc\/",
+    "sm_pinterest_link": "",
+    "sm_youtube_link": "https:\/\/www.youtube.com\/channel\/UC8TpZdDwkrus6HgZoGd9v2g\/videos?view_as=subscriber",
+    "share_twitter": false,
+    "popup--enable": false,
+    "pop-up-time": "7",
+    "desktop-popup-style": "fullscreen",
+    "popup--test-mode": false,
+    "favicon": "shopify:\/\/shop_images\/BG_Beige_Logo.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/bitter-grace-sustainable-lifestyle-brand.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#faf8f8",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#945d45",
+    "checkout_button_color": "#945d45",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "enable_announcement_bar": true,
+          "message_text": "<p>✣ CONSCIOUS LIVING - ETHICAL - WOMAN-OWNED ✣<\/p>",
+          "message_link": "shopify:\/\/pages\/our-mission",
+          "announcement-bar--background-color": "#704f38",
+          "announcement-bar--text-color": "#ffffff",
+          "enable_social_icons": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "4460fa99-cb68-4104-92e3-29969f6624c0": {
+            "type": "content",
+            "settings": {
+              "mega-menu": "Shop",
+              "mega_image_1": "shopify:\/\/shop_images\/Gift_Card.png",
+              "mega_image_header_1": "",
+              "mega_image_subheader_1": "",
+              "mega_image_link_1": "https:\/\/bittergracedc.com\/products\/gift-card",
+              "mega_image_header_2": "",
+              "mega_image_subheader_2": "",
+              "mega_image_link_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "4460fa99-cb68-4104-92e3-29969f6624c0"
+        ],
+        "custom_css": [
+          ".site-nav,.site-nav--mobile {margin: 0 !important;}",
+          ".top-links ul li {font-size: 0.9vw !important;}",
+          ".site-header .site-header__wrapper .site-header__wrapper__left {padding-left: 8px !important;}",
+          ".site-header .site-header__wrapper > * {margin: 0 3px;}",
+          "@media screen and (max-width: 768px) {.site-header__logo-image img {width: 9em !important; } .site-nav__link {transform: scale(0.6); }}"
+        ],
+        "settings": {
+          "sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/BG_Logo_BROWN_1.png",
+          "logo-placement": "center",
+          "logo_padding": 10,
+          "logo_max_width": 250,
+          "logo_max_width_mobile": 100,
+          "mobile-menu-logo--enabled": true,
+          "label-enable": false,
+          "cart-style": "shopping-bag",
+          "cart-number": "quantity",
+          "enable_search": false,
+          "overlay_header_homepage": false,
+          "overlay_header_collection": true,
+          "overlay_header_list_collection": false,
+          "overlay_header_contact": true,
+          "overlay_logo": "shopify:\/\/shop_images\/Bitter_Grace_DC_Boutique.png",
+          "overlay_opacity": 0,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "main_linklist": "bitter-grace-reimagined-main-menu",
+          "dropdown_alignment": "left",
+          "enable_mega_menu": true
+        }
+      },
+      "image--slideshow": {
+        "type": "image--slideshow",
+        "blocks": {
+          "876ab2a5-eac9-4739-955e-41d6f620fec9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BGBanner_Updated.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/BGBanner_Updated.jpg",
+              "title": "Workwear Reimagined",
+              "text": "<p>Comfortable and timeless workwear<br\/>for the modern woman.<\/p>",
+              "button_label": "▹ SHOP THE COLLECTION",
+              "button_link": "shopify:\/\/collections\/workwear-reimagined",
+              "caption-background": "#faf8f8",
+              "caption-text": "#000000",
+              "button-text": "#ffffff",
+              "button-background": "#000000",
+              "captionHorizontal": "left",
+              "captionAlignment": "left"
+            }
+          },
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Moving_2000_x_900_px_3.png",
+              "mobile_image": "shopify:\/\/shop_images\/Screen_Shot_2023-07-25_at_11.20.45_AM.png",
+              "title": "We're moving locations!",
+              "text": "<p>Learn more about our new chapter...<\/p>",
+              "button_label": "▹ MORE",
+              "button_link": "shopify:\/\/pages\/visit-us",
+              "caption-background": "#faf8f8",
+              "caption-text": "#000000",
+              "button-text": "#ffffff",
+              "button-background": "#000000",
+              "captionHorizontal": "right",
+              "captionAlignment": "right"
+            }
+          },
+          "e53b2314-769e-4b25-b6c4-b46e3b6405f7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/personal-styling-experience-washington-dc.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/personal-styling-near-me.jpg",
+              "title": "Personal Styling",
+              "text": "<p>Elevate Your Personal Style<\/p>",
+              "button_label": "▹ LEARN MORE",
+              "button_link": "shopify:\/\/pages\/personal-styling",
+              "caption-background": "rgba(0,0,0,0)",
+              "caption-text": "#ffffff",
+              "button-text": "#ffffff",
+              "button-background": "#000000",
+              "captionHorizontal": "center",
+              "captionAlignment": "center"
+            }
+          },
+          "96db5bb4-04bc-4cc7-b974-199844f6124b": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg",
+              "title": "Sustainably-Made Cashmere",
+              "text": "<p>Versatile, hand-crafted<br\/>cashmere staples<\/p>",
+              "button_label": "▹ SHOP THE COLLECTION",
+              "button_link": "https:\/\/bittergracedc.com\/collections\/sustainable-cashmere",
+              "caption-background": "rgba(0,0,0,0)",
+              "caption-text": "#333333",
+              "button-text": "#ffffff",
+              "button-background": "#000000",
+              "captionHorizontal": "right",
+              "captionAlignment": "right"
+            }
+          }
+        },
+        "block_order": [
+          "876ab2a5-eac9-4739-955e-41d6f620fec9",
+          "slideshow-0",
+          "e53b2314-769e-4b25-b6c4-b46e3b6405f7",
+          "96db5bb4-04bc-4cc7-b974-199844f6124b"
+        ],
+        "settings": {
+          "slider-animation": "fade",
+          "slider-width": "full-screen",
+          "slider-slide-time": 5,
+          "caption-heading-size": 40,
+          "caption-subheading-size": 18,
+          "caption-button-size": 16,
+          "show-slide-dots": false,
+          "show-slide-arrows": true,
+          "slider-navigation-color": "#ffffff"
+        }
+      },
+      "collection--collection-list": {
+        "type": "collection--collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "new-arrivals",
+              "collection_img": "shopify:\/\/shop_images\/BG-037.jpg",
+              "subheading": "",
+              "overlay-btn-text": "▹ Shop NEW ARRIVALS",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#323232"
+            }
+          },
+          "collection-2": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "jewelry-styles",
+              "collection_img": "shopify:\/\/shop_images\/handcrafted-diamond-boob-earrings.png",
+              "subheading": "",
+              "overlay-btn-text": "▹ Shop Jewelry",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#323232"
+            }
+          },
+          "51b1c3a2-477d-4c1a-9487-1a5e354622b4": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "mothers-day-gift-guide",
+              "collection_img": "shopify:\/\/shop_images\/VOLO_SILVER_031d205c-1a1f-4fa8-9159-aef40228f6b3.png",
+              "subheading": "",
+              "overlay-btn-text": "Shop now",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#323232"
+            }
+          },
+          "collection-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "feel-good-self-care",
+              "collection_img": "shopify:\/\/shop_images\/handpoured-white-tea-soy-candle.png",
+              "subheading": "",
+              "overlay-btn-text": "▹ Shop FOR THE HOME",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-2",
+          "51b1c3a2-477d-4c1a-9487-1a5e354622b4",
+          "collection-1"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "items-per-row": 3,
+          "fill-the-area": true,
+          "remove-spacing": false,
+          "section-width": "full",
+          "content-position": "overlay"
+        }
+      },
+      "image--gallery": {
+        "type": "image--gallery",
+        "blocks": {
+          "gallery-0": {
+            "type": "image",
+            "settings": {
+              "subheading": "10% of each purchase goes to support Women’s HQ.",
+              "title": "YOUR PURCHASE MAKES A DIFFERENCE",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "gallery-1": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/all",
+              "subheading": "Subheading",
+              "title": "Title",
+              "overlay-btn-text": "SHOP NOW",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "gallery-2": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/all",
+              "subheading": "Subheading",
+              "title": "Title",
+              "overlay-btn-text": "SHOP NOW",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "a9fcc0d6-b914-44d2-8a2c-5e46c63e6b3b": {
+            "type": "image",
+            "settings": {
+              "subheading": "",
+              "title": "",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "gallery-0",
+          "gallery-1",
+          "gallery-2",
+          "a9fcc0d6-b914-44d2-8a2c-5e46c63e6b3b"
+        ],
+        "disabled": true,
+        "settings": {
+          "colors": "light",
+          "title": "",
+          "richtext": "",
+          "remove-spacing": true,
+          "section-width": "full",
+          "content-position": "overlay"
+        }
+      },
+      "image--gallery-0": {
+        "type": "image--gallery",
+        "blocks": {
+          "gallery-0-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC02215_1500x_b4e0f177-a9a9-4111-9886-d8df92026a97.jpg",
+              "link": "shopify:\/\/products\/bitter-grace-charcoal-cropped-long-sleeve-sweatshirt",
+              "subheading": "",
+              "title": "Charcoal Cropped Long Sleeve Sweatshirt",
+              "overlay-btn-text": "▹ SHOP THE LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "gallery-0-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC02240_1500x_b66249cd-a87f-4649-a3d2-1fa5ff5f1ec3.jpg",
+              "link": "shopify:\/\/products\/bitter-grace-mint-tie-dye-high-low-sweatshirt",
+              "subheading": "",
+              "title": "Mint Tie Dye High-Low Sweatshirt",
+              "overlay-btn-text": "▹ SHOP THE LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "gallery-0-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC02301_1500x_ae23e503-ae37-44af-858f-f76812f985b3.jpg",
+              "link": "shopify:\/\/products\/bitter-grace-tie-dye-cropped-t-shirt",
+              "subheading": "",
+              "title": "Tie Dye Cropped T-Shirt",
+              "overlay-btn-text": "▹ SHOP THE LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "gallery-0-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC02276_1500x_f199e164-63cc-4d79-8f6f-e0feb18b79bd.jpg",
+              "link": "shopify:\/\/products\/bitter-grace-cropped-sweatshirt-with-dropped-puff-sleeves",
+              "subheading": "",
+              "title": "Cropped Sweatshirt with Dropped Puff Sleeves",
+              "overlay-btn-text": "▹ SHOP THE LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "gallery-0-0",
+          "gallery-0-1",
+          "gallery-0-2",
+          "gallery-0-3"
+        ],
+        "disabled": true,
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "remove-spacing": true,
+          "section-width": "full",
+          "content-position": "hover"
+        }
+      },
+      "footer--newsletter": {
+        "type": "footer--newsletter",
+        "settings": {
+          "show_section": false,
+          "colors": "white",
+          "newsletter_heading": "Join our Mailing List",
+          "newsletter_description": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "e51df719-6c89-4e95-86fc-4972a84798f9": {
+            "type": "imageAndtext",
+            "settings": {
+              "imageLogo": "shopify:\/\/shop_images\/BG_LOGO_CREAM.png",
+              "linkLogo": "",
+              "description": "Your reality is defined by your self-image. We help you dress with purpose. Your reality is defined by your self-image. We help you dress with purpose."
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "Visit Our Flagship Store",
+              "richtext": "<p><a href=\"\/pages\/visit-us\" title=\"Visit Us\">BITTER GRACE DC<\/a><br\/>526 8th St SE, Suite A<br\/>Washington, DC 20003<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "footer_linklist": "bitter-grace-reimagined-quick-links"
+            }
+          },
+          "footer-3": {
+            "type": "social",
+            "settings": {
+              "social_title": "Get connected"
+            }
+          }
+        },
+        "block_order": [
+          "e51df719-6c89-4e95-86fc-4972a84798f9",
+          "footer-0",
+          "footer-1",
+          "footer-3"
+        ],
+        "custom_css": [
+          "footer {background-color: var(--color-scheme-dark-background); width: 100%;}",
+          "footer a,.footer-content {color: var(--color-scheme-feature-text-transparent60);}",
+          "footer .footer-header {color: var(--color-scheme-feature-text);}",
+          ".footer-article,.footer-article a,.footer-content a {color: var(--color-scheme-feature-text-transparent60);}",
+          ".social-media-footer ul li a {color: var(--color-scheme-feature-text-transparent60); transition: all 0.15s ease-in-out 0s;}",
+          "footer a:active,footer a:hover {color: var(--cart-background-color);}"
+        ],
+        "settings": {
+          "footer_text": "",
+          "show_methods_of_payment": false,
+          "alignment": "left",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "template--product": {
+        "type": "template--product",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_tags": false,
+          "show_collections": false,
+          "show_type": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "shipping_policy": true,
+          "tax_included": false,
+          "show_smart_checkout": true,
+          "trust-badge_max_width": 180,
+          "show_discount": "percentage",
+          "description_position": "inline_bottom",
+          "enable_readmore": false,
+          "enable_sticky": true,
+          "enable_out_of_stock_form": false,
+          "product_variant_style": "swatches",
+          "thumbnail_changes_variant": true,
+          "hide_soldout_variants": false,
+          "image_size": "medium",
+          "image-display": "thumbnails",
+          "thumbnail_position": "below",
+          "enable_image_zoom": false,
+          "enable_video_loop": false
+        }
+      },
+      "template--collection": {
+        "type": "template--collection",
+        "settings": {
+          "show-collection-image": true,
+          "parallax": true,
+          "collection-image-size": "20vh",
+          "collection-layout": "sidebar",
+          "show-collection-description": true,
+          "tags_enable": false,
+          "collection-show-sort-by": true,
+          "sort-by-manual": true,
+          "sort-by-price-ascending": true,
+          "sort-by-price-descending": true,
+          "sort-by-title-ascending": false,
+          "sort-by-title-descending": false,
+          "sort-by-created-ascending": false,
+          "sort-by-created-descending": false,
+          "sort-by-best-selling": true,
+          "desktop-products-per-row": 3,
+          "tablet-products-per-row": 2,
+          "mobile-products-per-row": 1,
+          "collection-products-per-page": 5,
+          "pagination_options": "pagination_infinite_scrolling",
+          "hover-effect": true,
+          "show-vendor": true
+        }
+      },
+      "template--collections-list": {
+        "type": "template--collections-list",
+        "settings": {
+          "banner-image-size": "20vh",
+          "parallax": true,
+          "show_title": true,
+          "hover-effect": true,
+          "layout": "preview",
+          "items_per_row": 4,
+          "show_options": "all"
+        }
+      },
+      "text--testimonials": {
+        "type": "text--testimonials",
+        "blocks": {
+          "text--testimonials-0": {
+            "type": "text",
+            "settings": {
+              "testimonial_text": "<p>“This online boutique is one of my favorite places to shop of all time! Bitter Grace Boutique has positioned itself to be a leader in the purposeful fashion market. I always feel great that a portion of my purchases are paid forward to organizations I believe in.”<\/p>",
+              "customer_name": "- Alev",
+              "link": "",
+              "stars": 5
+            }
+          },
+          "fddf51f6-c99e-475b-8683-fbbc40689bec": {
+            "type": "text",
+            "settings": {
+              "testimonial_text": "<p>“By way of the Bitter Grace and the Inner Elegance Community, I’ve met some of the most empowering and talented people I&#x27;ve had the pleasure of meeting. I love how it&#x27;s all tied by this concept that Elegance comes from within.”<\/p>",
+              "customer_name": "- Jane",
+              "link": "",
+              "stars": 5
+            }
+          },
+          "6675c8d8-5858-483d-9e22-fa0c2aa7cff7": {
+            "type": "text",
+            "settings": {
+              "testimonial_text": "<p>“The clothing you carry is beautiful, the encouragement to each of us is wonderful, and your support to our community and those in need is priceless. I highly recommend Bitter Grace!”<\/p>",
+              "customer_name": "- Bonnie",
+              "link": "",
+              "stars": 5
+            }
+          }
+        },
+        "block_order": [
+          "text--testimonials-0",
+          "fddf51f6-c99e-475b-8683-fbbc40689bec",
+          "6675c8d8-5858-483d-9e22-fa0c2aa7cff7"
+        ],
+        "settings": {
+          "colors": "accent",
+          "circle_images": true,
+          "title": "What Our Clients Say About Us"
+        }
+      },
+      "image--image-with-text": {
+        "type": "image--image-with-text",
+        "custom_css": [
+          "{padding: 1% 0%; background-color: var(--color-scheme-light-background);}",
+          "img {height: 35em; width: 52vh;}"
+        ],
+        "settings": {
+          "colors": "light",
+          "image": "shopify:\/\/shop_images\/worwear-that_s-comfortable.jpg",
+          "text_overlapping_image": false,
+          "section-width": "full",
+          "layout": "left",
+          "text_alignment": "center",
+          "title": "TIMELESS WORKWEAR YOU'LL REACH FOR DAILY",
+          "text": "<p>Sustainably Made Workwear Collection<\/p>",
+          "button_label": "▹ Shop WORKWEAR",
+          "button_link": "shopify:\/\/collections\/workwear-reimagined"
+        }
+      },
+      "image--image-with-text-1": {
+        "type": "image--image-with-text",
+        "custom_css": [
+          "img {height: 29em;}"
+        ],
+        "settings": {
+          "colors": "light",
+          "image": "shopify:\/\/shop_images\/Inner_Elegance_Community_Washington_DC.jpg",
+          "text_overlapping_image": false,
+          "section-width": "full",
+          "layout": "right",
+          "text_alignment": "center",
+          "title": "JOIN US INSIDE THE INNER ELEGANCE COMMUNITY",
+          "text": "<p>When you surround yourself with like-minded individuals and invest in yourself both internally & externally, you become limitless.<\/p>",
+          "button_label": "▹ LEARN MORE",
+          "button_link": "https:\/\/www.innerelegancecircle.com"
+        }
+      },
+      "newsletter--newsletter": {
+        "type": "newsletter--newsletter",
+        "settings": {
+          "colors": "dark"
+        }
+      },
+      "products--featured-product": {
+        "type": "products--featured-product",
+        "disabled": true,
+        "settings": {
+          "title": "Featured product",
+          "richtext": "",
+          "featured_product": "",
+          "product_variant_style": "dropdowns",
+          "hide_soldout_variants": false,
+          "show-vendor": false,
+          "show_product_description": true,
+          "show_quantity_selector": true,
+          "show_smart_checkout": true,
+          "show_discount": "percentage",
+          "image-placement": "left",
+          "enable_video_loop": false
+        }
+      },
+      "blog--blog-posts": {
+        "type": "blog--blog-posts",
+        "settings": {
+          "blog": "news",
+          "blog_show_date": true
+        }
+      },
+      "image--logo-list": {
+        "type": "image--logo-list",
+        "blocks": {
+          "image--logo-list-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/washington-football-team.png",
+              "link": "https:\/\/www.washingtonfootball.com\/ben\/shop-black"
+            }
+          },
+          "image--logo-list-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Washingtonian-featuring-bitter-grace.png",
+              "link": "https:\/\/www.washingtonian.com\/2019\/08\/27\/you-can-meditate-and-shop-local-goods-from-women-owned-businesses-at-this-dc-self-care-retreat\/"
+            }
+          },
+          "image--logo-list-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HillRag-features-bitter-grace.png",
+              "link": "https:\/\/www.hillrag.com\/2020\/12\/16\/bitter-grace-boasts-unique-clothing-and-accessories\/"
+            }
+          },
+          "image--logo-list-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arlington-magazine-features-bitter-grace.png",
+              "link": "https:\/\/www.arlingtonmagazine.com\/fashion-find-bitter-grace-boutique\/"
+            }
+          },
+          "722895ef-d831-454e-b7da-5e89a66a2f82": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Copy_of_Untitled_1.png",
+              "link": "https:\/\/wjla.com\/sports\/washington-football-team\/shop-black-washington-football-team-promotes-small-businesses-owned-by-people-of-color"
+            }
+          }
+        },
+        "block_order": [
+          "image--logo-list-0",
+          "image--logo-list-1",
+          "image--logo-list-2",
+          "image--logo-list-3",
+          "722895ef-d831-454e-b7da-5e89a66a2f82"
+        ],
+        "settings": {
+          "colors": "light",
+          "width": 150,
+          "title": "As seen in"
+        }
+      },
+      "video--video-hero": {
+        "type": "video--video-hero",
+        "disabled": true,
+        "settings": {
+          "url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "desktopHeight": "450",
+          "mobileHeight": "350",
+          "title": "Share your story",
+          "subheading": "Here's your chance to make a great first impression",
+          "textAlignment": "center",
+          "textColor": "#000000",
+          "textShadow": false,
+          "heading--text-size": 38,
+          "subheading--text-size": 24,
+          "button_link": "shopify:\/\/collections\/all",
+          "button_label": "Shop now",
+          "button-text": "#ffffff",
+          "button-background": "#000000"
+        }
+      },
+      "template--page": {
+        "type": "template--page",
+        "blocks": {
+          "46180c0a-cc10-4f49-af57-faab92b91c8a": {
+            "type": "image_picker",
+            "settings": {
+              "sidebar_image": "shopify:\/\/shop_images\/laying-on-the-beach.jpg",
+              "image_title": "Personal Stylist Washington D.C.",
+              "image_link": ""
+            }
+          },
+          "70bc1c26-2c57-4b45-9b1e-7378bae8416d": {
+            "type": "text",
+            "settings": {
+              "title": "test"
+            }
+          },
+          "599713b5-e04b-4f33-9b8f-c3572dbfe025": {
+            "type": "image_picker",
+            "settings": {
+              "image_title": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "46180c0a-cc10-4f49-af57-faab92b91c8a",
+          "70bc1c26-2c57-4b45-9b1e-7378bae8416d",
+          "599713b5-e04b-4f33-9b8f-c3572dbfe025"
+        ],
+        "settings": {
+          "page_width": "narrow",
+          "show_sidebar": false
+        }
+      },
+      "template--product--recommendations": {
+        "type": "template--product--recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like"
+        }
+      },
+      "template--product--recently-viewed": {
+        "type": "template--product--recently-viewed",
+        "settings": {
+          "enable_recently_viewed": true,
+          "recently_viewed_title": "Recently viewed products"
+        }
+      },
+      "template--blog": {
+        "type": "template--blog",
+        "settings": {
+          "show_author_name": true,
+          "blog-sidebar-image": "shopify:\/\/shop_images\/bravely-be-you.jpg",
+          "show_blog_tags": true,
+          "show_recent_posts": false,
+          "blog_show_date": false
+        }
+      },
+      "template--article": {
+        "type": "template--article",
+        "settings": {
+          "show_blog_tags": true,
+          "show_recent_posts": true,
+          "blog_show_date": false
+        }
+      },
+      "16100319042eec0318": {
+        "type": "video--video-hero",
+        "settings": {
+          "url": "https:\/\/youtu.be\/jloJXWVgM7s?autoplay=1",
+          "desktopHeight": "650",
+          "mobileHeight": "fullscreen",
+          "title": "Behind-the-Scenes of Creating Workwear Reimagined",
+          "subheading": "Designed in DC, Handcrafted in Colombia",
+          "textAlignment": "bottom-right",
+          "textColor": "#ffffff",
+          "textShadow": false,
+          "heading--text-size": 56,
+          "subheading--text-size": 20,
+          "button_link": "shopify:\/\/collections\/workwear-reimagined",
+          "button_label": "▹ SHOP NEW ARRIVALS",
+          "button-text": "#ffffff",
+          "button-background": "#704f38"
+        }
+      },
+      "1610049303ae374df1": {
+        "type": "text--text-adverts",
+        "blocks": {
+          "1610049303ae374df1-0": {
+            "type": "text",
+            "settings": {
+              "heading": "YOUR PURCHASE MAKES A DIFFERENCE",
+              "subheading": "10% of each purchase goes to support Women’s HQ.",
+              "link": ""
+            }
+          },
+          "1610049303ae374df1-1": {
+            "type": "text",
+            "settings": {
+              "heading": "SUSTAINABILITY OR NOTHING",
+              "subheading": "We partner with designers and create fashions with sustainability in mind.",
+              "link": ""
+            }
+          },
+          "1610049303ae374df1-2": {
+            "type": "text",
+            "settings": {
+              "heading": "INTERNAL & EXTERNAL ELEGANCE",
+              "subheading": "Your reality is defined by your self-image. We help you dress with purpose.",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1610049303ae374df1-0",
+          "1610049303ae374df1-1",
+          "1610049303ae374df1-2"
+        ],
+        "settings": {
+          "colors": "accent"
+        }
+      },
+      "1610050509959a5e19": {
+        "type": "text--rich-text",
+        "disabled": true,
+        "settings": {
+          "colors": "white",
+          "title": "Our Ethos: Bravely Be You.",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "template--page-contact": {
+        "type": "template--page-contact",
+        "blocks": {
+          "3988f145-d8f3-4788-a333-48b6f8ee54d9": {
+            "type": "text",
+            "settings": {
+              "field-type": "text",
+              "form-field-label": "First Name",
+              "required": true
+            }
+          },
+          "57ab2f52-77db-4abd-8996-d19f71be3eea": {
+            "type": "text",
+            "settings": {
+              "field-type": "text",
+              "form-field-label": "Last Name",
+              "required": false
+            }
+          },
+          "680194c8-6021-4e91-8d43-decdaac49729": {
+            "type": "text",
+            "settings": {
+              "field-type": "email",
+              "form-field-label": "Email",
+              "required": true
+            }
+          },
+          "9b3b8f30-c7c4-4fe2-902b-393bd5c5e4b3": {
+            "type": "text",
+            "settings": {
+              "field-type": "phone",
+              "form-field-label": "Phone Number",
+              "required": true
+            }
+          },
+          "31256608-dc63-4f3f-9ea2-0255c017abfe": {
+            "type": "text",
+            "settings": {
+              "field-type": "textbox",
+              "form-field-label": "Message:",
+              "required": true
+            }
+          }
+        },
+        "block_order": [
+          "3988f145-d8f3-4788-a333-48b6f8ee54d9",
+          "57ab2f52-77db-4abd-8996-d19f71be3eea",
+          "680194c8-6021-4e91-8d43-decdaac49729",
+          "9b3b8f30-c7c4-4fe2-902b-393bd5c5e4b3",
+          "31256608-dc63-4f3f-9ea2-0255c017abfe"
+        ],
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/Bitter_Grace_DC_in_Capitol_Hill.jpg",
+          "banner-image-size": "40vh",
+          "parallax": true,
+          "layout": "left",
+          "show-map": true,
+          "height": "40vw",
+          "map_address": "526 8th St SE, Suite A, Washington, DC 20003",
+          "api_key": "",
+          "background_image": "shopify:\/\/shop_images\/bravely-be-you-is-our-motto.jpg"
+        }
+      },
+      "1611596786bbc1fbeb": {
+        "type": "image--gallery",
+        "blocks": {
+          "1611596786bbc1fbeb-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/grey-wrap-dress.jpg",
+              "link": "shopify:\/\/products\/the-hemp-wrap-dress",
+              "subheading": "",
+              "title": "Hemp Wrap Dress",
+              "overlay-btn-text": "▹ SHOP THIS LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "1611596786bbc1fbeb-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/white-work-blazer.jpg",
+              "link": "shopify:\/\/products\/the-cotton-boyfriend-blazer",
+              "subheading": "",
+              "title": "Cotton Boyfriend Blazer",
+              "overlay-btn-text": "▹ SHOP THIS LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "1611596786bbc1fbeb-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/grey-linen-shirt.jpg",
+              "link": "shopify:\/\/products\/the-hemp-boyfriend-shirt",
+              "subheading": "",
+              "title": "Hemp Boyfriend Shirt",
+              "overlay-btn-text": "▹ SHOP THIS LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          },
+          "475edd64-7abb-4f08-b305-70936c91a5d1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/white-wrap-dress.jpg",
+              "link": "shopify:\/\/products\/the-cotton-coat-dress",
+              "subheading": "",
+              "title": "Cotton Coat Dress",
+              "overlay-btn-text": "▹ SHOP THIS LOOK",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#333333",
+              "overlay_color": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "1611596786bbc1fbeb-0",
+          "1611596786bbc1fbeb-1",
+          "1611596786bbc1fbeb-2",
+          "475edd64-7abb-4f08-b305-70936c91a5d1"
+        ],
+        "custom_css": [
+          ".grid-item__title {height: 35%;}"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "remove-spacing": true,
+          "section-width": "full",
+          "content-position": "hover"
+        }
+      },
+      "16127484542f981c8f": {
+        "type": "image--image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/personal-styling-experience-washington-dc.jpg",
+          "image_height": "30vw",
+          "bg_image_overlay_opacity": 25,
+          "parallax": true,
+          "title": "Personal Styling",
+          "text": "<p>Rediscover your personal style. Ignite your Confidence. Align the next phase of your life with your self-image and purpose.<\/p>",
+          "colors": "white",
+          "textPosition": "center",
+          "textAlignment": "center",
+          "heading--text-size": 26,
+          "text--text-size": 18,
+          "button_label": "▹ BOOK APPOINTMENT",
+          "button_link": "shopify:\/\/pages\/personal-styling"
+        }
+      },
+      "1630275458948ebbb4": {
+        "type": "advanced-layout--hero",
+        "blocks": {
+          "1630275458948ebbb4-0": {
+            "type": "text",
+            "settings": {
+              "hero-menu-heading": "Highlight your best sellers",
+              "hero-menu-subheading": "Link to any collection, product or page",
+              "hero-menu-link": "",
+              "featured_image_size": "medium"
+            }
+          },
+          "1630275458948ebbb4-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "hero-menu-heading": "Promote a new collection",
+              "hero-menu-subheading": "Link to any collection, product or page",
+              "hero-menu-link": "",
+              "featured_image_size": "medium"
+            }
+          },
+          "f63abed5-df32-4654-8230-c71ab99970ed": {
+            "type": "text",
+            "settings": {
+              "hero-menu-heading": "Highlight your best sellers",
+              "hero-menu-subheading": "Link to any collection, product or page",
+              "hero-menu-link": "",
+              "featured_image_size": "medium"
+            }
+          }
+        },
+        "block_order": [
+          "1630275458948ebbb4-0",
+          "1630275458948ebbb4-1",
+          "f63abed5-df32-4654-8230-c71ab99970ed"
+        ],
+        "disabled": true,
+        "settings": {
+          "homepage-hero-featured-content": "homepage-hero-image-selection",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "homepage-hero-video-autoplay": false,
+          "homepage-hero-video-loop": false,
+          "homepage-hero-video-mute": false,
+          "home-page-hero-image": "shopify:\/\/shop_images\/Sustainable-athleisure.jpg",
+          "image_overlay_opacity": 0,
+          "homepage-hero-image-heading": "Athleisure",
+          "homepage-hero-image-description": "Elevated Every Day",
+          "text-color": "#ffffff",
+          "homepage-hero-image-button-label": "▹ PRE-ORDER NOW",
+          "homepage-hero-image-link": ""
+        }
+      },
+      "multicolumn-product": {
+        "type": "multicolumn-product",
+        "settings": {
+          "multicolumn-short-title1": "DESING",
+          "multicolumn-short-title2": "QUALITY",
+          "multicolumn-short-title3": "SUSTAINABILITY",
+          "multicolumn-main-title1": "Comfortable and Sophostocated",
+          "multicolumn-main-title2": "Peruvian Pima Cotton",
+          "multicolumn-main-title3": "GOTS and Oeko-Tex Certified",
+          "paragraph-item-1": "Our droped-Back Dress features a \nflowing sil houette, anchored by a flouid drope at the back and side slits \nfor freedom of movement.",
+          "paragraph-item-2": "Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima",
+          "paragraph-item-3": "Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima"
+        }
+      },
+      "text-and-two-images": {
+        "type": "text-and-two-images",
+        "settings": {
+          "title": "Title",
+          "paragraph": "paragraph",
+          "left-image": "shopify:\/\/shop_images\/DSC01907_2227747f-f30e-43c6-8082-4abb1abcad07.jpg",
+          "right-image": "shopify:\/\/shop_images\/Web_Large-_2020-09-07_Bitter_Grace16878.jpg"
+        }
+      },
+      "template--style-with": {
+        "type": "template--style-with",
+        "custom_css": [
+          ".quick-add-button-variants {display: flex; margin: auto; align-items: center; justify-content: center; width: 57%; height: 2.5em; padding: 10px 15px;}"
+        ],
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like"
+        }
+      },
+      "product-left": {
+        "type": "product-left",
+        "blocks": {
+          "2a8a7f51-da18-475b-9872-3a55386ed9d1": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/BNT_D4.png",
+              "collection": "sustainable-cashmere",
+              "button-text": "See more accesories",
+              "url-button": "",
+              "box_position": "left"
+            }
+          },
+          "9e367cd6-927f-4819-be41-c972fc590292": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/SWD_D2.png",
+              "collection": "sustainable-cashmere",
+              "button-text": "See more accesories",
+              "url-button": "",
+              "box_position": "right"
+            }
+          },
+          "1e1394c0-b879-4e1d-86a3-49e86dcfa37b": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/SWD.png",
+              "collection": "sustainable-cashmere",
+              "button-text": "See more accesories",
+              "url-button": "",
+              "box_position": "left"
+            }
+          }
+        },
+        "block_order": [
+          "2a8a7f51-da18-475b-9872-3a55386ed9d1",
+          "9e367cd6-927f-4819-be41-c972fc590292",
+          "1e1394c0-b879-4e1d-86a3-49e86dcfa37b"
+        ],
+        "settings": {
+          "collection-as": ""
+        }
+      },
+      "title-and-text-product": {
+        "type": "title-and-text-product",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "1630275458948ebbb4",
+      "image--slideshow",
+      "1610049303ae374df1",
+      "1610050509959a5e19",
+      "collection--collection-list",
+      "image--image-with-text",
+      "1611596786bbc1fbeb",
+      "16100319042eec0318",
+      "image--gallery-0",
+      "image--image-with-text-1",
+      "16127484542f981c8f",
+      "text--testimonials",
+      "products--featured-product",
+      "image--logo-list",
+      "video--video-hero"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1449514830453105753": {
+        "type": "shopify:\/\/apps\/slots-appointment-scheduling\/blocks\/appointment-scheduler-embed\/eaf7446e-338e-4b9e-81ce-08f8dd90199c",
+        "disabled": true,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Queenstown": {
+      "homepage-sections-accent-primary-color": "#627647",
+      "homepage-sections-accent-secondary-color": "#fff",
+      "colorSchemeDarkBackground": "#333",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_text": "#636363",
+      "type_header_font": "neuzeit_office_soft_rounded_n7",
+      "header-text-size": 28,
+      "type_base_font": "neuzeit_office_n4",
+      "type_navigation_font": "neuzeit_office_soft_rounded_n7",
+      "header_font_size": 14,
+      "button_font_style": "normal",
+      "heading_spacing": 0,
+      "product_page_font_size": 24,
+      "product_page_font_style": "normal",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#333",
+      "checkout_button_color": "#333",
+      "checkout_error_color": "#f26c4f",
+      "color_primary_button_text_hover": "#eeeeee",
+      "quick_add_enable": true,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "announcement-bar--background-color": "#242424",
+            "announcement-bar--text-color": "#ffffff",
+            "enable_social_icons": true
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_header": true,
+            "logo-placement": "center",
+            "logo_padding": 15,
+            "logo_max_width": 160,
+            "label-enable": true,
+            "overlay_header_homepage": true,
+            "main_linklist": "main-menu"
+          }
+        },
+        "image--slideshow": {
+          "type": "image--slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "button_label": "Shop now",
+                "button_link": "shopify:\/\/collections\/all",
+                "captionHorizontal": "right",
+                "captionAlignment": "right"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0"
+          ],
+          "settings": {
+            "caption-heading-size": 40,
+            "caption-subheading-size": 20,
+            "caption-button-size": 14,
+            "show-slide-dots": true,
+            "show-slide-arrows": false
+          }
+        },
+        "collection--collection-list": {
+          "type": "collection--collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "featured_collection",
+              "settings": {
+                "subheading": "Subheading",
+                "overlay-btn-text": "Shop now",
+                "show-gradient-overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "featured_collection",
+              "settings": {
+                "subheading": "Subheading",
+                "overlay-btn-text": "Shop now",
+                "show-gradient-overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1"
+          ],
+          "settings": {
+            "colors": "white",
+            "title": "",
+            "richtext": "",
+            "items-per-row": 2,
+            "remove-spacing": false,
+            "content-position": "below-image"
+          }
+        },
+        "collection--featured-collection": {
+          "type": "collection--featured-collection",
+          "settings": {
+            "rows": 1,
+            "hover-effect": true,
+            "show-vendor": false
+          }
+        },
+        "video--video-hero": {
+          "type": "video--video-hero",
+          "settings": {
+            "desktopHeight": "550",
+            "mobileHeight": "350",
+            "textAlignment": "center-left",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_label": "Learn more"
+          }
+        },
+        "collection--featured-collection-1": {
+          "type": "collection--featured-collection",
+          "settings": {
+            "hover-effect": true,
+            "show-vendor": false
+          }
+        },
+        "image--text-with-image-overlay-1": {
+          "type": "image--image-with-text-overlay",
+          "settings": {
+            "image_height": "30vw",
+            "bg_image_overlay_opacity": 0,
+            "parallax": true,
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image--logo-list": {
+          "type": "image--logo-list",
+          "blocks": {
+            "image--logo-list-0": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "image--logo-list-1": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "image--logo-list-2": {
+              "type": "logo_image",
+              "settings": {
+              }
+            },
+            "image--logo-list-3": {
+              "type": "logo_image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image--logo-list-0",
+            "image--logo-list-1",
+            "image--logo-list-2",
+            "image--logo-list-3"
+          ],
+          "settings": {
+            "colors": "dark"
+          }
+        },
+        "text--testimonials": {
+          "type": "text--testimonials",
+          "blocks": {
+            "testimonials-0": {
+              "type": "text",
+              "settings": {
+                "image": "",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe",
+                "link": "",
+                "stars": 5
+              }
+            },
+            "testimonials-1": {
+              "type": "text",
+              "settings": {
+                "image": "",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe",
+                "link": "",
+                "stars": 5
+              }
+            },
+            "testimonials-2": {
+              "type": "text",
+              "settings": {
+                "image": "",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe",
+                "link": "",
+                "stars": 5
+              }
+            }
+          },
+          "block_order": [
+            "testimonials-0",
+            "testimonials-1",
+            "testimonials-2"
+          ],
+          "settings": {
+          }
+        },
+        "image--image-with-text-1": {
+          "type": "image--image-with-text",
+          "settings": {
+            "colors": "white",
+            "text_overlapping_image": true,
+            "text_alignment": "left",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "products--featured-product": {
+          "type": "products--featured-product",
+          "settings": {
+            "product_variant_style": "swatches"
+          }
+        },
+        "image--gallery": {
+          "type": "image--gallery",
+          "blocks": {
+            "gallery-0": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-1": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-2": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-3": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            }
+          },
+          "block_order": [
+            "gallery-0",
+            "gallery-1",
+            "gallery-2",
+            "gallery-3"
+          ],
+          "settings": {
+            "title": "Gallery",
+            "content-position": "hover"
+          }
+        },
+        "image--gallery-0": {
+          "type": "image--gallery",
+          "blocks": {
+            "gallery-0-0": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-0-1": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-0-2": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            },
+            "gallery-0-3": {
+              "type": "image",
+              "settings": {
+                "subheading": "Subheading",
+                "title": "Title"
+              }
+            }
+          },
+          "block_order": [
+            "gallery-0-0",
+            "gallery-0-1",
+            "gallery-0-2",
+            "gallery-0-3"
+          ],
+          "settings": {
+            "content-position": "hover"
+          }
+        },
+        "blog--blog-posts": {
+          "type": "blog--blog-posts",
+          "settings": {
+          }
+        },
+        "text--text-adverts": {
+          "type": "text--text-adverts",
+          "blocks": {
+            "advert-0": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "advert-1": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "advert-0",
+            "advert-1"
+          ],
+          "settings": {
+            "colors": "dark"
+          }
+        },
+        "footer--newsletter": {
+          "type": "footer--newsletter",
+          "settings": {
+            "show_section": true,
+            "colors": "white"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_methods_of_payment": false
+          }
+        },
+        "template--page-contact": {
+          "type": "template--page-contact",
+          "blocks": {
+            "form-1": {
+              "type": "text",
+              "settings": {
+                "field-type": "text",
+                "form-field-label": "",
+                "required": false
+              }
+            },
+            "form-2": {
+              "type": "text",
+              "settings": {
+                "field-type": "email",
+                "form-field-label": "",
+                "required": false
+              }
+            },
+            "form-3": {
+              "type": "text",
+              "settings": {
+                "field-type": "textbox",
+                "form-field-label": "",
+                "required": false
+              }
+            }
+          },
+          "block_order": [
+            "form-1",
+            "form-2",
+            "form-3"
+          ],
+          "settings": {
+          }
+        },
+        "template--product": {
+          "type": "template--product",
+          "settings": {
+            "trust-badge_max_width": 180,
+            "thumbnail_changes_variant": true,
+            "image-display": "thumbnails"
+          }
+        },
+        "template--collection": {
+          "type": "template--collection",
+          "settings": {
+            "show-collection-image": false,
+            "tags_enable": false,
+            "desktop-products-per-row": 2,
+            "hover-effect": true
+          }
+        },
+        "template--collections-list": {
+          "type": "template--collections-list",
+          "settings": {
+            "show_title": true,
+            "hover-effect": true
+          }
+        },
+        "template--page": {
+          "type": "template--page",
+          "blocks": {
+            "template--page-block-1": {
+              "type": "image_picker",
+              "settings": {
+                "image_title": "",
+                "image_link": ""
+              }
+            },
+            "template--page-block-2": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "template--page-block-3": {
+              "type": "richtext",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "template--page-block-1",
+            "template--page-block-2",
+            "template--page-block-3"
+          ],
+          "settings": {
+            "show_sidebar": true
+          }
+        }
+      },
+      "content_for_index": [
+        "image--slideshow",
+        "collection--collection-list",
+        "collection--featured-collection",
+        "video--video-hero",
+        "collection--featured-collection-1",
+        "image--text-with-image-overlay-1",
+        "image--logo-list",
+        "text--testimonials",
+        "image--image-with-text-1",
+        "products--featured-product",
+        "image--gallery",
+        "image--gallery-0",
+        "blog--blog-posts",
+        "text--text-adverts"
+      ]
+    },
+    "Byron": {
+      "sale_badge_color": "#952525",
+      "sale_price_color": "#952525",
+      "cart_color": "#333",
+      "header-bg-color": "#f8f8f8",
+      "header-transparent-text": "#333333",
+      "mobile-menu-bg": "#333",
+      "mobile-menu-text": "#f8f8f8",
+      "mobile-menu-text-hover": "#e8e8e8",
+      "color_primary_button_background": "#000",
+      "color_primary_button_text": "#f8f8f8",
+      "color_primary_button_background_hover": "#1e1d1d",
+      "color_primary_button_text_hover": "#f8f8f8",
+      "color_secondary_button_text": "#f8f8f8",
+      "color_secondary_button_background_hover": "#333",
+      "color_secondary_button_text_hover": "#f8f8f8",
+      "colorSchemeLightBackground": "#e8e8e8",
+      "colorSchemeLightText": "#333",
+      "homepage-sections-accent-primary-color": "#333",
+      "homepage-sections-accent-secondary-color": "#f8f8f8",
+      "colorSchemeDarkBackground": "#333",
+      "colorSchemeDarkText": "#f8f8f8",
+      "pop-up-background-color": "#333",
+      "pop-up-text-color": "#f8f8f8",
+      "cart-drawer-bg": "#f8f8f8",
+      "color_footer_bg": "#f8f8f8",
+      "type_header_font": "bitter_n7",
+      "heading_spacing": 0,
+      "type_base_font": "neuzeit_office_n4",
+      "type_navigation_font": "neuzeit_office_n7",
+      "header_font_size": 12,
+      "header_font_case": "uppercase",
+      "button_style": "square",
+      "announcement_text_size": 12,
+      "announcement_text_spacing": 1,
+      "announcement_text_style": "bold",
+      "cart_notes_enable": true,
+      "show_reviews": true,
+      "enable_breadcrumbs": false,
+      "desktop-popup-style": "slide-up",
+      "checkout_logo_size": "small",
+      "checkout_accent_color": "#333",
+      "checkout_button_color": "#333",
+      "checkout_error_color": "#952525",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "enable_announcement_bar": false,
+            "message_link": "",
+            "announcement-bar--background-color": "#242424",
+            "announcement-bar--text-color": "#ffffff",
+            "enable_social_icons": true
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "sticky_header": true,
+            "logo_padding": 15,
+            "logo_max_width": 110,
+            "mobile-menu-logo--enabled": false,
+            "label-enable": false,
+            "overlay_header_homepage": true,
+            "main_linklist": "main-menu",
+            "dropdown_alignment": "left",
+            "enable_mega_menu": true
+          }
+        },
+        "footer--newsletter": {
+          "type": "footer--newsletter",
+          "settings": {
+            "show_section": true,
+            "colors": "dark"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_methods_of_payment": false
+          }
+        },
+        "template--page-contact": {
+          "type": "template--page-contact",
+          "blocks": {
+            "form-1": {
+              "type": "text",
+              "settings": {
+                "field-type": "text",
+                "form-field-label": "",
+                "required": false
+              }
+            },
+            "form-2": {
+              "type": "text",
+              "settings": {
+                "field-type": "email",
+                "form-field-label": "",
+                "required": false
+              }
+            },
+            "form-3": {
+              "type": "text",
+              "settings": {
+                "field-type": "textbox",
+                "form-field-label": "",
+                "required": false
+              }
+            }
+          },
+          "block_order": [
+            "form-1",
+            "form-2",
+            "form-3"
+          ],
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "template--product": {
+          "type": "template--product",
+          "settings": {
+            "enable_out_of_stock_form": true,
+            "thumbnail_changes_variant": true,
+            "image-display": "thumbnails",
+            "enable_image_zoom": true
+          }
+        },
+        "template--collection": {
+          "type": "template--collection",
+          "settings": {
+            "show-collection-image": false,
+            "collection-image-size": "30vh",
+            "show-collection-description": true,
+            "tags_enable": false,
+            "desktop-products-per-row": 2,
+            "collection-products-per-page": 3,
+            "hover-effect": true
+          }
+        },
+        "template--collections-list": {
+          "type": "template--collections-list",
+          "settings": {
+            "show_title": true,
+            "hover-effect": true
+          }
+        },
+        "video--video-hero": {
+          "type": "video--video-hero",
+          "settings": {
+            "title": "",
+            "subheading": ""
+          }
+        },
+        "collection--featured-collection": {
+          "type": "collection--featured-collection",
+          "settings": {
+            "title": "Title",
+            "hover-effect": true,
+            "show_view_all": true
+          }
+        },
+        "image--slideshow": {
+          "type": "image--slideshow",
+          "blocks": {
+            "image--slideshow-0": {
+              "type": "image",
+              "settings": {
+                "button_label": "Shop now",
+                "button_link": "shopify:\/\/collections\/all",
+                "captionHorizontal": "right",
+                "captionAlignment": "right"
+              }
+            },
+            "image--slideshow-1": {
+              "type": "image",
+              "settings": {
+                "button_label": "Shop now",
+                "button_link": "shopify:\/\/collections\/all",
+                "captionHorizontal": "right",
+                "captionAlignment": "right"
+              }
+            }
+          },
+          "block_order": [
+            "image--slideshow-0",
+            "image--slideshow-1"
+          ],
+          "settings": {
+            "slider-width": "full-width"
+          }
+        },
+        "collection--featured-collection-1": {
+          "type": "collection--featured-collection",
+          "settings": {
+            "title": "Title",
+            "hover-effect": true,
+            "show_view_all": true
+          }
+        },
+        "video--video-hero-1": {
+          "type": "video--video-hero",
+          "settings": {
+            "desktopHeight": "550",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_label": "Shop now"
+          }
+        },
+        "text--testimonials": {
+          "type": "text--testimonials",
+          "blocks": {
+            "text--testimonials-0": {
+              "type": "text",
+              "settings": {
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe",
+                "link": "",
+                "stars": 5
+              }
+            },
+            "text--testimonials-1": {
+              "type": "text",
+              "settings": {
+                "image": "",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe",
+                "link": "",
+                "stars": 5
+              }
+            }
+          },
+          "block_order": [
+            "text--testimonials-0",
+            "text--testimonials-1"
+          ],
+          "settings": {
+          }
+        },
+        "collection--collection-list": {
+          "type": "collection--collection-list",
+          "blocks": {
+            "collection--collection-list-0": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "collection--collection-list-1": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "collection--collection-list-2": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "collection--collection-list-3": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            },
+            "collection--collection-list-4": {
+              "type": "featured_collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "collection--collection-list-0",
+            "collection--collection-list-1",
+            "collection--collection-list-2",
+            "collection--collection-list-4"
+          ],
+          "settings": {
+            "colors": "white",
+            "title": "",
+            "section-width": "content",
+            "content-position": "hover"
+          }
+        },
+        "blog--blog-posts": {
+          "type": "blog--blog-posts",
+          "settings": {
+            "blog": "news",
+            "post_limit": 2
+          }
+        },
+        "image--gallery": {
+          "type": "image--gallery",
+          "blocks": {
+            "image--gallery-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image--gallery-1": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image--gallery-2": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "image--gallery-3": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "image--gallery-0",
+            "image--gallery-1",
+            "image--gallery-2",
+            "image--gallery-3"
+          ],
+          "settings": {
+            "title": "Title",
+            "remove-spacing": false,
+            "section-width": "content"
+          }
+        }
+      },
+      "content_for_index": [
+        "video--video-hero",
+        "collection--featured-collection",
+        "image--slideshow",
+        "collection--featured-collection-1",
+        "video--video-hero-1",
+        "text--testimonials",
+        "collection--collection-list",
+        "blog--blog-posts",
+        "image--gallery"
+      ]
+    },
+    "Cannes": {
+      "color_primary_button_text_hover": "#eeeeee",
+      "homepage-sections-accent-primary-color": "#f5ebe9",
+      "colorSchemeDarkBackground": "#333",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_text": "#636363",
+      "type_header_font": "madera_n4",
+      "header-text-size": 22,
+      "type_base_font": "avenir_next_n4",
+      "typography-body-font-size": 16,
+      "type_navigation_font": "madera_n4",
+      "header_font_size": 15,
+      "button_text_case": "uppercase",
+      "product_page_font_size": 28,
+      "ajax_cart_method": "added",
+      "show_reviews": true,
+      "pop-up-time": "7",
+      "desktop-popup-style": "fullscreen",
+      "checkout_logo_size": "small",
+      "checkout_accent_color": "#333333",
+      "checkout_button_color": "#f5ebe9",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "announcement-bar--text-color": "#424242"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo-placement": "center",
+            "logo_padding": 25,
+            "logo_max_width": 150,
+            "overlay_header_homepage": true
+          }
+        },
+        "image--slideshow": {
+          "type": "image--slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "button_label": "Shop now",
+                "captionAlignment": "right"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0"
+          ],
+          "settings": {
+            "caption-heading-size": 40,
+            "caption-subheading-size": 18,
+            "caption-button-size": 16
+          }
+        },
+        "collection--collection-list": {
+          "type": "collection--collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "featured_collection",
+              "settings": {
+                "subheading": "",
+                "show-gradient-overlay": false,
+                "overlay_font_color": "#fff"
+              }
+            },
+            "collection-1": {
+              "type": "featured_collection",
+              "settings": {
+                "subheading": "",
+                "show-gradient-overlay": false,
+                "overlay_font_color": "#fff"
+              }
+            },
+            "collection-2": {
+              "type": "featured_collection",
+              "settings": {
+                "subheading": "",
+                "show-gradient-overlay": false,
+                "overlay_font_color": "#fff"
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "colors": "white",
+            "title": "",
+            "items-per-row": 2
+          }
+        },
+        "image--gallery": {
+          "type": "image--gallery",
+          "blocks": {
+            "gallery-0": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-1": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-2": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-3": {
+              "type": "image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/pomme_shoot16794.jpg",
+                "link": "shopify:\/\/products\/juliette-cami",
+                "subheading": "£41.00",
+                "title": "Juliette Cami",
+                "overlay-btn-text": "SHOP NOW",
+                "show-gradient-overlay": true,
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "gallery-0",
+            "gallery-1",
+            "gallery-2",
+            "gallery-3"
+          ],
+          "settings": {
+            "content-position": "hover"
+          }
+        },
+        "image--gallery-0": {
+          "type": "image--gallery",
+          "blocks": {
+            "gallery-0-0": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-0-1": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-0-2": {
+              "type": "image",
+              "settings": {
+                "link": "shopify:\/\/collections\/all",
+                "subheading": "Subheading",
+                "title": "Title",
+                "overlay-btn-text": "SHOP NOW",
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            },
+            "gallery-0-3": {
+              "type": "image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/pomme_shoot16794.jpg",
+                "link": "shopify:\/\/products\/juliette-cami",
+                "subheading": "£41.00",
+                "title": "Juliette Cami",
+                "overlay-btn-text": "SHOP NOW",
+                "show-gradient-overlay": true,
+                "overlay_font_color": "#333333",
+                "overlay_color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "gallery-0-0",
+            "gallery-0-1",
+            "gallery-0-2",
+            "gallery-0-3"
+          ],
+          "settings": {
+            "content-position": "hover"
+          }
+        },
+        "footer--newsletter": {
+          "type": "footer--newsletter",
+          "settings": {
+            "colors": "white"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "Contact us",
+                "richtext": "<p>Shorditch High Street<br>London, UK<br>L1 3HG<\/p>\n<p><\/p>\n<p>enquiry@cannes.com<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu_title": "Links",
+                "footer_linklist": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "newsletter_title": "Newsletter",
+                "footer_newsletter_description": ""
+              }
+            },
+            "footer-3": {
+              "type": "social",
+              "settings": {
+                "social_title": "Get connected"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+          }
+        },
+        "template--product": {
+          "type": "template--product",
+          "settings": {
+            "trust-badge_max_width": 180,
+            "thumbnail_changes_variant": true,
+            "image-display": "thumbnails"
+          }
+        },
+        "template--collection": {
+          "type": "template--collection",
+          "settings": {
+            "show-collection-image": false,
+            "tags_enable": false,
+            "desktop-products-per-row": 2,
+            "collection-products-per-page": 4,
+            "hover-effect": true
+          }
+        },
+        "template--collections-list": {
+          "type": "template--collections-list",
+          "settings": {
+            "show_title": true,
+            "hover-effect": true
+          }
+        },
+        "text--testimonials": {
+          "type": "text--testimonials",
+          "blocks": {
+            "text--testimonials-0": {
+              "type": "text",
+              "settings": {
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "customer_name": "John Doe"
+              }
+            }
+          },
+          "block_order": [
+            "text--testimonials-0"
+          ],
+          "settings": {
+            "colors": "accent",
+            "title": ""
+          }
+        },
+        "image--image-with-text": {
+          "type": "image--image-with-text",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "image--image-with-text-1": {
+          "type": "image--image-with-text",
+          "settings": {
+            "layout": "right",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections"
+          }
+        },
+        "newsletter--newsletter": {
+          "type": "newsletter--newsletter",
+          "settings": {
+            "colors": "dark"
+          }
+        },
+        "products--featured-product": {
+          "type": "products--featured-product",
+          "settings": {
+          }
+        },
+        "blog--blog-posts": {
+          "type": "blog--blog-posts",
+          "settings": {
+            "blog": "news",
+            "blog_show_date": true
+          }
+        },
+        "image--logo-list": {
+          "type": "image--logo-list",
+          "blocks": {
+            "image--logo-list-0": {
+              "type": "logo_image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/Asset_2.png",
+                "link": ""
+              }
+            },
+            "image--logo-list-1": {
+              "type": "logo_image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/logo2.png",
+                "link": ""
+              }
+            },
+            "image--logo-list-2": {
+              "type": "logo_image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/logo1.png",
+                "link": ""
+              }
+            },
+            "image--logo-list-3": {
+              "type": "logo_image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/logo3.png",
+                "link": ""
+              }
+            },
+            "image--logo-list-4": {
+              "type": "logo_image",
+              "settings": {
+                "image": "shopify:\/\/shop_images\/logo4.png",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "image--logo-list-0",
+            "image--logo-list-1",
+            "image--logo-list-2",
+            "image--logo-list-3",
+            "image--logo-list-4"
+          ],
+          "settings": {
+            "colors": "light",
+            "width": 130,
+            "title": "As seen in"
+          }
+        },
+        "video--video-hero": {
+          "type": "video--video-hero",
+          "settings": {
+            "desktopHeight": "450",
+            "mobileHeight": "350",
+            "heading--text-size": 38,
+            "button_link": "shopify:\/\/collections\/all",
+            "button_label": "Shop now"
+          }
+        }
+      },
+      "content_for_index": [
+        "image--slideshow",
+        "collection--collection-list",
+        "image--gallery",
+        "image--gallery-0",
+        "text--testimonials",
+        "image--image-with-text",
+        "image--image-with-text-1",
+        "products--featured-product",
+        "image--logo-list",
+        "video--video-hero"
+      ]
+    }
+  }
+}
