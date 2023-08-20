@@ -1,0 +1,91 @@
+/* Place any CSS overrides in this file. */
+
+#AccessibleNav ul {min-width:200px; padding-bottom:10px;}
+
+#AccessibleNav ul > li > a {padding-top:2px; padding-bottom:2px;}
+
+#shopify-section-footer > footer > div > div.bottom--footer > div.bottom--footer-row.bottom--footer-no--no-payments > ul > li:nth-child(2) {display:none;}
+
+
+@font-face {   
+	font-family: "Branch";   
+	src: url('{{ "Branch.otf" | https://bitter-grace-boutique.myshopify.com/admin/themes/82085085302?key=assets%2FBranch.otf }}');   
+	src: url('{{ "Branch.otf" | asset_url }} ?#iefix') format("embedded-opentype"),
+	url('{{ "Branch.woff" | https://bitter-grace-boutique.myshopify.com/admin/themes/82085085302?key=assets%2FBranch.woff }}') format("woff"),        
+	url('{{ "Branch.ttf" | https://bitter-grace-boutique.myshopify.com/admin/themes/82085085302?key=assets%2FBranch.ttf }}') format("truetype"),        
+	;
+}
+
+@font-face {   
+	font-family: "Proxima_Nova_Thin";   
+	src: url('{{ "Proxima_Nova_Thin.otf" | asset_url }}');   
+	src: url('{{ "Proxima_Nova_Thin.otf" | asset_url }} ?#iefix') format("embedded-opentype");
+}
+
+@font-face {   
+	font-family: "Herlyna";   
+	src: url('{{ "Herlyna.otf" | asset_url }}');   
+	src: url('{{ "Herlyna.otf" | asset_url }} ?#iefix') format("embedded-opentype"),       
+	url('{{ "Herlyna.ttf" | asset_url }}') format("truetype");
+}
+
+
+h1 {font-family: "Branch"!important;}
+
+h2 {font-family: "Branch"!important; letter-spacing:0.055em;}
+
+h3 {font-family: "Proxima"!important;}
+
+h4 {font-family: "Herlyna"!important;}
+
+h5 {font-family: "Branch"!important; letter-spacing:0.055em!important;}
+
+h6 {font-family: "Branch"!important; letter-spacing:0.055em;}
+
+.hero-video--text-title h1 {font-family: "Branch"!important;}
+
+#shopify-section-1610049303ae374df1 > div > div.wrapper.small--hide > div > div:nth-child(2) > span.text-advert-section--header.h5
+{letter-spacing:0.055em!important;}
+
+
+/* REDUCE SOCIAL ICON SIZES IN FOOTER */
+#sm-facebook > a > i {font-size: 1.2em;}
+
+#sm-instagram > a > i {font-size: 1.2em;}
+
+#sm-pinterest > a > i {font-size: 1.2em;}
+
+#sm-youtube > a > i {font-size: 1.2em;}
+  
+
+/* SAFARI FIX FOR TOP NAVIGATION MENU */
+  select {text-rendering:auto !important;}
+
+
+/* CHANGES CIRCULAR IMAGE UNDERLINE COLOR TO WHITE ON "OUR MISSION" PAGE */
+  .rte a {border-bottom: 0px solid;}
+  
+  
+/* ATTEMPT TO ADD SPACING BELOW SUB BANNER TEXT AREA ON HOME, MOBILE ONLY */
+@media screen and (max-width:768px) {.text-advert-section {
+    /*display: block!important*/;
+    padding-bottom: 16px!important;
+    /*min-height: 100px!important;*/}}
+  
+  
+#shopify-section-footer > footer > div > div.grid > div.grid__item.large--one-quarter.medium--one-half.small--one-whole.content-footer > div.footer-phone > u > a
+  {color:#4a4a4a;}
+  
+  
+/* #shopify-section-footer > footer > div > div.bottom--footer > div.bottom--footer-row.bottom--footer-no--no-payments > ul > li:nth-child(1) > u > a
+  {color:#4a4a4a;} */
+  
+  
+.product-single-wrapper .product-single .grid__item.product-sticky {
+	position:unset!important;
+}
+
+.swiper-slide-active, 
+.swiper-slide-duplicate-active {
+  z-index: 1;
+}
