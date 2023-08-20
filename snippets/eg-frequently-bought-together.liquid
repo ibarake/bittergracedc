@@ -140,6 +140,7 @@
   <script>
     
     
+    
 window.addEventListener('DOMContentLoaded', (event) => { 
     window.money_format = '{{ shop.money_format }}'
     window.cart_route = '{{ routes.cart_url }}'
@@ -248,7 +249,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
           btn.innerHTML = btn.dataset.textAddSelected
 
-          // document.querySelector('.js-drawer-open-right-link').click();
+          document.querySelector('.js-drawer-open-right-link').click();
           
 
           {% comment %}
@@ -305,6 +306,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
     customElements.define('frequently-bought-together', FrequentlyBoughtTogether)
 })
+
 
 
   </script>
