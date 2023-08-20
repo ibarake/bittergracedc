@@ -13,7 +13,7 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  * Copyright (c) 2018 Daniel Eden
  */
 #shopify-section-image--image-with-text #imwtxt-text{
-  margin-left: -25%;
+  margin-left: 0%;
 }
 #imwtxt-text {
     padding: 30px 30px 30px 0px;   
