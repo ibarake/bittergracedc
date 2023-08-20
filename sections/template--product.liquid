@@ -1,6 +1,8 @@
 <div
-  itemscope itemtype="http://schema.org/Product"
-  data-wetheme-section-type="template--product" data-wetheme-section-id="{{ section.id }}"
+  itemscope
+  itemtype="http://schema.org/Product"
+  data-wetheme-section-type="template--product"
+  data-wetheme-section-id="{{ section.id }}"
 >
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
   <meta itemprop="image" content="https:{{ product.featured_media.preview_image | img_url: 'grande' }}">
@@ -8,11 +10,11 @@
   <meta itemprop="sku" content="{{ product.selected_or_first_available_variant.sku }}">
 
   {% comment %}
-  Pick an option only makes sense together with dropdowns - we currently doesn't have pick_an_option
-  {% if section.settings.product_variant_style == 'dropdowns' and section.settings.pick_an_option %}
-    {% assign pick_an_option = true %}
-  {% else %}
-  {% endif %}
+    Pick an option only makes sense together with dropdowns - we currently doesn't have pick_an_option
+    {% if section.settings.product_variant_style == 'dropdowns' and section.settings.pick_an_option %}
+      {% assign pick_an_option = true %}
+    {% else %}
+    {% endif %}
   {% endcomment %}
   {% assign pick_an_option = false %}
 
@@ -43,11 +45,17 @@
 
   <div class="product-media-templates">
     {% assign featured_media = current_variant.featured_media | default: product.featured_media %}
-    {% render 'product-media-templates', product: product, section_id: section.id, featured_media_id: featured_media.id, enable_image_zoom: section.settings.enable_image_zoom, enable_video_loop: section.settings.enable_video_loop %}
+    {% render 'product-media-templates',
+      product: product,
+      section_id: section.id,
+      featured_media_id: featured_media.id,
+      enable_image_zoom: section.settings.enable_image_zoom,
+      enable_video_loop: section.settings.enable_video_loop
+    %}
   </div>
 
   {% assign style = 'full_width' %}
-  {% if section.settings.image-display == 'thumbnails' %}
+  {% if section.settings['image-display'] == 'thumbnails' %}
     {% assign style = section.settings.thumbnail_position %}
   {% endif %}
   {% if product.media.size <= 1 %}
@@ -55,7 +63,8 @@
     {% assign style = 'full_width' %}
   {% endif %}
 
-  <div style='display:none;'>{% render 'product-description-slider', product: product %}</div><div class='product-form-vue'>
+  <div style="display:none;">{% render 'product-description-slider', product: product %}</div>
+  <div class="product-form-vue">
     <wetheme-product-form
       inline-template
       v-bind:initial-variant-id="{{ current_variant.id }}"
@@ -77,14 +86,25 @@
           data-section-id="{{ section.id }}"
         >
           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
-            {% render 'product-media', product: product, style: style, enable_image_zoom: section.settings.enable_image_zoom, hide_soldout_variants: section.settings.hide_soldout_variants %}
+            <div class="slider-for" id="slider-for">
+              {% for image in product.media %}
+                <div>
+                  {{ image | img_tag: image.alt, 'product', '600x600' }}
+                </div>
+              {% endfor %}
+            </div>
+            <div class="slider-nav">
+              {% for image in product.media %}
+                <div style="margin-right:.8%;">
+                  {{ image | img_tag: image.alt, 'product', '250x200' }}
+                </div>
+              {% endfor %}
+            </div>
           </div>
 
-          <div class="grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
-
+          <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
             <div>
-
-              {% if settings.enable-sale-badge %}
+              {% if settings['enable-sale-badge'] %}
                 <div
                   class="product-page--sale-badge{% unless current_variant.compare_at_price > current_variant.price %} js{% endunless %}"
                   v-if="isSale"
@@ -93,9 +113,16 @@
                 </div>
               {% endif %}
 
-              <div class="product-details-wrapper" {% if section.settings.show_sku %}data-show-sku="true"{% else %}data-show-sku="false"{% endif %}>
+              <div
+                class="product-details-wrapper"
+                {% if section.settings.show_sku %}
+                  data-show-sku="true"
+                {% else %}
+                  data-show-sku="false"
+                {% endif %}
+              >
                 <div class="grid product-meta-header">
-                  {% if section.settings.show_vendor and product.vendor != "" %}
+                  {% if section.settings.show_vendor and product.vendor != '' %}
                     <div class="grid__item product__meta--vendor large--one-half">
                       <h4>{{ product.vendor | link_to_vendor }}</h4>
                     </div>
@@ -106,42 +133,98 @@
                       class="grid__item product__meta--sku large--one-half{% unless section.settings.show_vendor and product.vendor != "" %} push--large--one-half{% endunless %}{% if current_variant.sku == "" %} js{% endif %}"
                       v-if="variant && variant.sku !== ''"
                     >
-                      <h4>{{ 'customer.order.sku' | t }}: <span class="js__currentVariantSKU" v-text="variant.sku">{{ current_variant.sku }}</span></h4>
+                      <h4>
+                        {{ 'customer.order.sku' | t }}:
+                        <span class="js__currentVariantSKU" v-text="variant.sku">{{ current_variant.sku }}</span>
+                      </h4>
                     </div>
                   {% endif %}
                 </div>
-
-                <h1 itemprop="name" class="product-details-product-title">{{ product.title }}</h1>
-
+                {% unless template == 'collection' or template == 'list-collections' or template contains 'contact' %}
+                  {% if settings.enable_breadcrumbs %}
+                    {% render 'breadcrumb' %}
+                  {% endif %}
+                {% endunless %}
+                <h1 itemprop="name" class="product-details-product-title" style="margin-bottom: 0;">
+                  {{ product.title }}
+                </h1>
+                <p style="font-size: 14px; text-align: justify; color: gray;">
+                  {{ product.metafields.custom.description }}
+                </p>
+                <span
+                  id="ProductPrice"
+                  class="h2"
+                  itemprop="price"
+                  content="{{ current_variant.price | divided_by: 100 }}"
+                  v-bind:content="variant ? variant.price / 100 : null"
+                  v-html="variant ? money(variant.price) : '{{ 'products.product.unavailable' | t }}'"
+                >
+                  <span class="money">{{ current_variant.price | money }}</span>
+                </span>
                 {% if section.settings.description_position == 'inline_top' %}
-                  <div class="product-description product-details--form-wrapper---below rte{% if section.settings.enable_readmore %} readmore closed{% endif %}" itemprop="description">
+                  <div
+                    class="product-description product-details--form-wrapper---below rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
+                    itemprop="description"
+                  >
                     {% render 'product-description-slider', product: product %}
                   </div>
                 {% endif %}
 
-                <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="product-details--form-wrapper{% if product.available %} product-details--form-wrapper---in-stock{% else %} product-details--form-wrapper---out-of-stock{% endif %}">
+                <div
+                  itemprop="offers"
+                  itemscope
+                  itemtype="http://schema.org/Offer"
+                  class="product-details--form-wrapper{% if product.available %} product-details--form-wrapper---in-stock{% else %} product-details--form-wrapper---out-of-stock{% endif %}"
+                >
                   <meta itemprop="priceCurrency" content="{{ shop.currency }}">
                   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
 
-                  <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+                  <link
+                    itemprop="availability"
+                    href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}"
+                  >
 
                   <div class="form-vertical">
-                    {% form 'product', product, id: "AddToCartForm" %}
-
-                      {% render 'product-options', product: product, variant_style: section.settings.product_variant_style, section_id: section.id, current_variant: current_variant, hide_soldout_variants: section.settings.hide_soldout_variants %}
+                    {% form 'product', product, id: 'AddToCartForm' %}
+                      {% render 'product-options',
+                        product: product,
+                        variant_style: section.settings.product_variant_style,
+                        section_id: section.id,
+                        current_variant: current_variant,
+                        hide_soldout_variants: section.settings.hide_soldout_variants
+                      %}
 
                       {% if section.settings.show_quantity_selector %}
-
                         <div class="{% if section.settings.product_variant_style == 'dropdowns' %}selector-wrapper{% else %}swatches-wrapper{% endif %} {% if section.settings.image_size == 'large' %}col-md-12{% else %}col-md-6{% endif %} col-sm-12 col-xs-12">
-                          <label for="Quantity" class="quantity-selector product-sub-label">{{ 'products.product.quantity' | t }}</label>
+                          <label for="Quantity" class="quantity-selector product-sub-label">
+                            {{- 'products.product.quantity' | t -}}
+                          </label>
 
                           <div class="js-qty">
-                            <button type="button" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text" v-on:click="decreaseQuantity">
+                            <button
+                              type="button"
+                              class="js-qty__adjust js-qty__adjust--minus icon-fallback-text"
+                              v-on:click="decreaseQuantity"
+                            >
                               <i class="fa fa-minus" aria-hidden="true"></i>
                               <span class="fallback-text">−</span>
                             </button>
-                            <input v-model="quantity" type="text" class="js-qty__num" value="1" min="1" aria-label="quantity" pattern="[0-9]*" name="quantity" id="Quantity">
-                            <button type="button" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text" v-on:click="increaseQuantity">
+                            <input
+                              v-model="quantity"
+                              type="text"
+                              class="js-qty__num"
+                              value="1"
+                              min="1"
+                              aria-label="quantity"
+                              pattern="[0-9]*"
+                              name="quantity"
+                              id="Quantity"
+                            >
+                            <button
+                              type="button"
+                              class="js-qty__adjust js-qty__adjust--plus icon-fallback-text"
+                              v-on:click="increaseQuantity"
+                            >
                               <i class="fa fa-plus" aria-hidden="true"></i>
                               <span class="fallback-text">+</span>
                             </button>
@@ -150,29 +233,41 @@
                       {% endif %}
 
                       <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-                      <p id="ComparePrice" class="{% unless on_sale %}js{% endunless %}" v-if="isSale" v-money="variant.compare_at_price">
+                      <p
+                        id="ComparePrice"
+                        class="{% unless on_sale %}js{% endunless %}"
+                        v-if="isSale"
+                        v-money="variant.compare_at_price"
+                      >
                         <span class="money">{{ current_variant.compare_at_price | money }}</span>
                       </p>
 
                       {% case section.settings.show_discount %}
-
                         {% when 'percentage' %}
-
                           <li class="product-page--pricing--discount">
                             <span
                               class="variant-percentage-wrapper{% unless on_sale %} js{% endunless %}"
                               v-if="isSale"
                             >
-                              -<span class="variant-percentage"
+                              -<span
+                                class="variant-percentage"
                                 v-text="((variant.compare_at_price - variant.price) / variant.compare_at_price * 100).toFixed(0) + '%'"
                               >
-                                {{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | money_without_currency | times: 100 | remove: '.0'}}%
+                                {{
+                                  current_variant.compare_at_price
+                                  | minus: current_variant.price
+                                  | times: 100.0
+                                  | divided_by: current_variant.compare_at_price
+                                  | money_without_currency
+                                  | times: 100
+                                  | remove: '.0'
+                                -}}
+                                %
                               </span>
                             </span>
                           </li>
 
                         {% when 'value' %}
-
                           <li class="product-page--pricing--discount">
                             <span
                               class="variant-value-wrapper{% unless on_sale %} js{% endunless %}"
@@ -188,13 +283,6 @@
                       {% endcase %}
 
                       <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                      <span id="ProductPrice" class="h2" itemprop="price"
-                        content="{{ current_variant.price | divided_by: 100 }}"
-                        v-bind:content="variant ? variant.price / 100 : null"
-                        v-html="variant ? money(variant.price) : '{{ 'products.product.unavailable' | t }}'"
-                      >
-                        <span class="money">{{ current_variant.price | money }}</span>
-                      </span>
 
                       {% render 'unit-price-measurement-variant', variant: current_variant %}
 
@@ -210,15 +298,29 @@
                       {%- endif -%}
 
                       <div class="paymentButtonsWrapper">
-                        <button type="submit" name="add" id="AddToCart" class="btn{% if section.settings.show_smart_checkout %} add-to-cart--secondary{% endif %}"
+                        <button
+                          type="submit"
+                          name="add"
+                          id="AddToCart"
+                          class="btn{% if section.settings.show_smart_checkout %} add-to-cart--secondary{% endif %}"
                           v-bind:class="{ disabled: addToCartDisabled }"
                           v-bind:disabled="addToCartDisabled"
                         >
-                          <i class="fa fa-circle-o-notch fa-spin fa-2x fa-fw js" v-if="state === 'adding'"></i><span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
-                          <span class="{% if current_variant.available %}js{% endif %}" v-if="state === 'ready'">{{ 'products.product.add_to_cart' | t }}</span>
+                          <i class="fa fa-circle-o-notch fa-spin fa-2x fa-fw js" v-if="state === 'adding'"></i
+                          ><span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+                          <span class="{% if current_variant.available %}js{% endif %}" v-if="state === 'ready'">
+                            {{- 'products.product.add_to_cart' | t -}}
+                          </span>
                           <span class="js" v-if="state === 'added'">{{ 'products.product.added' | t }}</span>
-                          <span class="{% unless current_variant.available %}js{% endunless %}" v-if="state === 'soldOut'">{{ 'products.product.sold_out' | t }}</span>
-                          <span class="js" v-if="state === 'unavailable'">{{ 'products.product.unavailable' | t }}</span>
+                          <span
+                            class="{% unless current_variant.available %}js{% endunless %}"
+                            v-if="state === 'soldOut'"
+                          >
+                            {{- 'products.product.sold_out' | t -}}
+                          </span>
+                          <span class="js" v-if="state === 'unavailable'">
+                            {{- 'products.product.unavailable' | t -}}
+                          </span>
                         </button>
 
                         {% if section.settings.show_smart_checkout %}
@@ -233,48 +335,65 @@
                       {% render 'out-of-stock-form' %}
                     {% endif %}
 
-                    {% if section.settings.trust-badge %}
+                    {% if section.settings['trust-badge'] %}
                       <span class="trust-badge-container">
                         {% capture styles %}width: {{ section.settings.trust-badge_max_width | escape }}px{% endcapture %}
-                        {% render 'responsive-image' with section.settings.trust-badge, class:'trust-badge', alt: '', blur: false, styles: styles %}
+                        {% render 'responsive-image' with section.settings['trust-badge'],
+                          class: 'trust-badge',
+                          alt: '',
+                          blur: false,
+                          styles: styles
+                        %}
                       </span>
                     {% endif %}
                   </div>
                 </div>
 
                 {% if section.settings.description_position == 'inline_bottom' %}
-                  <div class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}" itemprop="description">
-                  {% render 'product-description-slider', product: product %}
+                  <div
+                    class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
+                    itemprop="description"
+                  >
+                    {% render 'product-description-slider', product: product %}
                   </div>
                 {% endif %}
 
                 <div class="grid product__meta">
-
                   {% if section.settings.show_tags and product.tags.size > 0 %}
                     <div class="grid__item product__meta--tags large--one-whole">
-                      <span><strong>{{ 'products.product.tags' | t }}:</strong> </span>
+                      <span
+                        ><strong>{{ 'products.product.tags' | t }}:</strong>
+                      </span>
                       {% for tag in product.tags %}
-                        <a href="{{ routes.all_products_collection_url }}/{{ tag | handleize }}"><span>{{ tag }}</span></a>{% if forloop.last == false %}, {% endif %}
+                        <a href="{{ routes.all_products_collection_url }}/{{ tag | handleize }}"
+                          ><span>{{ tag }}</span></a
+                        >
+                        {%- if forloop.last == false %}, {% endif %}
                       {% endfor %}
                     </div>
                   {% endif %}
 
                   {% if section.settings.show_collections and product.collections.size > 0 %}
                     <div class="grid__item product__meta--tags large--one-whole">
-                      <span><strong>{{ 'products.product.category' | t }}:</strong> </span>
+                      <span>
+                        <strong>{{ 'products.product.category' | t }}:</strong>
+                      </span>
                       {% for collection in product.collections %}
-                        <a href="{{ collection.url }}"><span>{{ collection.title }}</span></a>{% if forloop.last == false %}, {% endif %}
+                        <a href="{{ collection.url }}"
+                          ><span>{{ collection.title }}</span></a
+                        >
+                        {%- if forloop.last == false %}, {% endif %}
                       {% endfor %}
                     </div>
                   {% endif %}
 
-                  {% if section.settings.show_type and product.type != "" %}
+                  {% if section.settings.show_type and product.type != '' %}
                     <div class="grid__item product__meta--type large--one-whole">
-                      <span><strong>{{ 'products.product.type' | t }}: </strong></span>
+                      <span>
+                        <strong>{{ 'products.product.type' | t }}: </strong></span>
                       <span>{{ product.type }}</span>
                     </div>
                   {% endif %}
-
                 </div>
 
                 {% if settings.social_sharing_product %}
@@ -287,12 +406,14 @@
 
         {% if section.settings.description_position == 'full_width' %}
           <div class="product-description-container">
-            <div class="product-description product-description_full-width rte{% if section.settings.enable_readmore %} readmore closed{% endif %}" itemprop="description">
+            <div
+              class="product-description product-description_full-width rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
+              itemprop="description"
+            >
               {% render 'product-description-slider', product: product %}
             </div>
           </div>
         {% endif %}
-
       </div>
     </wetheme-product-form>
   </div>

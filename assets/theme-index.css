@@ -10983,7 +10983,9 @@ label.error {
     max-width: 100%; }
     @media only screen and (max-width: 767px) {
       .site-header__logo img {
-        vertical-align: middle; } }
+        vertical-align: middle; 
+      } 
+    }
 
 .site-header__logo-link {
   max-width: var(--logo-max-width);
