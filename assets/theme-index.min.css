@@ -6070,11 +6070,11 @@ a.plyr__control::before {
 }
 @media (max-width: 767px) {
     #shopify-section-image--image-with-text .large--one-half:nth-child(2){
-  width: 100%;
-}
-#shopify-section-image--image-with-text .large--one-half:nth-child(1){
-  width: 100%;
-}
+      width: 100%;
+    }
+    #shopify-section-image--image-with-text .large--one-half:nth-child(1){
+      width: 100%;
+    }
   .plyr__time + .plyr__time {
     display: none;
   }
