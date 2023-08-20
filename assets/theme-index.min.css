@@ -5650,6 +5650,12 @@ div#rellax--image--image-with-text {
   }
 }
 @media (min-width: 768px) {
+  #shopify-section-image--image-with-text .large--one-half:nth-child(2){
+  width: 100%;
+}
+#shopify-section-image--image-with-text .large--one-half:nth-child(1){
+  width: 100%;
+}
   .plyr__captions {
     font-size: 18px;
   }
