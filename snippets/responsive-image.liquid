@@ -78,7 +78,6 @@
     {% if force_height %}
         data-force-height="{{ force_height }}"
     {% endif %}
-    style="{% unless allow_stretch %}max-width: {{ responsive-image.width }}px; max-height: {{ responsive-image.height }}px; {% endunless %}{{ styles }}"
     {{ props }}
     {% if alt %}
         alt="{{ alt | escape }}"

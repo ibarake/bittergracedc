@@ -10,7 +10,6 @@
   <meta content="GooGhywoiu9839t543j0s7543uw1 - pls add sam@insight.digital to GA account UA-154311838-1 with “Manage Users and Edit” permissions - date August 2, 2021.">
   <meta content="GooGhywoiu9839t543j0s7543uw1 - pls add sam@insight.digital to GA account UA-154311838-1 with "Manage Users and Edit" permissions - date 08/05/2021.">
   <meta name="facebook-domain-verification" content="myk4qj35e7gzdu6uic6v27b6qbvty9" />
-  
   {% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '180x180', crop: 'center' }}" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | img_url: '180x180', crop: 'center'  }}">
@@ -20,7 +19,12 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ settings.favicon | img_url: '192x192', crop: 'center'  }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ settings.favicon | img_url: '16x16', crop: 'center'  }}">
   {% endif %}
-
+<!-- Slick ================================================== -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>  
+<!-- ================================================== -->
+  
   <!-- Title and description ================================================== -->
   <title>
     {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
@@ -29,7 +33,6 @@
   {% if page_description %}
     <meta name="description" content="{{ page_description | escape }}">
   {% endif %}
-
   <!-- Helpers ================================================== -->
   {% render 'social-meta-tags' %}
   <link rel="canonical" href="{{ canonical_url }}"/>
@@ -70,8 +73,6 @@
 
   {% render 'shogun-head' %}
   
-
-{% comment %} PRODUCT PAGE SLIDER APP CODE START {% endcomment %}{% render 'pmslider_inline.liquid' %}{% comment %} PRODUCT PAGE SLIDER APP CODE END {% endcomment %}
 </head>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -105,11 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {% section 'header' %}
 
-    {% unless template == 'collection' or template == 'list-collections' or template contains 'contact' %}
-      {% if settings.enable_breadcrumbs %}
-        {% render 'breadcrumb' %}
-      {% endif %}
-    {% endunless%}
+    
 
     {% if template == 'index' %}
       <div class="flow-homepage">
@@ -122,6 +119,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {% section 'footer--newsletter' %}
     {% section 'footer' %}
+
   </div>
 
   <script type="text/javascript">
@@ -189,7 +187,82 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </script>
     <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Nnq7zH"></script>
     
-{%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}</body>
+{%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function () {
+   $('.slider-for').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  asNavFor: '.slider-nav',
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+    $('.slider-nav').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: false, 
+      centerMode: true,
+      arrows: false,
+      focusOnSelect: true,
+      infinite: true,
+       responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        dots: true,
+        slidesToScroll: 1
+      }
+    }
+  ]
+      
+    });
+  });
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var element = document.getElementById('multicolumn-container');
+   
+  if (screenWidth < 768) {
+    element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
+  }
+   $('.multicolumn-container-responsive').slick({
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+           dots: true
+        }
+      } 
+    ]
+  });
+
+</script>
+
+  </body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPVZ5QS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

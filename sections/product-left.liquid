@@ -1,0 +1,91 @@
+<main-container>
+  <m-title>
+    <h2>Product Collections</h2>
+  </m-title>
+  {% for block in section.blocks %}
+    <container-products style="{% if block.settings.box_position == "left" %} flex-direction: row; {% else %} flex-direction: row-reverse; {% endif %}">
+      <div class="f-container">
+        <div class="contaier-title">
+          <h2>{{ block.settings.collection.title }}</h2>
+        </div>
+        <div class="container-image">
+          <img src=" {{ block.settings.f-image | image_url }} ">
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="container-products-card {% if block.settings.collection.products_count > 2 %}slider-col{% endif %}">
+          {% for product in block.settings.collection.products limit: 2 %}
+            <con-products>
+              {% render 'product-grid-item', product: product, collection: block.settings.collection %}
+            </con-products>
+          {% endfor %}
+        </div>
+        <see-more>
+          <a id="btn-col" href="{{ block.settings.url-button }}">{{ block.settings['button-text'] }}</a>
+        </see-more>
+      </div>
+    </container-products>
+  {% endfor %}
+</main-container>
+{% schema %}
+ {
+   "name": "Collection Left",
+   "settings": [
+     {
+       "type": "collection",
+       "id": "collection-as",
+       "label": "collection"
+     }
+   ],"blocks": [
+{
+	"type": "Collection",
+	"name": "Collection",
+	"settings": [
+         {
+           "type": "image_picker",
+           "id": "f-image",
+           "label": "Imagen principal"
+         },
+         {
+           "type": "collection",
+           "id": "collection",
+           "label": "collection"
+         },
+         {
+           "type": "text",
+           "id": "button-text",
+           "label": "Texto del boton",
+           "default": "See more accesories"
+         },
+         {
+           "type": "url",
+           "id": "url-button",
+           "label": "Link del Boton"
+         },
+         {
+           "type": "select",
+            "id": "box_position",
+            "label": "Horizontal alignment",
+            "options": [
+               {
+                "value": "left",
+                "label": "Left"
+               },
+               {
+                 "value": "right",
+                 "label": "Right"
+               }
+               ],
+             "default": "left"
+         }
+     ]
+}
+ ],
+   "presets": [
+     {
+       "name": "Product-left"
+     }
+   ]
+ }
+{% endschema %}
+
