@@ -114,7 +114,7 @@ svg.svg-multicolumn-background {
 }
 .slick-prev:before,
 .slick-next:before {
-  color: #704f38;
+  color: #704f38 !important;
 }
 .slick-prev {
   z-index: 1;
