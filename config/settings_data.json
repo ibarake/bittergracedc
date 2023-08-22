@@ -1002,7 +1002,7 @@
         ],
         "custom_css": [
           ".grid-item__title {height: 35%;}",
-          " {margin-bottom: 2vh;}"
+          " {margin-top: 10vh; margin-bottom: 10vh;}"
         ],
         "settings": {
           "colors": "white",
