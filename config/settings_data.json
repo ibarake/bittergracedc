@@ -623,8 +623,7 @@
       "image--image-with-text-1": {
         "type": "image--image-with-text",
         "custom_css": [
-          "img {height: 29em;}",
-          " {margin-top: 10vh; }"
+          "{margin-top: 10vh;}"
         ],
         "settings": {
           "colors": "light",
