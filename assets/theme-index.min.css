@@ -6963,10 +6963,7 @@ a.plyr__control::before {
   transition-property: transform;
   box-sizing: content-box;
 }
-.swiper-container-android .swiper-slide,
-.swiper-wrapper {
-  transform: translate3d(-985px, 0, 0) !important;
-}
+
 .swiper-container-multirow > .swiper-wrapper {
   flex-wrap: wrap;
 }
