@@ -12,21 +12,11 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  *
  * Copyright (c) 2018 Daniel Eden
  */
-#shopify-section-image--image-with-text #imwtxt-text{
-  margin-left: 0%;
+#shopify-section-1611596786bbc1fbeb .homepage-featured-box-btn{
+  padding: 5px 0px;
+    margin: 0px 30px;
 }
-#shopify-section-image--image-with-text .large--one-half:nth-child(2){
-  width: 70%;
-}
-#shopify-section-image--image-with-text .large--one-half:nth-child(1){
-  width: 30%;
-}
-#imwtxt-text {
-    padding: 30px 30px 30px 0px;   
-}
-div#rellax--image--image-with-text {
-    display: flex;
-}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -6069,12 +6059,6 @@ a.plyr__control::before {
   margin-right: 10px;
 }
 @media (max-width: 767px) {
-    #shopify-section-image--image-with-text .large--one-half:nth-child(2){
-      width: 100%;
-    }
-    #shopify-section-image--image-with-text .large--one-half:nth-child(1){
-      width: 100%;
-    }
   .plyr__time + .plyr__time {
     display: none;
   }
@@ -6981,7 +6965,7 @@ a.plyr__control::before {
 }
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-985px, 0, 0) !important;
 }
 .swiper-container-multirow > .swiper-wrapper {
   flex-wrap: wrap;
@@ -20028,6 +20012,7 @@ body.js-drawer-open {
 @media screen and (min-width: 767px) {
   .feature-row--no-overlapping .homepage-featured-content-wrapper {
     display: flex;
+    height: 85vh;
   }
 }
 .homepage-sections-wrapper--light
@@ -21678,7 +21663,4 @@ body .text-advert-section .grid__item {
   height: 72vh;
 }
 
-.homepage-content--image img {
-  object-fit: cover;
-  height: 25em;
-}
+
