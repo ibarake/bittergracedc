@@ -20009,7 +20009,7 @@ body.js-drawer-open {
 @media screen and (min-width: 767px) {
   .feature-row--no-overlapping .homepage-featured-content-wrapper {
     display: flex;
-    height: 85vh;
+    margin-bottom: 70px;
   }
 }
 .homepage-sections-wrapper--light
