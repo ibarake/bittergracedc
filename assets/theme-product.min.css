@@ -12,7 +12,9 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  *
  * Copyright (c) 2018 Daniel Eden
  */
-
+.slick-initialized .slick-slide {
+    cursor: pointer;
+}
 .container-sec-tatp {
   background-color:#C2B2A3;
 }
