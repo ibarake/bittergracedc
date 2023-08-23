@@ -17708,11 +17708,13 @@ body.js-drawer-open {
   height: 24em;
 }
 }
-@media only screen and (max-width: 768px)
-.grid__item .grid-view-item img {
+@media only screen and (max-width: 768px) {
+  .grid__item .grid-view-item img {
     width: auto;
     height: 35vh;
 }
+}
+
 .stile-with-title {
 color: #000;
 font-size: 32px;
