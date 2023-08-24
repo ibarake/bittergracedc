@@ -15432,7 +15432,7 @@ header:not(.overlay-header) .site-header__logo-overlay-link {
   text-decoration: none;
   letter-spacing: 0.5px;
   position: relative;
-  padding: 15px;
+  padding: 15px 5px;
 }
 .site-nav__link .icon-arrow-down {
   position: absolute;
