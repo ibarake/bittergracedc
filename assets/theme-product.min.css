@@ -120,11 +120,11 @@ svg.svg-multicolumn-background {
 }
 .slick-prev {
   z-index: 1;
-  left: 20px;
+  left: 3vh !important;
 }
 .slick-next {
   z-index: 1;
-  right: 2vh !important;
+  right: 3vh !important;
 }
 .left_space {
   padding-left: 6em !important;
