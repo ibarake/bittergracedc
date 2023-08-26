@@ -46043,15 +46043,12 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      initializeSlickSlider();
+      console.log('hola')
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
       if (shopNow) {
-        shopNow.addEventListener('click', () => {
-          this.handleShopNow;
-                initializeSlickSlider();
-        });
+        shopNow.addEventListener('click', this.handleShopNow);
       }
     });
     this.quickAddButtons = new QuickAdd_QuickAdd(theme, element);
@@ -49347,14 +49344,8 @@ class CollectionSection_CollectionSection extends Section_Section {
 
     this.loadShopNow = () => {
       Array.prototype.forEach.call(this.element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), el => {
-        el.removeEventListener('click', () =>{
-          this.handleShopNow;
-                initializeSlickSlider();
-        });
-        el.addEventListener('click', () => {
-          this.handleShopNow;
-                  initializeSlickSlider();
-        });
+        el.removeEventListener('click', this.handleShopNow);
+        el.addEventListener('click', this.handleShopNow);
       });
       this.theme.addBadges(this.element, 1000);
     };
@@ -49416,8 +49407,7 @@ class CollectionSection_CollectionSection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-            initializeSlickSlider();
-
+      
     };
 
     this.loadTagFilter();
@@ -49469,10 +49459,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
             this.element.appendChild(child);
             Array.prototype.forEach.call(child.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
               if (shopNow) {
-                shopNow.addEventListener('click', () => {
-                  this.handleShopNow;
-                        initializeSlickSlider();
-                });
+                shopNow.addEventListener('click', this.handleShopNow);
               }
             });
           });
@@ -49508,8 +49495,6 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-            initializeSlickSlider();
-
     };
 
     this.theme = theme;
@@ -50951,11 +50936,7 @@ class RecentlyViewed_RecentlyViewed {
           a.classList.add('shop-now-button');
           a.href = title.querySelector('a').href;
           a.textContent = this.theme.translations.quick_shop;
-          a.addEventListener('click', () => {
-            this.handleShopNow;
-                  initializeSlickSlider();
-
-          });
+          a.addEventListener('click', this.handleShopNow);
           const wrapper = document.createElement('div');
           wrapper.classList.add('shop-now-wrapper');
           wrapper.appendChild(a);
@@ -50981,11 +50962,7 @@ class RecentlyViewed_RecentlyViewed {
             a.tabIndex = 0;
             a.href = title.querySelector('a').href;
             a.textContent = this.theme.translations.view_options;
-            a.addEventListener('click', () => {
-              this.handleShopNow;
-                    initializeSlickSlider();
-
-            });
+            a.addEventListener('click', this.handleShopNow);
             wrapper.appendChild(a);
           } else if (productAvailable) {
             // HTML Form. Used for the 'Add to cart' button functionality.
@@ -51037,8 +51014,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-            initializeSlickSlider();
-
+      
     };
 
     this.loadReviews = () => {
