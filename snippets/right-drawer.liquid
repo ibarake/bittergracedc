@@ -1,7 +1,3 @@
-<!-- Slick ================================================== -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <div class="right-drawer-vue">
   {% comment %} There's no route available for the predictive search api URL yet {% endcomment %}
   <wetheme-right-drawer
@@ -16,8 +12,13 @@
   </wetheme-right-drawer>
 </div>
 <script type="text/x-template" id="wetheme-right-drawer-template">
+  
     
   <div> 
+  <!-- Slick ================================================== -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <transition name="drawer-right">
       <div class="drawer drawer--right drawer--cart" v-if="isOpen">
         <div class="drawer__header sitewide--title-wrapper">
@@ -272,9 +273,6 @@
         </div>
       </div>
     </transition>
-  </div>
-
-</script>
 <!-- ================================================== -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -345,4 +343,8 @@
         }
       ]
     });
+</script>
+  </div>
+
+
 </script>
