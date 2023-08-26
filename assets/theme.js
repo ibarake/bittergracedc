@@ -50252,7 +50252,6 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
         const url = params.url;
 
         if (this.quickShopProductUrl !== url) {
-          import 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js';
 
           this.fetchProductPage(url);
           this.quickShopProductId = url;
