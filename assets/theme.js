@@ -50255,7 +50255,6 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
 
           this.fetchProductPage(url);
           this.quickShopProductId = url;
-          initializeSlickSlider();
         }
       }
 
