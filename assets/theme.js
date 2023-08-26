@@ -50981,7 +50981,11 @@ class RecentlyViewed_RecentlyViewed {
             a.tabIndex = 0;
             a.href = title.querySelector('a').href;
             a.textContent = this.theme.translations.view_options;
-            a.addEventListener('click', this.handleShopNow);
+            a.addEventListener('click', () => {
+              this.handleShopNow;
+                    initializeSlickSlider();
+
+            });
             wrapper.appendChild(a);
           } else if (productAvailable) {
             // HTML Form. Used for the 'Add to cart' button functionality.
