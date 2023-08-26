@@ -50255,70 +50255,7 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
 
           this.fetchProductPage(url);
           this.quickShopProductId = url;
-          $('.slider-for').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  asNavFor: '.slider-nav',
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        dots: true,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-    $('.slider-nav').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      dots: false, 
-      centerMode: true,
-      arrows: false,
-      focusOnSelect: true,
-      infinite: true,
-       responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        dots: true,
-        slidesToScroll: 1
-      }
-    }
-  ]
-      
-    });
-          var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var element = document.getElementById('multicolumn-container');
-   
-  if (screenWidth < 768) {
-    element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
-  }
-   $('.multicolumn-container-responsive').slick({
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    autoplay: true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-           dots: true
-        }
-      } 
-    ]
-  });
+          initializeSlickSlider();
         }
       }
 
