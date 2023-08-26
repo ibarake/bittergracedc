@@ -49407,7 +49407,7 @@ class CollectionSection_CollectionSection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      
+      console.log('hola')
     };
 
     this.loadTagFilter();
@@ -49495,6 +49495,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
+      console.log('hola')
     };
 
     this.theme = theme;
@@ -51014,7 +51015,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      
+      console.log('hola')
     };
 
     this.loadReviews = () => {
