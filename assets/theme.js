@@ -49351,7 +49351,10 @@ class CollectionSection_CollectionSection extends Section_Section {
           this.handleShopNow;
                 initializeSlickSlider();
         });
-        el.addEventListener('click', this.handleShopNow);
+        el.addEventListener('click', () => {
+          this.handleShopNow;
+                  initializeSlickSlider();
+        });
       });
       this.theme.addBadges(this.element, 1000);
     };
