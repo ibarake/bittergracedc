@@ -51013,7 +51013,6 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      initializeSlickSlider();
     };
 
     this.loadReviews = () => {
