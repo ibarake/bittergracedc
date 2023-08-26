@@ -194,6 +194,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
   const initializeSlickSlider = () => {
+        if ($('.slider-for').length) {
    $('.slider-for').slick({
   dots: false,
   infinite: true,
@@ -258,6 +259,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       } 
     ]
   });
+  }
+  } else {
+    console.log("elements not ready yet")
   }
 
   initializeSlickSlider();
