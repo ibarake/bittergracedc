@@ -46048,7 +46048,10 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
       if (shopNow) {
-        shopNow.addEventListener('click', this.handleShopNow);
+        shopNow.addEventListener('click', () => {
+          this.handleShopNow;
+                initializeSlickSlider();
+        });
       }
     });
     this.quickAddButtons = new QuickAdd_QuickAdd(theme, element);
@@ -49344,7 +49347,10 @@ class CollectionSection_CollectionSection extends Section_Section {
 
     this.loadShopNow = () => {
       Array.prototype.forEach.call(this.element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), el => {
-        el.removeEventListener('click', this.handleShopNow);
+        el.removeEventListener('click', () =>{
+          this.handleShopNow;
+                initializeSlickSlider();
+        });
         el.addEventListener('click', this.handleShopNow);
       });
       this.theme.addBadges(this.element, 1000);
