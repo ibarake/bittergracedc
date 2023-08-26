@@ -21,7 +21,7 @@
           {% endfor %}
         </div>
         <see-more>
-          <a id="btn-col" href="{{ block.settings.url-button }}">{{ block.settings['button-text'] }}</a>
+          <a id="btn-col" href="{{ product.collection.url }}">{{ block.settings['button-text'] }}</a>
         </see-more>
       </div>
     </container-products>
@@ -56,11 +56,6 @@
            "id": "button-text",
            "label": "Texto del boton",
            "default": "See more accesories"
-         },
-         {
-           "type": "url",
-           "id": "url-button",
-           "label": "Link del Boton"
          },
          {
            "type": "select",
