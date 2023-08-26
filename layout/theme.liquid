@@ -264,6 +264,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 
   initializeSlickSlider();
+
+  document.querySelectorAll('shop-now-button').forEach((snb) => {
+    snb.addEventListener('click', () =>{
+      setTimeout(initializeSlickSlider, 100);
+    })
+  }) 
 </script>
 
   </body>
