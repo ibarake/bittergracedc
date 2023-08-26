@@ -49508,6 +49508,8 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
+            initializeSlickSlider();
+
     };
 
     this.theme = theme;
@@ -50949,7 +50951,11 @@ class RecentlyViewed_RecentlyViewed {
           a.classList.add('shop-now-button');
           a.href = title.querySelector('a').href;
           a.textContent = this.theme.translations.quick_shop;
-          a.addEventListener('click', this.handleShopNow);
+          a.addEventListener('click', () => {
+            this.handleShopNow;
+                  initializeSlickSlider();
+
+          });
           const wrapper = document.createElement('div');
           wrapper.classList.add('shop-now-wrapper');
           wrapper.appendChild(a);
