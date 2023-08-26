@@ -1127,7 +1127,7 @@
               "f-image": "shopify:\/\/shop_images\/BNT_D4.png",
               "collection": "sustainable-cashmere",
               "button-text": "See more accesories",
-              "url-button": "",
+              "url-button": "shopify:\/\/collections\/sustainable-cashmere",
               "box_position": "left"
             }
           },
@@ -1145,7 +1145,7 @@
             "type": "Collection",
             "settings": {
               "f-image": "shopify:\/\/shop_images\/SWD.png",
-              "collection": "sustainable-cashmere",
+              "collection": "shoes",
               "button-text": "See more accesories",
               "url-button": "",
               "box_position": "left"
