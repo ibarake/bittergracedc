@@ -46040,7 +46040,6 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
 
     this.handleShopNow = e => {
       e.preventDefault();
-        initializeSlickSlider();
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
