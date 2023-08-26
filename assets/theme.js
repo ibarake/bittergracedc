@@ -49416,7 +49416,8 @@ class CollectionSection_CollectionSection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      
+            initializeSlickSlider();
+
     };
 
     this.loadTagFilter();
@@ -49468,7 +49469,10 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
             this.element.appendChild(child);
             Array.prototype.forEach.call(child.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
               if (shopNow) {
-                shopNow.addEventListener('click', this.handleShopNow);
+                shopNow.addEventListener('click', () => {
+                  this.handleShopNow;
+                        initializeSlickSlider();
+                });
               }
             });
           });
