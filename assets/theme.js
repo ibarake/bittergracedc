@@ -46043,7 +46043,7 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      console.log('hola')
+      initializeSlickSlider();
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
@@ -49407,7 +49407,7 @@ class CollectionSection_CollectionSection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      console.log('hola')
+      initializeSlickSlider();
     };
 
     this.loadTagFilter();
@@ -49495,7 +49495,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      console.log('hola')
+      initializeSlickSlider();
     };
 
     this.theme = theme;
@@ -51015,7 +51015,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      console.log('hola')
+      initializeSlickSlider();
     };
 
     this.loadReviews = () => {
