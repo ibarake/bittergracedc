@@ -71,7 +71,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "<p>✣ CONSCIOUS LIVING - ETHICAL - WOMAN-OWNED ✣<\/p>",
+          "message_text": "<p>✣ CONSCIOUS LIVING - ETHICAL - WOMAN-OWNED ✣ <\/p>",
           "message_link": "shopify:\/\/pages\/our-mission",
           "announcement-bar--background-color": "#704f38",
           "announcement-bar--text-color": "#ffffff",
@@ -1127,7 +1127,6 @@
               "f-image": "shopify:\/\/shop_images\/BNT_D4.png",
               "collection": "sustainable-cashmere",
               "button-text": "See more accesories",
-              "url-button": "shopify:\/\/collections\/sustainable-cashmere",
               "box_position": "left"
             }
           },
@@ -1137,7 +1136,6 @@
               "f-image": "shopify:\/\/shop_images\/SWD_D2.png",
               "collection": "sustainable-cashmere",
               "button-text": "See more accesories",
-              "url-button": "",
               "box_position": "right"
             }
           },
@@ -1147,7 +1145,6 @@
               "f-image": "shopify:\/\/shop_images\/SWD.png",
               "collection": "shoes",
               "button-text": "See more accesories",
-              "url-button": "",
               "box_position": "left"
             }
           }
