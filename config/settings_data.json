@@ -446,8 +446,8 @@
             "type": "imageAndtext",
             "settings": {
               "imageLogo": "shopify:\/\/shop_images\/BG_LOGO_CREAM.png",
-              "linkLogo": "",
-              "description": ""
+              "linkLogo": "\/",
+              "description": "We use fashion as a medium to unite our community and leave the world better than we found it."
             }
           },
           "footer-0": {
