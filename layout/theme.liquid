@@ -192,7 +192,113 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+$(document).ready(function() {
+    let slickInitialized = false;
+    let easySliderInitialized = false;
 
+    const initializeSlickSlider = () => {
+        if (slickInitialized) return;
+
+        $('.slider-for').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-nav',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: true,
+            arrows: false,
+            focusOnSelect: true,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var element = document.getElementById('multicolumn-container');
+
+        if (screenWidth < 768) {
+            element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
+        }
+
+        $('.multicolumn-container-responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
+        });
+
+        slickInitialized = true;
+    };
+
+    const initializeEasySlider = () => {
+        if (easySliderInitialized) return;
+
+        document.querySelectorAll('.easyslider-header').forEach((esh) => {
+            esh.addEventListener('click', () => {
+                if (esh.parentNode.querySelector('.easyslider-content').style.height === '0px') {
+                    esh.parentNode.querySelector('.easyslider-content').style.height = 'auto';
+                } else {
+                    esh.parentNode.querySelector('.easyslider-content').style.height = '0px';
+                }
+            });
+        });
+
+        easySliderInitialized = true;
+    };
+
+    const initializeBoth = () => {
+        initializeSlickSlider();
+        initializeEasySlider();
+    };
+
+    document.querySelectorAll('.shop-now-button').forEach((snb) => {
+        snb.addEventListener('click', () => {
+            setTimeout(initializeBoth, 1000);
+        });
+    });
+});
+
+</script>
 
   </body>
     <!-- Google Tag Manager (noscript) -->
