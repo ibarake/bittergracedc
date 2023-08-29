@@ -605,11 +605,11 @@
       "image--image-with-text": {
         "type": "image--image-with-text",
         "custom_css": [
-          "img {max-width: 881px; max-height: 1200px;}"
+          "img {max-width: 881px; max-height: 1200px; object-fit: cover; object-position: center center;}"
         ],
         "settings": {
           "colors": "light",
-          "image": "shopify:\/\/shop_images\/BITTERGRACE.png",
+          "image": "shopify:\/\/shop_images\/worwear-that_s-comfortable_900x_1.png",
           "text_overlapping_image": false,
           "section-width": "full",
           "layout": "left",
