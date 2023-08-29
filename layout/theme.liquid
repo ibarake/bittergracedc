@@ -299,7 +299,20 @@ $(document).ready(function() {
 });
 
 </script>
-
+<style>
+  .right-drawer-vue .slick-next{
+    right: 0 !important;
+    z-index: 10;
+  }
+  .right-drawer-vue .slick-prev{
+    left: 0 !important;
+    z-index: 10;
+  }
+  .right-drawer-vue .slick-prev:before, .right-drawer-vue .slick-next:before{
+    color: #704f38 !important;
+    opacity: 1 !important;
+  }
+</style>
   </body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPVZ5QS"
