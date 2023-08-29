@@ -319,8 +319,9 @@ $(document).ready(function() {
                 ca.classList.remove('easyslider-active');
             });
         }
-        
-        event.currentTarget.classList.add('easyslider-active');
+        checkForActive.forEach((ca) => {
+        ca.classList.add('easyslider-active');
+            });
     });
 });
   }
