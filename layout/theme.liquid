@@ -269,11 +269,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         document.querySelectorAll('.easyslider-header').forEach((esh) => {
             esh.addEventListener('click', () => {
                 console.log('click');
-                if (esh.parentNode.querySelector('.easyslider-content').style.height === '0px') {
-                    esh.parentNode.querySelector('.easyslider-content').style.display = 'block';
-                    esh.parentNode.querySelector('.easyslider-content').style.height = 'auto';
+                if (esh.parentNode.querySelector('.easyslider-content').style.transform === 'scaleY(0)') {
+                    esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(1)';
+                    
                 } else {
-                    esh.parentNode.querySelector('.easyslider-content').style.height = '0px';
+                  esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
                 }
             });
         });
