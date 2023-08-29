@@ -506,6 +506,8 @@
 
     };
 
+    const initializeEasySlider = () => {
+
         document.querySelectorAll('.easyslider-header').forEach((esh) => {
             esh.addEventListener('click', () => {
                 console.log('click')
@@ -516,9 +518,14 @@
                 }
             });
         });
-
+    };
 
     initializeSlickSlider();
+    initializeEasySlider();
+    const initializeBoth = () => {
+        initializeSlickSlider();
+        initializeEasySlider();
+    };
 
     document.querySelectorAll('.shop-now-button').forEach((snb) => {
         snb.addEventListener('click', () => {
