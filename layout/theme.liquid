@@ -291,6 +291,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             setTimeout(initializeBoth, 1000);
         });
     });
+
+    // This function checks if the drawer is opened
+function checkDrawerOpen() {
+    // Assuming the drawer has a specific class when it's opened, e.g., 'drawer-open'
+    return document.body.classList.contains('drawer-open');
+}
+
+// Listen for changes in the body's classList (you might need to adjust this based on your actual implementation)
+const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+        if (checkDrawerOpen()) {
+            // Initialize the sliders when the drawer is opened
+            initializeSlickSlider();
+            initializeEasySlider();
+        }
+    });
+});
+
+observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['class'],
+    childList: false,
+    characterData: false
+});
 });
 
 </script>
