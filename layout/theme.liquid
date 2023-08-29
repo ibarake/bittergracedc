@@ -194,11 +194,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
 $(document).ready(function() {
-    let slickInitialized = false;
-    let easySliderInitialized = false;
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var element = document.getElementById('multicolumn-container');
+        if (screenWidth < 768) {
+            element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
+        }
+        $('.multicolumn-container-responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
+        });
 
     const initializeSlickSlider = () => {
-        if (slickInitialized) return;
 
         $('.slider-for').slick({
             dots: false,
@@ -240,7 +261,6 @@ $(document).ready(function() {
             ]
         });
 
-        slickInitialized = true;
     };
 
     const initializeEasySlider = () => {
@@ -278,6 +298,7 @@ $(document).ready(function() {
             setTimeout(initializeBoth, 1000);
         });
     });
+    initializeSlickSlider();
 });
 
 </script>
