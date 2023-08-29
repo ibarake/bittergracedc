@@ -269,7 +269,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         document.querySelectorAll('.easyslider-header').forEach((esh) => {
             esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
             esh.parentNode.querySelector('.easyslider-content').style.display = 'block';
-            esh.parentNode.querySelector('.easyslider-content').style.height = '0px';
+            esh.parentNode.querySelector('.easyslider-content').style.maxHeight = '0px';
             esh.parentNode.querySelector('.easyslider-content').style.overflow = 'hidden';
             esh.parentNode.querySelector('.easyslider-content').style.transition = 'transform 0.3s ease';
             esh.parentNode.querySelector('.easyslider-content').style.transformOrigin = 'center top';
@@ -283,7 +283,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     
                 } else {
                   esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
-                  setTimeout(() => esh.parentNode.querySelector('.easyslider-content').style.height = '0px', 300)
+                  esh.parentNode.querySelector('.easyslider-content').style.maxHeight = '1000px';
                 }
             });
         });
