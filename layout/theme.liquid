@@ -309,7 +309,8 @@ $(document).ready(function() {
 
     const slideHeaders = document.querySelectorAll('.product-form-vue .easyslider-header');
 
-slideHeaders.forEach((sh) => {
+  function initializeProductPageSlider() {
+    slideHeaders.forEach((sh) => {
     sh.addEventListener('click', function(event) {
         const checkForActive = sh.parentNode.parentNode.querySelectorAll('.easyslider-active');
         
@@ -322,6 +323,10 @@ slideHeaders.forEach((sh) => {
         event.currentTarget.classList.add('easyslider-active');
     });
 });
+  }
+
+  setTimeout(initializeProductPageSlider, 1000)
+
 
 });
 
