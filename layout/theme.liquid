@@ -308,6 +308,25 @@ $(document).ready(function() {
     initializeSlickSlider();
 });
 
+
+const slideHeaders = document.querySelectorAll('.product-form-vue .easyslider-header');
+
+  slideHeaders.forEach((sh) => {
+
+    const checkForActive = sh.parentNode.parentNode.querySelectorAll('.easyslider-item.easyslider-active');
+    
+    sh.addEventListener('click', () => {
+      if (checkForActive){
+        checkForActive.forEach((ca) => {
+          ca.classList.remove('easyslider-active');
+        })
+        this.classList.add('easyslider-active');
+      } else {
+        this.classList.add('easyslider-active');
+      }
+    })
+  })
+  
 </script>
 <style>
   .right-drawer-vue .slick-next{
