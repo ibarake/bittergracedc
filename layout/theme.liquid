@@ -319,14 +319,16 @@ $(document).ready(function() {
                 ca.classList.remove('easyslider-active');
             });
         }
-        checkForActive.forEach((ca) => {
-        ca.classList.add('easyslider-active');
+        if (!checkForActive.length) {
+            checkForActive.forEach((ca) => {
+                ca.classList.add('easyslider-active');
             });
+        }
     });
 });
   }
 
-  setTimeout(initializeProductPageSlider, 1000)
+  setTimeout(initializeProductPageSlider, 5000)
 
 
 });
