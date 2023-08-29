@@ -278,6 +278,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
     };
 
+    initializeSlickSlider();
+
     const initializeBoth = () => {
         initializeSlickSlider();
         initializeEasySlider();
@@ -285,8 +287,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     document.querySelectorAll('.shop-now-button').forEach((snb) => {
         snb.addEventListener('click', () => {
-            setTimeout(() => {}, 1000);
-            initializeBoth();
+            setTimeout(initializeBoth, 1000);
         });
     });
 });
