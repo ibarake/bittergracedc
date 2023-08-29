@@ -289,6 +289,8 @@ $(document).ready(function() {
 };
 
     const initializeBoth = () => {
+        $('.slider-for').slick('unslick');
+        $('.slider-nav').slick('unslick');
         initializeSlickSlider();
         initializeEasySlider();
     };
