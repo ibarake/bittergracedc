@@ -270,6 +270,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
             esh.parentNode.querySelector('.easyslider-content').style.display = 'block';
             esh.parentNode.querySelector('.easyslider-content').style.height = 'auto';
+            esh.parentNode.querySelector('.easyslider-content').style.transition = 'transform 300 ease';
+            
             esh.addEventListener('click', () => {
                 console.log('click');
                 if (esh.parentNode.querySelector('.easyslider-content').style.transform === 'scaleY(0)') {
