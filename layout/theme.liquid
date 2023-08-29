@@ -282,7 +282,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     
                 } else {
                   esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
-                  esh.parentNode.querySelector('.easyslider-content').style.height = '0px';
+                  setTimeout(() => esh.parentNode.querySelector('.easyslider-content').style.height = '0px', 300)
                 }
             });
         });
