@@ -311,7 +311,9 @@ $(document).ready(function() {
 
   slideHeaders.forEach((sh) => {
 
-    const checkForActive = sh.parentNode.parentNode.querySelectorAll('.easyslider-item.easyslider-active');
+    const checkForActive = sh.parentNode.parentNode.querySelectorAll('.easyslider-active');
+
+    console.log(checkForActive)
     
     sh.addEventListener('click', () => {
       if (checkForActive){
