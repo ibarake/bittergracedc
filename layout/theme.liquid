@@ -262,7 +262,7 @@ $(document).ready(function() {
         });
 
     };
-
+  {% comment %}
     const initializeEasySlider = () => {
     document.querySelectorAll('.easyslider-header').forEach((esh) => {
         const content = esh.parentNode.querySelector('.easyslider-content');
@@ -287,7 +287,7 @@ $(document).ready(function() {
         });
     });
 };
-
+    {% endcomment %}
     const initializeBoth = () => {
         initializeSlickSlider();
         initializeEasySlider();
