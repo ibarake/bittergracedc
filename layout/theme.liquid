@@ -240,33 +240,6 @@ $(document).ready(function() {
             ]
         });
 
-        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        var element = document.getElementById('multicolumn-container');
-
-        if (screenWidth < 768) {
-            element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
-        }
-
-        $('.multicolumn-container-responsive').slick({
-            dots: true,
-            infinite: true,
-            speed: 1000,
-            autoplay: true,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false,
-                        dots: true
-                    }
-                }
-            ]
-        });
-
         slickInitialized = true;
     };
 
