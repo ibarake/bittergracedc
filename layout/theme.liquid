@@ -281,17 +281,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     initializeSlickSlider();
 
-    const initializeBoth = () => {
-        initializeSlickSlider();
-        initializeEasySlider();
-    };
-
-    document.querySelectorAll('.shop-now-button').forEach((snb) => {
-        snb.addEventListener('click', () => {
-            setTimeout(initializeBoth, 1000);
-        });
-    });
-
     // This function checks if the drawer is opened
 function checkDrawerOpen() {
     // Assuming the drawer has a specific class when it's opened, e.g., 'drawer-open'
