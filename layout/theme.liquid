@@ -278,29 +278,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
     };
 
-    // This function checks if the drawer is opened
-    function checkDrawerOpen() {
-        // Assuming the drawer has a specific class when it's opened, e.g., 'drawer-open'
-        return document.body.classList.contains('drawer--cart');
-    }
-
-    // Listen for changes in the body's classList (you might need to adjust this based on your actual implementation)
-    const observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            if (checkDrawerOpen()) {
-                // Initialize the sliders when the drawer is opened
-                initializeSlickSlider();
-                initializeEasySlider();
-            }
-        });
-    });
-
-    observer.observe(document.body, {
-        attributes: true,
-        attributeFilter: ['class'],
-        childList: false,
-        characterData: false
-    });
+    document.querySelectorAll('.shop-now-button').forEach((snb) => {
+      snb.addEventListener('click', () =>{
+        setTimeout(initializeSlickSlider, 1000);
+        setTimeout(initializeEasySlider, 1000);
+        setTimeout(initializeBoth, 1000);
+      })
+    }) 
 
     // Initial call to setup sliders on page load
     initializeSlickSlider();
