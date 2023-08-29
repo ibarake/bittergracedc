@@ -267,6 +267,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     const initializeEasySlider = () => {
         document.querySelectorAll('.easyslider-header').forEach((esh) => {
+            esh.parentNode.querySelector('.easyslider-content').style.transform = 'scaleY(0)';
             esh.parentNode.querySelector('.easyslider-content').style.display = 'block';
             esh.parentNode.querySelector('.easyslider-content').style.height = 'auto';
             esh.addEventListener('click', () => {
