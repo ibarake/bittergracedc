@@ -283,12 +283,13 @@ $(document).ready(function() {
         esh.addEventListener('click', () => {
             console.log('click');
             if (content.style.transform === 'scaleY(0)') {
-                content.classList.add = ''
+                content.classList.add = 'easyslider-active';
                 content.style.maxHeight = '1000px';
                 content.style.transform = 'scaleY(1)';
             } else {
+                content.classList.add = 'easyslider-active';
                 content.style.transform = 'scaleY(0)';
-                setTimeout(() => content.style.maxHeight = '0', 300);
+                content.style.maxHeight = '0';
                 content.style.maxHeight = '0';
             }
         });
