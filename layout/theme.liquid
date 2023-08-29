@@ -276,8 +276,11 @@ $(document).ready(function() {
         document.querySelectorAll('.easyslider-header').forEach((esh) => {
             esh.addEventListener('click', () => {
                 if (esh.parentNode.querySelector('.easyslider-content').style.height === '0px') {
+                    
+                    esh.parentNode.classList.add = 'easyslider-active';
                     esh.parentNode.querySelector('.easyslider-content').style.height = 'auto';
                 } else {
+                    esh.parentNode.classList.remove = 'easyslider-active';
                     esh.parentNode.querySelector('.easyslider-content').style.height = '0px';
                 }
             });
