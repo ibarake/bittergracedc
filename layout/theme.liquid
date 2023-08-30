@@ -295,14 +295,9 @@ $(document).ready(function() {
 });
 };
 
-  
-  const initializeBoth = () => {
-        initializeSlickSlider();
-    };
-
     document.querySelectorAll('.shop-now-button').forEach((snb) => {
         snb.addEventListener('click', () => {
-            setTimeout(initializeBoth, 1000);
+            setTimeout(initializeSlickSlider, 1000);
         });
     });
     initializeSlickSlider();
