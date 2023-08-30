@@ -50237,7 +50237,9 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
 
   mounted() {
     document.documentElement.addEventListener(TOGGLE_RIGHT_DRAWER_EVENT, this.handleToggle);
-    initializeSlickSlider();
+     this.$nextTick(() => {
+        initializeSlickSlider();
+    });
   }
 
   beforeDestroy() {
