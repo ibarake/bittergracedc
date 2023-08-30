@@ -12,6 +12,14 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  *
  * Copyright (c) 2018 Daniel Eden
  */
+@media (min-width: 768px) {
+  #s-1f959354-ce48-48a3-9fdd-f10b6550d5f3.shg-box.shg-c{
+    justify-content: flex-end !important;
+  }
+  #s-1f959354-ce48-48a3-9fdd-f10b6550d5f3{
+    min-height: auto !important;
+  }
+}
 .container-sec-tatp {
   background-color:#C2B2A3;
 }
