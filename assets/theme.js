@@ -1,5 +1,7 @@
 const initializeSlickSlider = () => {
 
+  console.log('hello')
+
         $('.slider-for').slick({
             dots: false,
             infinite: true,
