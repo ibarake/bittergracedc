@@ -1,3 +1,78 @@
+const initializeSlickSlider = () => {
+
+        $('.slider-for').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-nav',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: true,
+            arrows: false,
+            focusOnSelect: true,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    document.querySelectorAll('.easyslider-header').forEach((esh) => {
+    const content = esh.parentNode.querySelector('.right-drawer-vue .easyslider-content');
+    
+    content.style.transform = 'scaleY(0)';
+    content.style.display = 'block';
+    content.style.maxHeight = '0';
+    content.style.overflow = 'hidden';
+    content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
+    content.style.transformOrigin = 'center top';
+
+    esh.addEventListener('click', () => {
+        // Close all other easyslider-contents
+        document.querySelectorAll('.right-drawer-vue .easyslider-content').forEach((otherContent) => {
+            if (otherContent !== content) {
+                otherContent.style.transform = 'scaleY(0)';
+                otherContent.style.maxHeight = '0';
+                otherContent.classList.remove('easyslider-active'); // Assuming you want to remove the class
+            }
+        });
+
+        // Toggle the clicked easyslider-content
+        if (content.style.transform === 'scaleY(0)') {
+            content.classList.add('easyslider-active');
+            content.style.maxHeight = '1000px';
+            content.style.transform = 'scaleY(1)';
+        } else {
+            content.classList.remove('easyslider-active'); // Assuming you want to remove the class when it's closed
+            content.style.transform = 'scaleY(0)';
+            content.style.maxHeight = '0';
+        }
+    });
+});
+};
 /* *****
 This is a concatenated, un-minified file. It is NOT used by the theme by default.
 We recommend using this file to make small edits to the theme's code.
