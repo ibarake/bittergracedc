@@ -92,20 +92,6 @@
               enable_image_zoom: section.settings.enable_image_zoom,
               hide_soldout_variants: section.settings.hide_soldout_variants
             %}
-            <div class="slider-for" id="slider-for">
-              {% for image in product.media %}
-                <div>
-                  {{ image | img_tag: image.alt, 'product', '600x600' }}
-                </div>
-              {% endfor %}
-            </div>
-            <div class="slider-nav">
-              {% for image in product.media %}
-                <div style="margin-right:.8%;">
-                  {{ image | img_tag: image.alt, 'product', '250x200' }}
-                </div>
-              {% endfor %}
-            </div>
           </div>
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
