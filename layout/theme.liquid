@@ -272,6 +272,7 @@ $(document).ready(function() {
     content.style.transformOrigin = 'center top';
 
     esh.addEventListener('click', () => {
+      console.log('easyslider-header clicked');
         // Close all other easyslider-contents
         document.querySelectorAll('.right-drawer-vue .easyslider-content').forEach((otherContent) => {
             if (otherContent !== content) {
