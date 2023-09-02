@@ -86,7 +86,15 @@
           data-section-id="{{ section.id }}"
         >
           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
-        
+            <div id="slider-right-drawer">
+               {% render 'product-media',
+              product: product,
+              style: style,
+              enable_image_zoom: section.settings.enable_image_zoom,
+              hide_soldout_variants: section.settings.hide_soldout_variants
+            %}
+            </div>
+           
             <div class="slider-for" id="slider-for">
               {% for image in product.media %}
                 <div>
