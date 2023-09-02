@@ -49407,6 +49407,7 @@ class CollectionSection_CollectionSection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
+      initializeSlickSlider();
     };
 
     this.loadTagFilter();
