@@ -12,6 +12,19 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  *
  * Copyright (c) 2018 Daniel Eden 
  */
+.product-medias__main .swiper-container{
+  display: none;
+}
+@media (max-width: 768px) {
+.product-medias__main .swiper-container{
+  display: block;
+  margin-top:3vh;
+}
+  .slider-for, .slider-nav{
+    display: none;
+  }
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -12363,7 +12376,7 @@ label.error {
 }
 @media only screen and (max-width: 768px) {
   .grid__item {
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .grid__item.small__no-top-margin {
     margin-top: 0;
@@ -18102,6 +18115,7 @@ body.js-drawer-open {
 .js-qty__adjust--minus {
   left: 0;
 }
+
 #ShopNowContainer .swiper-pagination {
   display: block;
   text-align: center;
