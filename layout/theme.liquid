@@ -263,6 +263,8 @@ $(document).ready(function() {
 
     document.querySelectorAll('.easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
+
+    esh.style.cursor = 'pointer';
     
     content.style.transform = 'scaleY(0)';
     content.style.display = 'block';
