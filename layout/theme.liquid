@@ -293,6 +293,28 @@ $(document).ready(function() {
             content.style.maxHeight = '0';
         }
     });
+      esh.addEventListener('touchstart', () => {
+      console.log('easyslider-header clicked');
+        // Close all other easyslider-contents
+        document.querySelectorAll('.right-drawer-vue .easyslider-content').forEach((otherContent) => {
+            if (otherContent !== content) {
+                otherContent.style.transform = 'scaleY(0)';
+                otherContent.style.maxHeight = '0';
+                otherContent.classList.remove('easyslider-active'); // Assuming you want to remove the class
+            }
+        });
+
+        // Toggle the clicked easyslider-content
+        if (content.style.transform === 'scaleY(0)') {
+            content.classList.add('easyslider-active');
+            content.style.maxHeight = '1000px';
+            content.style.transform = 'scaleY(1)';
+        } else {
+            content.classList.remove('easyslider-active'); // Assuming you want to remove the class when it's closed
+            content.style.transform = 'scaleY(0)';
+            content.style.maxHeight = '0';
+        }
+    });
 });
 };
 
