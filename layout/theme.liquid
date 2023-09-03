@@ -223,7 +223,7 @@ $(document).ready(function() {
 
         const productId = document.querySelector('.product-description').getAttribute('product-id');
 
-        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll('.easyslider-widget-{{ easysliderId }}')); }
+        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll(`.easyslider-widget-${productId}`)); }
 
 
         $('.slider-for').slick({
