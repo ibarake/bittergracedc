@@ -221,9 +221,9 @@ $(document).ready(function() {
 
     const initializeSlickSlider = () => {
 
-        const productId = document.querySelector('.product-description').getAttribute('data-product-id');
+       // const productId = document.querySelector('.product-description').getAttribute('data-product-id');
 
-        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll(`.easyslider-widget-${productId}`)); }
+       // if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll(`.easyslider-widget-${productId}`)); }
 
 
         $('.slider-for').slick({
@@ -266,7 +266,7 @@ $(document).ready(function() {
             ]
         });
 
-    /* document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) => {
+    document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
 
     esh.style.cursor = 'pointer';
@@ -335,7 +335,7 @@ $(document).ready(function() {
     });
     initializeSlickSlider();
 
-*/
+
 });
 
 
