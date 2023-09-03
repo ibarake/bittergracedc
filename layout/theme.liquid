@@ -261,7 +261,7 @@ $(document).ready(function() {
             ]
         });
 
-    document.querySelectorAll('.right-drawer-vue .easyslider-header').forEach((esh) => {
+    document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
 
     esh.style.cursor = 'pointer';
@@ -276,7 +276,7 @@ $(document).ready(function() {
     esh.addEventListener('click', () => {
       console.log('easyslider-header clicked');
         // Close all other easyslider-contents
-        document.querySelectorAll('.right-drawer-vue .easyslider-content').forEach((otherContent) => {
+        document.querySelectorAll('#ShopNowContainer .easyslider-content').forEach((otherContent) => {
             if (otherContent !== content) {
                 otherContent.style.transform = 'scaleY(0)';
                 otherContent.style.maxHeight = '0';
@@ -298,7 +298,7 @@ $(document).ready(function() {
     esh.addEventListener('touchstart', () => {
       console.log('easyslider-header clicked');
         // Close all other easyslider-contents
-        document.querySelectorAll('.right-drawer-vue .easyslider-content').forEach((otherContent) => {
+        document.querySelectorAll('#ShopNowContainer .easyslider-content').forEach((otherContent) => {
             if (otherContent !== content) {
                 otherContent.style.transform = 'scaleY(0)';
                 otherContent.style.maxHeight = '0';
