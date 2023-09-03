@@ -51,7 +51,7 @@
             | replace: ' ', ''
             | strip_newlines
           %}
-          {% capture slideAttrId %}slide-{{ product.handle }}-{{ forloop.index }}{% endcapture %}
+          {% capture slideAttrId %}slide-{{ product.handle }}-{{ forloop.index | plus: 1 }}{% endcapture %}
           {% if slideContentShort != '' or slideContent contains '<img ' or slideContent contains '<iframe ' %}
             {% capture easyslider %}                 
               {{ easyslider }}        
