@@ -63,7 +63,7 @@
     {% assign style = 'full_width' %}
   {% endif %}
 
-  {% comment %}<div style="display:none;">{% render 'product-description-slider', product: product %}</div>{% endcomment %}
+  <div style="display:none;">{% render 'product-description-slider', product: product %}</div>
   <div class="product-form-vue">
     <wetheme-product-form
       inline-template
@@ -174,6 +174,7 @@
                   <div
                     class="product-description product-details--form-wrapper---below rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
+                    data-product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
@@ -362,6 +363,7 @@
                   <div
                     class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
+                    data-product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
@@ -419,15 +421,13 @@
             <div
               class="product-description product-description_full-width rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
               itemprop="description"
+              data-product-id="{{ product.id }}"
             >
               {% render 'product-description-slider', product: product %}
             </div>
           </div>
         {% endif %}
       </div>
-      <script type="text/javascript">
-        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll('.easyslider-widget-{{ easysliderId }}')); }
-      </script>
     </wetheme-product-form>
   </div>
 
