@@ -221,11 +221,7 @@ $(document).ready(function() {
 
     const initializeSlickSlider = () => {
 
-        const productId = document.querySelector('.product-description').getAttribute('product-id');
-
-        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll(`.easyslider-widget-${productId}`)); }
-
-
+        
         $('.slider-for').slick({
             dots: false,
             infinite: true,
