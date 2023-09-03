@@ -277,7 +277,7 @@ document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) 
         content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
         content.style.transformOrigin = 'center top';
 
-        const toggleContent = (event) => {
+        const toggleContent = () => {
             console.log('easyslider-header toggled');
             // Close all other easyslider-contents
             document.querySelectorAll('#ShopNowContainer .easyslider-content').forEach((otherContent) => {
@@ -299,11 +299,6 @@ document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) 
                 content.style.maxHeight = '0';
             }
 
-            // Prevent default behavior and stop propagation if it's a touchstart event
-            if (event.type === 'touchstart') {
-                event.preventDefault();
-                event.stopPropagation();
-            }
         };
 
         esh.addEventListener('click', toggleContent);
