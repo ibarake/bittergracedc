@@ -353,7 +353,7 @@
                   <div
                     class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
-                    product-id="{{ product.id }}"
+                    data-product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
