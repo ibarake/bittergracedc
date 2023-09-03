@@ -308,7 +308,9 @@ $(document).ready(function() {
         snb.addEventListener('click', () => {
             setTimeout(initializeSlickSlider, 1000);
         });
-        
+        snb.addEventListener('touchstart', () => {
+            setTimeout(initializeSlickSlider, 1000);
+        });
     });
     initializeSlickSlider();
 
