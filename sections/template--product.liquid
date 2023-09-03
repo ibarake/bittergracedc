@@ -1,4 +1,4 @@
- <div
+<div
   itemscope
   itemtype="http://schema.org/Product"
   data-wetheme-section-type="template--product"
@@ -86,7 +86,6 @@
           data-section-id="{{ section.id }}"
         >
           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
-        
             <div class="slider-for" id="slider-for">
               {% for image in product.media %}
                 <div>
@@ -354,6 +353,7 @@
                   <div
                     class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
+                    product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
