@@ -63,7 +63,7 @@
     {% assign style = 'full_width' %}
   {% endif %}
 
-  <div style="display:none;">{% render 'product-description-slider', product: product %}</div>
+  {% comment %}<div style="display:none;">{% render 'product-description-slider', product: product %}</div> {% endcomment %}
   <div class="product-form-vue">
     <wetheme-product-form
       inline-template
@@ -165,6 +165,7 @@
                   <div
                     class="product-description product-details--form-wrapper---below rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
+                    product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
@@ -353,7 +354,7 @@
                   <div
                     class="product-description rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
                     itemprop="description"
-                    data-product-id="{{ product.id }}"
+                    product-id="{{ product.id }}"
                   >
                     {% render 'product-description-slider', product: product %}
                   </div>
@@ -411,6 +412,7 @@
             <div
               class="product-description product-description_full-width rte{% if section.settings.enable_readmore %} readmore closed{% endif %}"
               itemprop="description"
+              product-id="{{ product.id }}"
             >
               {% render 'product-description-slider', product: product %}
             </div>
