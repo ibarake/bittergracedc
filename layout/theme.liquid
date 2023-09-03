@@ -221,6 +221,9 @@ $(document).ready(function() {
 
     const initializeSlickSlider = () => {
 
+        if( typeof easyslider == 'object' ) { easyslider.initWidgets(document.querySelectorAll('.easyslider-widget-{{ easysliderId }}')); }
+
+
         $('.slider-for').slick({
             dots: false,
             infinite: true,
