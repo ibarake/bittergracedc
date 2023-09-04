@@ -302,12 +302,13 @@ document.querySelectorAll('#ShopNowContainer .easyslider-header').forEach((esh) 
         };
 
         esh.addEventListener('click', toggleContent);
+        
     });
 };
 
 document.querySelectorAll('.shop-now-button').forEach((snb) => {
     snb.addEventListener('click', () => {
-        setTimeout(initializeSlickSlider, 1000);
+        setTimeout(initializeSlickSlider);
     });
 });
 
