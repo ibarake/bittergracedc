@@ -19748,6 +19748,9 @@ line-height: 44px; /* 137.5% */
     width: 50% !important;
     height: auto !important;
   }
+  #shopify-section-template--style-with .quick-add-button-variants {
+    height: auto !important;
+  }
   .txt-two-image-container {
     margin: 8% 1% !important;
   }
