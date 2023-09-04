@@ -23,6 +23,11 @@ display:none;
     min-height: auto !important;
   }
 }
+@media (max-width: 768px) {
+  #s-c1bdde70-03da-44a9-bf91-8eb0bfbbe586 img.shogun-image, #s-c1bdde70-03da-44a9-bf91-8eb0bfbbe586 .shg-image-content-wrapper{
+    object-fit: cover;
+  }
+}
 .container-sec-tatp {
   background-color:#C2B2A3;
 }
