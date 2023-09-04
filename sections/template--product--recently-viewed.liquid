@@ -11,16 +11,14 @@
     style="display: none"
   >
     <div class="wrapper" role="main">
-      <div>
-         {% unless section.settings.recently_viewed_title == blank %}
+      <div class="style-with-container">
+        {% unless section.settings.recently_viewed_title == blank %}
           <div class="sitewide--title-wrapper">
             <h2 class="page--title">{{ section.settings.recently_viewed_title }}</h2>
           </div>
         {% endunless %}
-      </div>
-        
-      <div class="style-product-recent">
-        <div class="">
+
+        <div class="swiper-container">
           <div class="swiper-wrapper" id="recently-viewed-products"></div>
          
         </div>
