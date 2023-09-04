@@ -51,7 +51,7 @@
     content.style.overflow = 'hidden';
     content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
     content.style.transformOrigin = 'center top';
-
+ 
     esh.addEventListener('click', () => {
       console.log('easyslider-header clicked');
         // Close all other easyslider-contents
