@@ -49475,7 +49475,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
         const prevEl = this.element.querySelector('.swiper-button--prev');
         this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
          loop: true,
-          slidesPerView: 4,
+          slidesPerView: 1,
           navigation: {
             nextEl,
             prevEl
