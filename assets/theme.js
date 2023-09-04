@@ -50915,7 +50915,7 @@ class RecentlyViewed_RecentlyViewed {
       this.$element.fadeIn();
       this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         navigation: {
           nextEl,
           prevEl
