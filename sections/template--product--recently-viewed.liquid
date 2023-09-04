@@ -11,7 +11,7 @@
     style="display: none"
   >
     <div class="wrapper" role="main">
-      {% unless section.settings.recently_viewed_title != blank %}
+      {% unless section.settings.recently_viewed_title == blank %}
           <div class="sitewide--title-wrapper">
             <h2 class="page--title">{{ section.settings.recently_viewed_title }}</h2>
           </div>
@@ -20,12 +20,6 @@
         
         <div class="">
           <div class="swiper-wrapper" id="recently-viewed-products"></div>
-        </div>
-        <div class="swiper-button--prev">
-           <i class=""> {% render "style-with-prev-icon" %} </i>
-        </div>
-        <div class="swiper-button--next">
-          <i class=""> {% render "style-with-next-icon" %}</i>
         </div>
       </div>
     </div>
