@@ -19746,7 +19746,7 @@ line-height: 44px; /* 137.5% */
   }
   .txt-two-image-container img {
     width: 50% !important;
-    height: 20em !important;
+    height: auto !important;
   }
   .txt-two-image-container {
     margin: 8% 1% !important;
