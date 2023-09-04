@@ -24,7 +24,7 @@ display:none;
   }
 }
 @media (max-width: 768px) {
-  #s-c1bdde70-03da-44a9-bf91-8eb0bfbbe586 img.shogun-image, #s-c1bdde70-03da-44a9-bf91-8eb0bfbbe586 .shg-image-content-wrapper{
+  #s-c1bdde70-03da-44a9-bf91-8eb0bfbbe586 img.shogun-image{
     object-fit: cover;
   }
 }
