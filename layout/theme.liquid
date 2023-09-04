@@ -192,6 +192,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
   function initializeSlickSlider() {
+     $('.style-product-recent').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
         $('.slider-for').slick({
             dots: false,
             infinite: true,
@@ -305,16 +311,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 });
 
     initializeSlickSlider();
-
-    
-$('.style-product-recent').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-});
-    
-
 });
   function initializeProductPageSlider() {
         const slideHeaders = document.querySelectorAll('.product-form-vue .easyslider-header');
