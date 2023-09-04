@@ -49068,6 +49068,7 @@ class ProductSection_ProductSection extends Section_Section {
     this.loadReadmore();
     this.loadTabs();
     this.scrollToPostedForm();
+    initializeSlickSlider();
   }
 
   get isFeaturedProduct() {
