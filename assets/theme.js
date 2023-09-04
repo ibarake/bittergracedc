@@ -49474,14 +49474,14 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
         const nextEl = this.element.querySelector('.swiper-button--next');
         const prevEl = this.element.querySelector('.swiper-button--prev');
         this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
-          slidesPerView: 2,
+          slidesPerView: 3,
           navigation: {
             nextEl,
             prevEl
           },
           breakpoints: {
             600: {
-              slidesPerView: 4
+              slidesPerView: 2
             }
           },
           watchOverflow: true
