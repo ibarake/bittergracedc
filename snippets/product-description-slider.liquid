@@ -55,7 +55,8 @@
           {% if slideContentShort != '' or slideContent contains '<img ' or slideContent contains '<iframe ' %}
             {% capture easyslider %}                 
               {{ easyslider }}        
-              <div class="easyslider-item" > 
+              <div class="easyslider-item" data-es-marker="slide-{{ easysliderId }}-{{ forloop.index }}"
+        data-es-handle="slide-frequently-bought-together"> 
                 <div class="easyslider-header">                     
                   <div class="easyslider-anchor">                       
                     <span class="easyslider-header-text">{{ slideHeader }}</span>                       
