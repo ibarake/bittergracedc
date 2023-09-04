@@ -49482,7 +49482,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
           },
           breakpoints: {
             600: {
-              slidesPerView: 1
+              slidesPerView: 4
             }
           },
           watchOverflow: true
