@@ -17,7 +17,7 @@
                         </div>
                     {% endunless %}
                     <div class="swiper-container product-recommendations__slideshow">
-                        <div class="style-product-recent">
+                        <div class="swiper-wrapper">
                             {%- for product in recommendations.products -%}
                                 {% comment %}
                                     Check if the product is on sale and set a variable to be used below.
@@ -35,8 +35,8 @@
                                     {% assign sold_out = false %}
                                 {% endif %}
 
-                                <div class="">
-                                    <div class="">
+                                <div class="grid__item swiper-slide">
+                                    <div class="grid-view-item">
                                       {% render 'grid-view-item', product: product, collection: null, hover_effect: false, quick_shop: settings.quick_shop_enable, quick_add: settings.quick_add_enable, show_vendor: false, show_reviews: settings.show_reviews %}
                                     </div>
                                 </div>
