@@ -49474,6 +49474,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
         const nextEl = this.element.querySelector('.swiper-button--next');
         const prevEl = this.element.querySelector('.swiper-button--prev');
         this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
+         loop: true,
           slidesPerView: 3,
           navigation: {
             nextEl,
@@ -50913,6 +50914,7 @@ class RecentlyViewed_RecentlyViewed {
       const prevEl = this.element.querySelector('.swiper-button--prev');
       this.$element.fadeIn();
       this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
+        loop: true,
         slidesPerView: 3,
         navigation: {
           nextEl,
