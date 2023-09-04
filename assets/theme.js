@@ -50193,6 +50193,8 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
     RightDrawer_initializerDefineProperty(this, "searchArticles", RightDrawer_descriptor6, this);
 
     RightDrawer_initializerDefineProperty(this, "searchCollections", RightDrawer_descriptor7, this);
+
+    setTimeout(initializeSlickSlider, 1000);
   }
 
   data() {
