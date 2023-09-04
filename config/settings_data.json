@@ -772,7 +772,7 @@
           "599713b5-e04b-4f33-9b8f-c3572dbfe025"
         ],
         "custom_css": [
-          "@media (max-width: 768px) {#s-0c233996-3d7f-4956-89fa-5af121bc06ef img.shogun-image, #s-0c233996-3d7f-4956-89fa-5af121bc06ef .shg-image-content-wrapper{object-fit: cover;}}"
+          "@media (max-width: 768px) {#s-ef87aa2e-8369-4c70-a2e7-ecfa61dec953 {padding-top: 1em; }}"
         ],
         "settings": {
           "page_width": "narrow",
