@@ -50913,14 +50913,14 @@ class RecentlyViewed_RecentlyViewed {
       const prevEl = this.element.querySelector('.swiper-button--prev');
       this.$element.fadeIn();
       this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
-        slidesPerView: 2,
+        slidesPerView: 3,
         navigation: {
           nextEl,
           prevEl
         },
         breakpoints: {
           600: {
-            slidesPerView: 4
+            slidesPerView: 2
           }
         },
         watchOverflow: true,
