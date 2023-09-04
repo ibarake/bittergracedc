@@ -49481,6 +49481,9 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
             prevEl
           },
           breakpoints: {
+            400: {
+              slidesPerView: 1
+            },
             600: {
               slidesPerView: 1
             },
