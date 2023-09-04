@@ -1197,19 +1197,19 @@
         "settings": {
         }
       },
-      "6570643953009571346": {
-        "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-product-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
-        "disabled": false,
-        "settings": {
-          "placement_selector": "",
-          "multiple_widgets": false
-        }
-      },
       "9935253873646526303": {
         "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-page-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
         "disabled": false,
         "settings": {
           "placement_selector": ""
+        }
+      },
+      "6570643953009571346": {
+        "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-product-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
+        "disabled": true,
+        "settings": {
+          "placement_selector": "",
+          "multiple_widgets": false
         }
       }
     }
