@@ -7131,7 +7131,7 @@ a.plyr__control::before {
 .swiper-container {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 95%; 
   position: relative;
   overflow: hidden;
   list-style: none;
