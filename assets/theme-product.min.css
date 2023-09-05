@@ -17717,6 +17717,7 @@ body.js-drawer-open {
 .grid__item .grid-view-item img {
   width: auto;
   height: 60vh;
+  object-fit: cover;
 }
 .stile-with-title {
 color: #000;
