@@ -36503,14 +36503,7 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      try {
-      const response2 = await fetch('/cart.json');
-      const cart = await response2.json();
-      } catch(e){
-        console.log(e);
-      }
-      
-      console.log(response2, cart);
+  
       this.theme.toggleRightDrawer('cart');
       
       console.log(e, this);
