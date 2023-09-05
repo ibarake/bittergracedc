@@ -36503,13 +36503,10 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      
-      if (!response2.ok) {
-        // FIXME: error handling
-        this.addingToCart = false;
-        return;
-      }
-      this.theme.toggleRightDrawer('cart',{
+      const response2 = await fetch('/cart.json');
+
+      const cart = await response2.json();
+      this.theme.toggleRightDrawer('cart',true ,  {
           cart: cart
         });
       
