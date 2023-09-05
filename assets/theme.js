@@ -50274,16 +50274,28 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
   }
 
   close() {
-    document.body.classList.remove('js-drawer-open');
-    document.body.classList.remove('js-drawer-open-right');
-    console.log(this);
-    if (this.cart.item_count){
-       Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
+  document.body.classList.remove('js-drawer-open');
+  document.body.classList.remove('js-drawer-open-right');
+  console.log(this);
+
+  // Verificar si this.cart y this.cart.item_count existen
+  if (this.cart && typeof this.cart.item_count !== 'undefined') {
+    let elements = document.querySelectorAll('.cart-item-count-header--quantity');
+    
+    // Verificar si se seleccionaron elementos
+    if (elements.length > 0) {
+      Array.prototype.forEach.call(elements, el => {
         el.textContent = this.cart.item_count;
       });
+    } else {
+      console.warn('No se encontraron elementos con la clase .cart-item-count-header--quantity');
     }
-   
-    this.isOpen = false;
+  } else {
+    console.error('this.cart o this.cart.item_count no está definido');
+  }
+
+  this.isOpen = false;
+
   }
 
   open() {
