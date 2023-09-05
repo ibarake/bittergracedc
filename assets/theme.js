@@ -36503,8 +36503,10 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-  
-      this.theme.toggleRightDrawer('cart');
+      const cart = await window.fetch('/cart.js');
+      this.theme.toggleRightDrawer('cart',true ,  {
+          cart: cart
+        });
       
       console.log(e, this);
     };
@@ -50277,9 +50279,11 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
     document.body.classList.remove('js-drawer-open');
     document.body.classList.remove('js-drawer-open-right');
     console.log(this);
+    if (this.cart.item_count){  
     Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
         el.textContent = this.cart.item_count;
       });
+    }
     this.isOpen = false;
   }
 
