@@ -36506,9 +36506,8 @@ class Header_Header extends Section_Section {
       const response2 = await fetch('/cart.json');
 
       const cart = await response2.json();
-      this.theme.toggleRightDrawer('cart',true ,  {
-          cart: cart
-        });
+      console.log(response2, cart);
+      this.theme.toggleRightDrawer('cart');
       
       console.log(e, this);
     };
