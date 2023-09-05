@@ -36492,6 +36492,7 @@ class Header_Header extends Section_Section {
     super(theme, _element, pageLoad);
 
     this.onCartUpdate = e => {
+      console.log(e)
       Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
         el.textContent = e.detail.cart.item_count;
       });
