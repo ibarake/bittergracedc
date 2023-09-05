@@ -36503,9 +36503,11 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      /*this.theme.toggleRightDrawer('cart',{
-          cart: this.cart
-        });*/
+      const cart = await window.fetch('/cart.js');
+      this.theme.toggleRightDrawer('cart',true ,  {
+          cart: cart
+        });
+      
       console.log(e, this);
     };
 
