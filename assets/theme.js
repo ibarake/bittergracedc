@@ -51726,6 +51726,7 @@ class Theme_Theme extends ThemeBase_ThemeBase {
     };
 
     this.updateCartDrawer = cart => {
+      console.log(cart)
       const event = new CustomEvent(CART_UPDATE_EVENT, {
         detail: {
           cart
