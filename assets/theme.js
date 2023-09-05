@@ -36503,13 +36503,7 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      const response2 = await window.fetch('/cart.js', {
-        method: 'GET',
-        credentials: 'same-origin',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        },});
-
+      
       if (!response2.ok) {
         // FIXME: error handling
         this.addingToCart = false;
@@ -36517,7 +36511,7 @@ class Header_Header extends Section_Section {
       }
 
       const cart = await response2.json();
-      this.theme.toggleRightDrawer('cart',true ,  {
+      this.theme.toggleRightDrawer('cart',{
           cart: cart
         });
       
