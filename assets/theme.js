@@ -36506,7 +36506,7 @@ class Header_Header extends Section_Section {
       /*this.theme.toggleRightDrawer('cart',{
           cart: this.cart
         });*/
-      console.log(e);
+      console.log(e, this);
     };
 
     this.onMobileMenuButtonClick = e => {
