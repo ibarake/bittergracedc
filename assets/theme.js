@@ -36503,7 +36503,9 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      this.theme.toggleRightDrawer('cart');
+      this.theme.toggleRightDrawer('cart', true, {
+          cart: cart
+        });
       console.log("Es:" + e);
     };
 
