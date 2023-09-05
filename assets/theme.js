@@ -50274,11 +50274,9 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
     document.body.classList.remove('js-drawer-open');
     document.body.classList.remove('js-drawer-open-right');
     console.log(this);
-    /*
     Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
-        el.textContent = e.detail.cart.item_count;
+        el.textContent = this.cart.item_count;
       });
-      */
     this.isOpen = false;
   }
 
