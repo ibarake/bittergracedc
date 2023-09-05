@@ -36492,7 +36492,6 @@ class Header_Header extends Section_Section {
     super(theme, _element, pageLoad);
 
     this.onCartUpdate = e => {
-      console.log(e)
       Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
         el.textContent = e.detail.cart.item_count;
       });
@@ -48278,15 +48277,6 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 
 function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
-
-
-
-
-
-
-
-
-
 /** @typedef {import('theme-checker/dist/shopify').Variant} Variant */
 
 /** @typedef {import('theme-checker/dist/shopify').Product} Product */
@@ -50283,6 +50273,12 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
   close() {
     document.body.classList.remove('js-drawer-open');
     document.body.classList.remove('js-drawer-open-right');
+    console.log(this);
+    /*
+    Array.prototype.forEach.call(document.querySelectorAll('.cart-item-count-header--quantity'), el => {
+        el.textContent = e.detail.cart.item_count;
+      });
+      */
     this.isOpen = false;
   }
 
@@ -51727,7 +51723,6 @@ class Theme_Theme extends ThemeBase_ThemeBase {
     };
 
     this.updateCartDrawer = cart => {
-      console.log(cart)
       const event = new CustomEvent(CART_UPDATE_EVENT, {
         detail: {
           cart
