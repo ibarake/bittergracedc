@@ -257,7 +257,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 location.href = window.cart_route
             }
            {% endcomment %}
+  
           const response = await window.fetch("/cart.js");
+          const cart = await response.json();
+          window.wetheme.toggleRightDrawer("cart", true , {
+            cart: cart
+          })
         }
 
         // Shopify format money (helper function)
