@@ -50246,7 +50246,7 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
       forceOpen,
       params
     } = event.detail;
-
+    console.log(this)
     if (params) {
       if (params.url) {
         const url = params.url;
