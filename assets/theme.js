@@ -36509,8 +36509,6 @@ class Header_Header extends Section_Section {
         this.addingToCart = false;
         return;
       }
-
-      const cart = await response2.json();
       this.theme.toggleRightDrawer('cart',{
           cart: cart
         });
