@@ -36503,7 +36503,7 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-      const cart = await window.fetch('/cart.js');
+      
       this.theme.toggleRightDrawer('cart',true ,  {
           cart: cart
         });
