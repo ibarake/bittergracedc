@@ -192,15 +192,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
   window.initializeSlickSlider = () => {
-      if ($('.style-product-recent').hasClass('slick-initialized')) {
-    $('.style-product-recent').slick('unslick');
-}
-    if ($('.slider-nav').hasClass('slick-initialized')) {
-    $('.slider-nav').slick('unslick');
-}
-    if ($('.slider-for').hasClass('slick-initialized')) {
-    $('.slider-for').slick('unslick');
-}
+$('.style-product-recent').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            // your slick options here
+        });
+    }
+});
+    $('.slider-nav').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            // your slick options here
+        });
+    }
+});
+    $('.slider-for').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            // your slick options here
+        });
+    }
+});
 
      $('.style-product-recent').slick({
         slidesToShow: 3,
