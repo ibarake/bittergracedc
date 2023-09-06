@@ -256,7 +256,7 @@ const toggleContent = () => {
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
               
               if (otherContent !== content) {
-                
+                console.log('easyslider-header toggled');  
                     otherContent.style.transform = 'scaleY(0)';
                     otherContent.style.maxHeight = '0';
                     otherContent.classList.remove('easyslider-active');
@@ -265,13 +265,13 @@ const toggleContent = () => {
 
             // Toggle the clicked easyslider-content
             if (content.style.transform === 'scaleY(0)') {
-                content.classList.add('easyslider-active');
-                content.style.maxHeight = '1000px';
-                content.style.transform = 'scaleY(1)';
-            } else {
                 content.classList.remove('easyslider-active');
                 content.style.transform = 'scaleY(0)';
                 content.style.maxHeight = '0';
+            } else {
+                content.classList.add('easyslider-active');
+                content.style.maxHeight = '1000px';
+                content.style.transform = 'scaleY(1)';   
             }
 
         };
