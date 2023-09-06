@@ -261,7 +261,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         content.style.transformOrigin = 'center top';
 
         const toggleContent = () => {
-            
+            event.stopPropagation();
             // Close all other easyslider-contents
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
                 if (otherContent !== content) {
