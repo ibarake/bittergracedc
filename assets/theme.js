@@ -46047,7 +46047,7 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      setTimeout(initializeSlickSlider, 5000);
+      setTimeout(window.initializeSlickSlider, 1000);
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
@@ -49062,7 +49062,7 @@ class ProductSection_ProductSection extends Section_Section {
     this.loadReadmore();
     this.loadTabs();
     this.scrollToPostedForm();
-    setTimeout(initializeSlickSlider, 5000);
+    setTimeout(window.initializeSlickSlider, 1000);
   }
 
   get isFeaturedProduct() {
@@ -51034,7 +51034,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      setTimeout(initializeSlickSlider, 5000);
+      setTimeout(window.initializeSlickSlider, 1000);
     };
 
     this.loadReviews = () => {
