@@ -192,6 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
   window.initializeSlickSlider = () => {
+    initializeProductPageSlider()
 $('.style-product-recent').each(function() {
     if (!$(this).hasClass('slick-initialized')) {
         $(this).slick({
@@ -325,7 +326,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 
     window.initializeSlickSlider();
 });
-  function initializeProductPageSlider() {
+  window.initializeProductPageSlider = () => {
         const slideHeaders = document.querySelectorAll('.product-form-vue .easyslider-header');
 
     slideHeaders.forEach((sh) => {
