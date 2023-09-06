@@ -279,17 +279,18 @@ const toggleContent = () => {
 document.querySelectorAll('.easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
 
-    esh.style.cursor = 'pointer';
+    
+
+    // Check if the event listener has already been added using a data attribute
+    if (!esh.dataset.listenerAdded) {
+        esh.addEventListener('click', toggleContent);
+      esh.style.cursor = 'pointer';
     content.style.transform = 'scaleY(0)';
     content.style.display = 'block';
     content.style.maxHeight = '0';
     content.style.overflow = 'hidden';
     content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
     content.style.transformOrigin = 'center top';
-
-    // Check if the event listener has already been added using a data attribute
-    if (!esh.dataset.listenerAdded) {
-        esh.addEventListener('click', toggleContent);
         esh.dataset.listenerAdded = 'true'; // Mark the element as having the listener added
     }
 });
