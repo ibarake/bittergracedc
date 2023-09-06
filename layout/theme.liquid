@@ -283,7 +283,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
             }
 
         };
-
+        esh.removeEventListener('click', toggleContent);
         esh.addEventListener('click', toggleContent);
         
     });
