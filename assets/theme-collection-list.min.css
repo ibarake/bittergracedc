@@ -12,6 +12,9 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  *
  * Copyright (c) 2018 Daniel Eden
  */
+con-products .grid__image img {
+  max-height: 201px;
+}
 @media (max-width: 768px) {
   container-products {
     flex-direction: column !important;
