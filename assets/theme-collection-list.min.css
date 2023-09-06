@@ -13,7 +13,7 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
  * Copyright (c) 2018 Daniel Eden
  */
 con-products a img {
-  min-height: 210px;
+  min-height: 230px;
   object-fit: cover;
 }
 @media (max-width: 768px) {
