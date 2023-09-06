@@ -261,7 +261,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         content.style.transformOrigin = 'center top';
 
         const toggleContent = () => {
-            console.log('easyslider-header toggled');
+            
             // Close all other easyslider-contents
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
                 if (otherContent !== content) {
@@ -281,7 +281,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
                 content.style.transform = 'scaleY(0)';
                 content.style.maxHeight = '0';
             }
-
+            console.log('easyslider-header toggled');
         };
         esh.removeEventListener('click', toggleContent);
         esh.addEventListener('click', toggleContent);
