@@ -12,7 +12,6 @@ If you want more control over source files please request the Developer Edition 
  *
  * Copyright (c) 2018 Daniel Eden
  */
-
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -6148,7 +6147,6 @@ a.plyr__control::after, a.plyr__control::before {
   font-style: normal; }
 
 :root {
-  --gray-color: #979797;
   --swiper-theme-color:#007aff; }
 
 .swiper-container {

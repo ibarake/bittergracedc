@@ -76,7 +76,7 @@
 						{% endif %}
                       
                       <div class="footer-phone">			
-                        <u><a href="tel:202-450-1086">(202) 450-1086</a></u>
+                        <u><a href="tel:443-812-0342">(202) 450-1086</a></u>
                       </div>
                       
 					</div>
@@ -84,7 +84,7 @@
 				{% when 'image' %}
 
 					<div class="grid__item {{ footer_item_width }} image-footer">
-						{% if block.settings.image != blank %} 
+						{% if block.settings.image != blank %}
 				      {%- assign img_url = block.settings.image | img_url: '600x' -%}
 				    {% else %}
 				      {%- assign img_url = '' -%}
@@ -94,7 +94,7 @@
 				    {% elsif img_url != blank %}
 				      <div class="image-bar__item">
 				    {% else %}
-				      <div class="image-bar__item"> 
+				      <div class="image-bar__item">
 				    {% endif %}
 				    <div class="image-bar__content">
 				      {% if img_url == blank %}
@@ -113,26 +113,9 @@
 				      <h3 class="image-bar--title">{{ block.settings.title }}</h3>
 				    {% endif %}
 					</div>
-                  
-               {% when 'imageAndtext' %}
-                 <div class="grid__item  image-footer image-text">
-                   <style>
-                     .image-text {
-                       width: 25%;
-                     }
-                     @media only screen and (max-width: 768px) {
-                      .image-text {
-                       width: 50%;
-                     }
-                     }
-                   </style>
-                     <a href="{{ block.settings.linkLogo }}">
-                      {{ block.settings.imageLogo | img_tag }}
-                     </a>  
-                   <p class="rte footer-article description"> {{ block.settings.description }} </p>
-                 </div>
-                        
+
 				{% when 'newsletter' %}
+
 					<div class="grid__item {{ footer_item_width }} newsletter-footer">
 						{% if block.settings.newsletter_title == "" %}
 							<div class="h3 footer-header">{{ 'layout.footer.newsletter_title' | t }}</div>
@@ -162,10 +145,8 @@
 							{% endif %}
 						{% endform %}
 					</div>
-			    {% endcase %}
 
-                
-               
+			{% endcase %}
 
 	{% endfor %}
 
@@ -218,7 +199,7 @@
         "fr": "Pied de page",
         "pt-PT": "Rodapé"
     },
-    "max_blocks": 6,
+    "max_blocks": 4,
     "settings": [
         {
             "type": "richtext",
@@ -481,7 +462,6 @@
                 }
             ]
         },
-      
         {
             "type": "image",
             "name": {
@@ -540,37 +520,7 @@
                     }
                 }
             ]
-        },
-      {
-            "type": "imageAndtext",
-            "name": {
-                "en": "Text and image"
-            },
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "imageLogo",
-                    "label": {
-                        "en": "Image"
-                    }
-                },
-                {
-                    "type": "url",
-                    "id": "linkLogo",
-                    "label": {
-                        "en": "Link"
-                    }
-                },
-                {
-                    "type": "text",
-                    "id": "description",
-                    "label": {
-                        "en": "Description"
-                    }
-                }
-            ]
         }
-      
     ]
 }
 {% endschema %}

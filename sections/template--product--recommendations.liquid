@@ -1,73 +1,68 @@
 {%- if section.settings.show_product_recommendations %}
-  <div
-    class="product-recommendations"
-    data-product-id="{{ product.id }}"
-    data-limit="8"
-    data-recommendations-url="{{ routes.product_recommendations_url }}"
-    data-wetheme-section-type="template--product--recommendations"
-    data-wetheme-section-id="{{ section.id }}"
-  >
-    {%- if recommendations.products_count > 0 -%}
-      <div class="product-page-related-products product-sticker-stop">
-        <div class="wrapper">
-          <div class="style-with-container">
-            {% unless section.settings.product_recommendations_heading == blank %}
-              <div class="sitewide--title-wrapper">
-                <h2 class="stile-with-title">{{ section.settings.product_recommendations_heading }}</h2>
-              </div>
-            {% endunless %}
-            <div class="swiper-container product-recommendations__slideshow">
-              <div class="style-product-recent">
-                {%- for product in recommendations.products -%}
-                  {% comment %}
-                    Check if the product is on sale and set a variable to be used below.
-                  {% endcomment %}
-                  {% assign on_sale = false %}
-                  {% if product.compare_at_price > product.price %}
-                    {% assign on_sale = true %}
-                  {% endif %}
+    <div
+      class="product-recommendations"
+      data-product-id="{{ product.id }}"
+      data-limit="8"
+      data-recommendations-url="{{ routes.product_recommendations_url }}"
+      data-wetheme-section-type="template--product--recommendations"
+      data-wetheme-section-id="{{ section.id }}"
+    >
 
-                  {% comment %}
-                    Check if the product is sold out and set a variable to be used below.
-                  {% endcomment %}
-                  {% assign sold_out = true %}
-                  {% if product.available %}
-                    {% assign sold_out = false %}
-                  {% endif %}
+        {%- if recommendations.products_count > 0 -%}
 
-                  <div class="">
-                    <div class="">
-                      {% render 'grid-view-item',
-                        product: product,
-                        collection: null,
-                        hover_effect: false,
-                        quick_shop: settings.quick_shop_enable,
-                        quick_add: settings.quick_add_enable,
-                        show_vendor: false,
-                        show_reviews: settings.show_reviews
-                      %}
+            <div class="product-page-related-products product-sticker-stop">
+
+                <div class="wrapper">
+
+                    {% unless section.settings.product_recommendations_heading == blank %}
+                        <div class="sitewide--title-wrapper">
+                            <h2 class="page--title">{{ section.settings.product_recommendations_heading }}</h2>
+                        </div>
+                    {% endunless %}
+                    <div class="swiper-container product-recommendations__slideshow">
+                        <div class="swiper-wrapper">
+                            {%- for product in recommendations.products -%}
+                                {% comment %}
+                                    Check if the product is on sale and set a variable to be used below.
+                                {% endcomment %}
+                                {% assign on_sale = false %}
+                                {% if product.compare_at_price > product.price %}
+                                    {% assign on_sale = true %}
+                                {% endif %}
+
+                                {% comment %}
+                                    Check if the product is sold out and set a variable to be used below.
+                                {% endcomment %}
+                                {% assign sold_out = true %}
+                                {% if product.available %}
+                                    {% assign sold_out = false %}
+                                {% endif %}
+
+                                <div class="grid__item swiper-slide">
+                                    <div class="grid-view-item">
+                                      {% render 'grid-view-item', product: product, collection: null, hover_effect: false, quick_shop: settings.quick_shop_enable, quick_add: settings.quick_add_enable, show_vendor: false, show_reviews: settings.show_reviews %}
+                                    </div>
+                                </div>
+                            {%- endfor -%}
+                        </div>
                     </div>
-                  </div>
-                {%- endfor -%}
-              </div>
+                    <div class="swiper-button--prev">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="swiper-button--next">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+
+                </div>
             </div>
-            <div class="swiper-button--prev">
-              <i class=""> {% render 'style-with-prev-icon' %} </i>
-            </div>
-            <div class="swiper-button--next">
-              <i class=""> {% render 'style-with-next-icon' %}</i>
-            </div>
-          </div>
-        </div>
-      </div>
-    {%- endif -%}
-  </div>
+        {%- endif -%}
+    </div>
 {%- endif -%}
 
 {% schema %}
 {
     "name": {
-        "en": "Style with",
+        "en": "Product recommendations",
         "de": "Produktempfehlungen",
         "es": "Recomendaciones de productos",
         "fr": "Recommandations de produits",

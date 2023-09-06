@@ -1,14 +1,13 @@
-
 /* *****
 This is a concatenated, un-minified file. It is NOT used by the theme by default.
 We recommend using this file to make small edits to the theme's code.
 For instructions on switching between minified and un-minified files see our documentation:
 https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-minified-css-javascript-and-theme-developer-editions
 If you want more control over source files please request the Developer Edition from support.
-***** */ 
+***** */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = {};  
+/******/ 	var installedModules = {};
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -36503,10 +36502,7 @@ class Header_Header extends Section_Section {
 
     this.onCartButtonClick = e => {
       e.preventDefault();
-  
       this.theme.toggleRightDrawer('cart');
-      
-      console.log(e, this);
     };
 
     this.onMobileMenuButtonClick = e => {
@@ -41268,7 +41264,7 @@ class swiper_esm_bundle_Swiper extends SwiperClass {
 
     el.swiper = swiper;
     $el.data('swiper', swiper);
-    
+
     // Find Wrapper
     let $wrapperEl;
     if (el && el.shadowRoot && el.shadowRoot.querySelector) {
@@ -41397,7 +41393,6 @@ class swiper_esm_bundle_Swiper extends SwiperClass {
     // Return app instance
     return swiper;
   }
-  
 
   slidesPerViewDynamic() {
     const swiper = this;
@@ -46047,7 +46042,6 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
@@ -48280,6 +48274,15 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 
 function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+
+
+
+
+
+
+
+
+
 /** @typedef {import('theme-checker/dist/shopify').Variant} Variant */
 
 /** @typedef {import('theme-checker/dist/shopify').Product} Product */
@@ -48583,7 +48586,6 @@ let ProductSection_ProductForm = (_dec = vue_class_component_esm({
     } else {
       window.ShopifyXR('addModels', models);
     }
-    setTimeout(initializeSlickSlider, 1000);
   }
 
   onVariantChange() {
@@ -49063,7 +49065,6 @@ class ProductSection_ProductSection extends Section_Section {
     this.loadReadmore();
     this.loadTabs();
     this.scrollToPostedForm();
-    
   }
 
   get isFeaturedProduct() {
@@ -49469,15 +49470,14 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
         const nextEl = this.element.querySelector('.swiper-button--next');
         const prevEl = this.element.querySelector('.swiper-button--prev');
         this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
-         loop: true,
-          slidesPerView: 1,
+          slidesPerView: 2,
           navigation: {
             nextEl,
             prevEl
           },
           breakpoints: {
             600: {
-              slidesPerView: 1
+              slidesPerView: 4
             }
           },
           watchOverflow: true
@@ -50245,17 +50245,15 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
       forceOpen,
       params
     } = event.detail;
-    console.log(this, event)
+
     if (params) {
       if (params.url) {
         const url = params.url;
 
         if (this.quickShopProductUrl !== url) {
-
           this.fetchProductPage(url);
           this.quickShopProductId = url;
         }
-        setTimeout(window.initializeSlickSlider, 1000);
       }
 
       if (params.cart) {
@@ -50272,28 +50270,9 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
   }
 
   close() {
-  document.body.classList.remove('js-drawer-open');
-  document.body.classList.remove('js-drawer-open-right');
-  console.log(this);
-
-  // Verificar si this.cart y this.cart.item_count existen
-  if (this.cart && typeof this.cart.item_count !== 'undefined') {
-    let elements = document.querySelectorAll('.cart-item-count-header--quantity');
-    
-    // Verificar si se seleccionaron elementos
-    if (elements.length > 0) {
-      Array.prototype.forEach.call(elements, el => {
-        el.textContent = this.cart.item_count;
-      });
-    } else {
-      console.warn('No se encontraron elementos con la clase .cart-item-count-header--quantity');
-    }
-  } else {
-    console.error('this.cart o this.cart.item_count no está definido');
-  }
-
-  this.isOpen = false;
-
+    document.body.classList.remove('js-drawer-open');
+    document.body.classList.remove('js-drawer-open-right');
+    this.isOpen = false;
   }
 
   open() {
@@ -50925,15 +50904,14 @@ class RecentlyViewed_RecentlyViewed {
       const prevEl = this.element.querySelector('.swiper-button--prev');
       this.$element.fadeIn();
       this.swiper = new swiper_esm_bundle(this.element.querySelector('.swiper-container'), {
-        loop: true,
-        slidesPerView: 1,
+        slidesPerView: 2,
         navigation: {
           nextEl,
           prevEl
         },
         breakpoints: {
           600: {
-            slidesPerView: 1
+            slidesPerView: 4
           }
         },
         watchOverflow: true,
@@ -51032,7 +51010,6 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      
     };
 
     this.loadReviews = () => {
@@ -51936,4 +51913,3 @@ window.gm_authFailure = function () {
 document.addEventListener('easyslide_inited', function(){
     window.easysliderExtraTopOffset = document.querySelector('.site-header').offsetHeight+30;
 });
-			

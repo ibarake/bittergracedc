@@ -12,29 +12,6 @@ If you want more control over source files please request the Developer Edition 
  *
  * Copyright (c) 2018 Daniel Eden
  */
-footer {
-  background-color: var(--color-scheme-dark-background);
-}
-footer a,
-.footer-content {
-  color: var(--color-scheme-feature-text-transparent60);
-}
-footer .footer-header {
-  color: var(--color-scheme-feature-text);
-}
-.footer-article,
-.footer-article a,
-.footer-content a {
-  color: var(--color-scheme-feature-text-transparent60);
-}
-.social-media-footer ul li a {
-  color: var(--color-scheme-feature-text-transparent60);
-  transition: all 0.15s ease-in-out 0s;
-}
-footer a:active,
-footer a:hover {
-  color: var(--cart-background-color);
-}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
