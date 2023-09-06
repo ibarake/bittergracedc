@@ -261,7 +261,8 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         content.style.transformOrigin = 'center top';
 
         const toggleContent = () => {
-            
+                if (esh.dataset.eventAttached) return;
+
             // Close all other easyslider-contents
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
                 if (otherContent !== content) {
@@ -287,7 +288,8 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         };
         esh.removeEventListener('click', toggleContent);
         esh.addEventListener('click', toggleContent);
-        
+            esh.dataset.eventAttached = 'true';
+
     });
 };
   $(document).ready(function() {
