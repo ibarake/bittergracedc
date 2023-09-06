@@ -267,17 +267,14 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
                 if (otherContent !== content) {
                     otherContent.style.transform = 'scaleY(0)';
                     otherContent.style.maxHeight = '0';
-                    otherContent.classList.remove('easyslider-active');
                 }
             });
 
             // Toggle the clicked easyslider-content
             if (content.style.transform === 'scaleY(0)') {
-                content.classList.add('easyslider-active');
                 content.style.maxHeight = '1000px';
                 content.style.transform = 'scaleY(1)';
             } else {
-                content.classList.remove('easyslider-active');
                 content.style.transform = 'scaleY(0)';
                 content.style.maxHeight = '0';
             }
