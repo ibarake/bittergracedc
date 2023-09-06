@@ -46047,7 +46047,7 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      setTimeout(window.initializeSlickSlider, 1000);
+      
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
@@ -48583,7 +48583,7 @@ let ProductSection_ProductForm = (_dec = vue_class_component_esm({
     } else {
       window.ShopifyXR('addModels', models);
     }
-    setTimeout(window.initializeSlickSlider, 1000)
+    
   }
 
   onVariantChange() {
@@ -49063,7 +49063,7 @@ class ProductSection_ProductSection extends Section_Section {
     this.loadReadmore();
     this.loadTabs();
     this.scrollToPostedForm();
-    setTimeout(window.initializeSlickSlider, 1000);
+    
   }
 
   get isFeaturedProduct() {
@@ -50233,7 +50233,6 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
 
   mounted() {
     document.documentElement.addEventListener(TOGGLE_RIGHT_DRAWER_EVENT, this.handleToggle);
-    setTimeout(window.initializeSlickSlider, 1000);
   }
 
   beforeDestroy() {
@@ -51033,7 +51032,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      setTimeout(window.initializeSlickSlider, 1000);
+      
     };
 
     this.loadReviews = () => {
