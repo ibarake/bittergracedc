@@ -1127,8 +1127,8 @@
           "2a8a7f51-da18-475b-9872-3a55386ed9d1": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/BNT_D4.png",
-              "collection": "sustainable-cashmere",
+              "f-image": "shopify:\/\/shop_images\/S9N00386_1.jpg",
+              "collection": "athleisure-wear",
               "button-text": "See more accesories",
               "box_position": "left"
             }
@@ -1136,18 +1136,18 @@
           "9e367cd6-927f-4819-be41-c972fc590292": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/SWD_D2.png",
-              "collection": "sustainable-cashmere",
-              "button-text": "See more accesories",
+              "f-image": "shopify:\/\/shop_images\/6_BG-015copy.jpg",
+              "collection": "basics",
+              "button-text": "See more Back To Basics",
               "box_position": "right"
             }
           },
           "1e1394c0-b879-4e1d-86a3-49e86dcfa37b": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/SWD.png",
-              "collection": "shoes",
-              "button-text": "See more accesories",
+              "f-image": "shopify:\/\/shop_images\/PONCHO_4.jpg",
+              "collection": "sustainable-cashmere",
+              "button-text": "See more Cashemere Collection",
               "box_position": "left"
             }
           }
