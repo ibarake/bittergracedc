@@ -76,7 +76,7 @@
 						{% endif %}
                       
                       <div class="footer-phone">			
-                        <u><a href="tel:202-450-1086">(202) 450-1086</a></u>
+                        <u><a href="tel:{{ block.settings.footer_phone }}">{{ block.settings.footer_phone }}</a></u>
                       </div>
                       
 					</div>
@@ -218,7 +218,7 @@
         "fr": "Pied de page",
         "pt-PT": "Rodapé"
     },
-    "max_blocks": 6,
+    "max_blocks": 7,
     "settings": [
         {
             "type": "richtext",
@@ -230,6 +230,11 @@
                 "fr": "Texte de bas de page",
                 "pt-PT": "Texto de rodapé"
             }
+        }, 
+        {
+        "type": "text",
+        "id": "footer_phone",
+        "label": "Phonje"
         },
         {
             "type": "checkbox",
