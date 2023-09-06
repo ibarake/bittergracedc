@@ -50234,7 +50234,7 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
 
   mounted() {
     document.documentElement.addEventListener(TOGGLE_RIGHT_DRAWER_EVENT, this.handleToggle);
-    setTimeout(window.initializeSlickSlider, 5000);
+    setTimeout(window.initializeSlickSlider, 1000);
   }
 
   beforeDestroy() {
