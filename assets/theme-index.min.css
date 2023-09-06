@@ -20009,7 +20009,7 @@ body.js-drawer-open {
 @media screen and (min-width: 767px) {
   .feature-row--no-overlapping .homepage-featured-content-wrapper {
     display: flex;
-    height: 85vh;
+    height: auto;
   }
   #shopify-section-image--image-with-text-1 .feature-row--no-overlapping .homepage-featured-content-wrapper {
     height: auto;
