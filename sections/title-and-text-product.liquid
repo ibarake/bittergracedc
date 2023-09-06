@@ -1,13 +1,26 @@
 <section class="container-sec-tatp">
   <div class="container-text-tatp">
-    <h1 id="title-tatp">Fewrt, better</h1>
-    <p id="paragraph-tatp">We believe time is the new luxury, fewer, better celebrates a style of life valuing a simpler, smarter wey, Designer with longevity and made responsibly, each piece is made for everyday ease so that you love what you wear</p>
+    <h1 id="title-tatp">{{ section.settings.title }}</h1>
+    <p id="paragraph-tatp">{{ section.settings.paragraph }}</p>
     <hr id="line-tatp">
   </div>
 </section>
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Title"
+      },
+      {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Welcome to my shop!"
+      }
+    ]
   }
 {% endschema %}
