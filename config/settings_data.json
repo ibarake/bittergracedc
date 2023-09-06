@@ -1114,7 +1114,7 @@
       "template--style-with": {
         "type": "template--style-with",
         "custom_css": [
-          ".quick-add-button-variants {display: flex; margin: auto; align-items: center; justify-content: center; width: 57%; height: 2.5em; padding: 10px 15px;}"
+          ".quick-add-button-variants {display: flex; margin: auto; align-items: center; justify-content: center; width: 90%; height: auto; padding: 10px 15px;}"
         ],
         "settings": {
           "show_product_recommendations": true,
@@ -1164,6 +1164,34 @@
       "title-and-text-product": {
         "type": "title-and-text-product",
         "settings": {
+        }
+      },
+      "drawer-product": {
+        "type": "drawer-product",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_tags": false,
+          "show_collections": false,
+          "show_type": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "shipping_policy": true,
+          "tax_included": true,
+          "show_smart_checkout": true,
+          "trust-badge_max_width": 260,
+          "show_discount": "percentage",
+          "description_position": "inline_bottom",
+          "enable_readmore": false,
+          "enable_sticky": true,
+          "enable_out_of_stock_form": false,
+          "product_variant_style": "swatches",
+          "thumbnail_changes_variant": false,
+          "hide_soldout_variants": false,
+          "image_size": "medium",
+          "image-display": "full-size",
+          "thumbnail_position": "below",
+          "enable_image_zoom": false,
+          "enable_video_loop": false
         }
       }
     },
