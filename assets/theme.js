@@ -50257,7 +50257,7 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
           this.fetchProductPage(url);
           this.quickShopProductId = url;
         }
-        setTimeout(initializeSlickSlider, 5000);
+        setTimeout(window.initializeSlickSlider, 1000);
       }
 
       if (params.cart) {
