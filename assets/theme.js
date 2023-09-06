@@ -48583,6 +48583,7 @@ let ProductSection_ProductForm = (_dec = vue_class_component_esm({
     } else {
       window.ShopifyXR('addModels', models);
     }
+    setTimeout(window.initializeSlickSlider, 1000)
   }
 
   onVariantChange() {
