@@ -1129,7 +1129,7 @@
             "settings": {
               "f-image": "shopify:\/\/shop_images\/S9N00386_1.jpg",
               "collection": "athleisure-wear",
-              "button-text": "See more accesories",
+              "button-text": "See more Athleisure Wear",
               "box_position": "left"
             }
           },
@@ -1150,12 +1150,42 @@
               "button-text": "See more Cashemere Collection",
               "box_position": "left"
             }
+          },
+          "381bb4cb-5074-48ca-b53a-d4f22b5eddd5": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/mable_ecopy.png",
+              "collection": "for-the-home",
+              "button-text": "See more accesories",
+              "box_position": "right"
+            }
+          },
+          "2416a4eb-3328-4fa6-aaa1-223c144ee2bc": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/BP_4.png",
+              "collection": "new-arrivals",
+              "button-text": "See more New Arrivals",
+              "box_position": "left"
+            }
+          },
+          "69afb520-2f1d-47e1-a84e-bfa87b94cf0c": {
+            "type": "Collection",
+            "settings": {
+              "f-image": "shopify:\/\/shop_images\/BP_2_6d748dc5-f9bb-45aa-8c5e-4aa8afcc6084.png",
+              "collection": "pants",
+              "button-text": "See more Pants",
+              "box_position": "right"
+            }
           }
         },
         "block_order": [
           "2a8a7f51-da18-475b-9872-3a55386ed9d1",
           "9e367cd6-927f-4819-be41-c972fc590292",
-          "1e1394c0-b879-4e1d-86a3-49e86dcfa37b"
+          "1e1394c0-b879-4e1d-86a3-49e86dcfa37b",
+          "381bb4cb-5074-48ca-b53a-d4f22b5eddd5",
+          "2416a4eb-3328-4fa6-aaa1-223c144ee2bc",
+          "69afb520-2f1d-47e1-a84e-bfa87b94cf0c"
         ],
         "settings": {
           "collection-as": "athleisure-wear"
