@@ -46047,7 +46047,7 @@ class FeaturedCollection_FeaturedCollection extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      window.initializeSlickSlider();
+      setTimeout(initializeSlickSlider, 5000);
     };
 
     Array.prototype.forEach.call(element.querySelectorAll('.shop-now-button, .quick-add-button-variants'), shopNow => {
@@ -49062,7 +49062,7 @@ class ProductSection_ProductSection extends Section_Section {
     this.loadReadmore();
     this.loadTabs();
     this.scrollToPostedForm();
-    window.initializeSlickSlider();
+    setTimeout(initializeSlickSlider, 5000);
   }
 
   get isFeaturedProduct() {
@@ -49491,7 +49491,7 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      window.initializeSlickSlider();
+      setTimeout(initializeSlickSlider, 5000);
     };
 
     this.theme = theme;
@@ -50258,7 +50258,7 @@ let RightDrawer_RightDrawer = (RightDrawer_dec = vue_class_component_esm({
           this.fetchProductPage(url);
           this.quickShopProductId = url;
         }
-        window.initializeSlickSlider();
+        setTimeout(initializeSlickSlider, 5000);
       }
 
       if (params.cart) {
@@ -51035,7 +51035,7 @@ class RecentlyViewed_RecentlyViewed {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      window.initializeSlickSlider();
+      setTimeout(initializeSlickSlider, 5000);
     };
 
     this.loadReviews = () => {
