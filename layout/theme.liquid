@@ -249,6 +249,8 @@ $('.style-product-recent').each(function() {
     }
 });
 
+
+
 document.querySelectorAll('.easyslider-header').forEach((esh) => {
         const content = esh.parentNode.querySelector('.easyslider-content');
 
@@ -260,25 +262,30 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
         content.style.transformOrigin = 'center top';
 
-        const toggleContent = (event) => {
+        const toggleContent = () => {
+            console.log('easyslider-header toggled');
             // Close all other easyslider-contents
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
                 if (otherContent !== content) {
                     otherContent.style.transform = 'scaleY(0)';
                     otherContent.style.maxHeight = '0';
+                    otherContent.classList.remove('easyslider-active');
                 }
-                          console.log('easyslider-header toggled');
             });
 
             // Toggle the clicked easyslider-content
             if (content.style.transform === 'scaleY(0)') {
+                content.classList.add('easyslider-active');
                 content.style.maxHeight = '1000px';
                 content.style.transform = 'scaleY(1)';
             } else {
+                content.classList.remove('easyslider-active');
                 content.style.transform = 'scaleY(0)';
                 content.style.maxHeight = '0';
             }
+
         };
+
         esh.addEventListener('click', toggleContent);
         
     });
