@@ -260,7 +260,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
         content.style.transformOrigin = 'center top';
 
-        const toggleContent = () => {
+        const toggleContent = (event) => {
             event.stopPropagation();
             // Close all other easyslider-contents
             document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
@@ -281,7 +281,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
             console.log('easyslider-header toggled');
         };
         esh.removeEventListener('click', toggleContent);
-        esh.addEventListener('click', toggleContent);
+        esh.addEventListener('click', toggleContent, { once: true });
         
     });
 };
