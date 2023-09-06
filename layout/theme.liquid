@@ -268,6 +268,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
                     otherContent.style.transform = 'scaleY(0)';
                     otherContent.style.maxHeight = '0';
                 }
+                          console.log('easyslider-header toggled');
             });
 
             // Toggle the clicked easyslider-content
@@ -278,7 +279,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
                 content.style.transform = 'scaleY(0)';
                 content.style.maxHeight = '0';
             }
-            console.log('easyslider-header toggled');
         };
         esh.removeEventListener('click', toggleContent);
         esh.addEventListener('click', toggleContent, { once: true });
