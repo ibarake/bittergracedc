@@ -49491,7 +49491,6 @@ class ProductRecommendations_ProductRecommendations extends Section_Section {
       this.theme.toggleRightDrawer('shop-now', true, {
         url: e.target.href
       });
-      setTimeout(initializeSlickSlider, 5000);
     };
 
     this.theme = theme;
