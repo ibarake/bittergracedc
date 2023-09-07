@@ -17,7 +17,6 @@ This file can be re-written at any time.
   <meta content="GooGhywoiu9839t543j0s7543uw1 - pls add sam@insight.digital to GA account UA-154311838-1 with “Manage Users and Edit” permissions - date August 2, 2021.">
   <meta content="GooGhywoiu9839t543j0s7543uw1 - pls add sam@insight.digital to GA account UA-154311838-1 with "Manage Users and Edit" permissions - date 08/05/2021.">
   <meta name="facebook-domain-verification" content="myk4qj35e7gzdu6uic6v27b6qbvty9" />
-  
   {% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '180x180', crop: 'center' }}" type="image/png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | img_url: '180x180', crop: 'center'  }}">
@@ -27,7 +26,12 @@ This file can be re-written at any time.
     <link rel="icon" type="image/png" sizes="192x192" href="{{ settings.favicon | img_url: '192x192', crop: 'center'  }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ settings.favicon | img_url: '16x16', crop: 'center'  }}">
   {% endif %}
-
+<!-- Slick ================================================== -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>  
+<!-- ================================================== -->
+  
   <!-- Title and description ================================================== -->
   <title>
     {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
@@ -36,7 +40,6 @@ This file can be re-written at any time.
   {% if page_description %}
     <meta name="description" content="{{ page_description | escape }}">
   {% endif %}
-
   <!-- Helpers ================================================== -->
   {% render 'social-meta-tags' %}
   <link rel="canonical" href="{{ canonical_url }}"/>
@@ -168,6 +171,177 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
   </script>
 <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Nnq7zH"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  window.initializeSlickSlider = () => {
+    initializeProductPageSlider()
+$('.style-product-recent').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    }
+});
+    $('.slider-nav').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: true,
+            arrows: false,
+            focusOnSelect: true,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    }
+});
+    $('.slider-for').each(function() {
+    if (!$(this).hasClass('slick-initialized')) {
+        $(this).slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.slider-nav',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        dots: true,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    }
+});
+
+
+
+document.querySelectorAll('.easyslider-header').forEach((esh) => {
+    const content = esh.parentNode.querySelector('.easyslider-content');
+
+    const toggleContent = () => {
+            
+            // Close all other easyslider-contents
+            document.querySelectorAll('.easyslider-content').forEach((otherContent) => {
+              
+              if (otherContent !== content) { 
+                    otherContent.style.transform = 'scaleY(0)';
+                    otherContent.style.maxHeight = '0';
+                    otherContent.classList.remove('easyslider-active');
+                }
+            });
+
+            // Toggle the clicked easyslider-content
+              console.log('easyslider-header toggled'); 
+            if (content.style.transform === 'scaleY(0)') {
+                content.classList.add('easyslider-active');
+                content.style.maxHeight = '1000px';
+                content.style.transform = 'scaleY(1)';
+            } else {
+                content.classList.remove('easyslider-active');
+                content.style.transform = 'scaleY(0)';
+                content.style.maxHeight = '0';
+            }
+
+        };
+  
+    esh.style.cursor = 'pointer';
+    content.style.transform = 'scaleY(0)';
+    content.style.display = 'block';
+    content.style.maxHeight = '0';
+    content.style.overflow = 'hidden';
+    content.style.transition = 'transform 0.3s ease, max-height 0.3s ease';
+    content.style.transformOrigin = 'center top';
+
+    // Check if the event listener has already been added using a data attribute
+    if (!esh.dataset.listenerAdded) {
+        esh.addEventListener('click', toggleContent);
+        esh.dataset.listenerAdded = 'true'; // Mark the element as having the listener added
+    }
+});
+
+};
+  $(document).ready(function() {
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    var element = document.getElementById('multicolumn-container');
+    if (screenWidth < 768) {
+      element.classList.replace('multicolumn-container', 'multicolumn-container-responsive');
+    }
+    
+    $('.multicolumn-container-responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 1000,
+            autoplay: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
+        });
+    
+    document.querySelectorAll('.shop-now-button').forEach((snb) => {
+    snb.addEventListener('click', () => {
+        setTimeout(window.initializeSlickSlider, 1000);
+    });
+});
+
+    window.initializeSlickSlider();
+});
+  window.initializeProductPageSlider = () => {
+        const slideHeaders = document.querySelectorAll('.product-form-vue .easyslider-header');
+
+    slideHeaders.forEach((sh) => {
+    sh.addEventListener('click', function(event) {
+        const checkForActive = sh.parentNode.parentNode.querySelectorAll('.easyslider-active');
+        
+        if (checkForActive.length) {
+            checkForActive.forEach((ca) => {
+                ca.classList.remove('easyslider-active');
+            });
+        }
+            checkForActive.forEach((ca) => {
+                ca.classList.add('easyslider-active');
+            });
+    });
+});
+  }
+$(window).load(function() {
+    setTimeout(initializeProductPageSlider, 5000);
+});
+
+  window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+  });
+  
+</script>
   <style type="text/css">
     body, html {
       width: 100% !important;
