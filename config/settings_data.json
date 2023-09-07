@@ -1092,14 +1092,14 @@
       "multicolumn-product": {
         "type": "multicolumn-product",
         "settings": {
-          "multicolumn-short-title1": "DESING",
-          "multicolumn-short-title2": "QUALITY",
+          "multicolumn-short-title1": "Quality",
+          "multicolumn-short-title2": "TRANSPARENCY",
           "multicolumn-short-title3": "SUSTAINABILITY",
-          "multicolumn-main-title1": "Comfortable and Sophostocated",
-          "multicolumn-main-title2": "Peruvian Pima Cotton",
-          "multicolumn-main-title3": "GOTS and Oeko-Tex Certified",
-          "paragraph-item-1": "Our droped-Back Dress features a \nflowing sil houette, anchored by a flouid drope at the back and side slits \nfor freedom of movement.",
-          "paragraph-item-2": "Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima",
+          "multicolumn-main-title1": "A TIMELESS COLLECTION WITH A QUALITY-GUARENTEED",
+          "multicolumn-main-title2": "LIMITED INVENTORY QUANTITIES",
+          "multicolumn-main-title3": "GOTS and OEKO-TEX CERTIFIED",
+          "paragraph-item-1": "We will repair, replace, and\/or offer an exchange (free of charge) for any garments that did not meet our product description, within 15-days of the order date.",
+          "paragraph-item-2": "Our pricing is a reflection of out commitment to working with natural fabrics and producing in small quantities.",
           "paragraph-item-3": "Grown, spun, and finished all in Peru, our pima is durable and irresistibly soft. This style is finished by a  family-owned workshop collective near Lima"
         }
       },
@@ -1215,6 +1215,8 @@
       "title-and-text-product": {
         "type": "title-and-text-product",
         "settings": {
+          "title": "Title",
+          "paragraph": "Welcome to my shop!"
         }
       },
       "drawer-product": {
