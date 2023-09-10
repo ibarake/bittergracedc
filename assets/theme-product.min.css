@@ -19697,23 +19697,6 @@ line-height: 44px; /* 137.5% */
   width: 10% !important;
   padding: 0.3%!important;
   }
-  .two-image-text {
-    width: 80% !important;
-    padding: 1rem !important;
-    height: 9em !important;
-    margin-bottom: 3rem !important;
-  }
-  .txt-two-image-container img {
-    width: 50% !important;
-    height: auto !important;
-  }
-
-  .txt-two-image-container {
-    margin: 8% 1% !important;
-  }
-  .images-container {
-    width: 100% !important;
-  }
   .style-with-container .grid__item {
     width: 100% !important;
   }
