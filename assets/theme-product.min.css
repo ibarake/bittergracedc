@@ -19637,10 +19637,6 @@ line-height: 44px; /* 137.5% */
     position: relative !important;
     height: 3em;
   }
-  .multicolumn-item-conntainer {
-  width: 10% !important;
-  padding: 0.3%!important;
-  }
   .style-with-container .grid__item {
     width: 100% !important;
   }
