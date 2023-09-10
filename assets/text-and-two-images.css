@@ -41,3 +41,9 @@ hr#line-gray {
   margin: -4% 14% 0% 14%;
   background: gainsboro;
 }
+@media screen and (max-width: 768px) {
+  .txt-two-image-container img {
+    width: 50% !important;
+    height: auto !important;
+  }
+}
