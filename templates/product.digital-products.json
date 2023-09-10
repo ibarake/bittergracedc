@@ -1,11 +1,6 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
-    "b40f3d8f-3e82-451d-9d6a-d2f2e7595f45": {
-      "type": "product-content",
-      "settings": {
-      }
-    },
     "main": {
       "type": "template--product",
       "settings": {
@@ -53,15 +48,22 @@
       "settings": {
         "title": "Title",
         "paragraph": "paragraph",
-        "left-image": "shopify:\/\/shop_images\/olive.png",
+        "left-image": "shopify:\/\/shop_images\/PDP_1_1200x_90fad07b-3154-46e4-99d8-ec8bc98441c0.png",
         "right-image": "shopify:\/\/shop_images\/bfs_9.png"
+      }
+    },
+    "0ba95e2e-f60f-437d-be16-9dccc73fc053": {
+      "type": "title-and-text-product",
+      "settings": {
+        "title": "Title",
+        "paragraph": "Welcome to my shop!"
       }
     }
   },
   "order": [
-    "b40f3d8f-3e82-451d-9d6a-d2f2e7595f45",
     "main",
     "8c680e44-b1d7-4bfd-aed9-2e571eb949e0",
-    "2c09f085-5c88-4b8c-9b3a-fd72acd227c9"
+    "2c09f085-5c88-4b8c-9b3a-fd72acd227c9",
+    "0ba95e2e-f60f-437d-be16-9dccc73fc053"
   ]
 }
