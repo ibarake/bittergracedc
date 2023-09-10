@@ -86,21 +86,36 @@
           data-section-id="{{ section.id }}"
         >
           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
-            <div class="slider-for" id="slider-for">
-              {% for image in product.media %}
-                <div>
-                  {{ image | img_tag: image.alt, 'product', '600x600' }}
-                </div>
-              {% endfor %}
+    <div class="slider-for" id="slider-for">
+        {% for media_item in product.media %}
+            <div>
+                {% if media_item.media_type == 'image' %}
+                    {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
+                {% elsif media_item.media_type == 'video' %}
+                    <video width="600" height="600" controls>
+                        <source src="{{ media_item.src }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {% endif %}
             </div>
-            <div class="slider-nav">
-              {% for image in product.media %}
-                <div style="margin-right:.8%;">
-                  {{ image | img_tag: image.alt, 'product', '250x200' }}
-                </div>
-              {% endfor %}
+        {% endfor %}
+    </div>
+    <div class="slider-nav">
+        {% for media_item in product.media %}
+            <div style="margin-right:.8%;">
+                {% if media_item.media_type == 'image' %}
+                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
+                {% elsif media_item.media_type == 'video' %}
+                    <video width="250" height="200" controls>
+                        <source src="{{ media_item.src }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {% endif %}
             </div>
-          </div>
+        {% endfor %}
+    </div>
+</div>
+
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
             <div>
