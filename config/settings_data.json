@@ -1246,6 +1246,20 @@
           "enable_image_zoom": false,
           "enable_video_loop": false
         }
+      },
+      "aaa2f30c-a94c-471d-8fec-b61ed23367b1": {
+        "type": "multicolumn-product",
+        "settings": {
+          "multicolumn-short-title1": "Title item 1",
+          "multicolumn-short-title2": "Title item 2",
+          "multicolumn-short-title3": "Title item 3",
+          "multicolumn-main-title1": "Title item 1",
+          "multicolumn-main-title2": "Title item 2",
+          "multicolumn-main-title3": "Title item 3",
+          "paragraph-item-1": "Paragraph item 1",
+          "paragraph-item-2": "Paragraph item 2",
+          "paragraph-item-3": "Paragraph item 3"
+        }
       }
     },
     "content_for_index": [
@@ -1263,7 +1277,8 @@
       "text--testimonials",
       "products--featured-product",
       "image--logo-list",
-      "video--video-hero"
+      "video--video-hero",
+      "aaa2f30c-a94c-471d-8fec-b61ed23367b1"
     ],
     "blocks": {
       "855628211100114053": {
