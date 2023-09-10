@@ -1,6 +1,11 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
+    "b40f3d8f-3e82-451d-9d6a-d2f2e7595f45": {
+      "type": "product-content",
+      "settings": {
+      }
+    },
     "main": {
       "type": "template--product",
       "settings": {
@@ -54,6 +59,7 @@
     }
   },
   "order": [
+    "b40f3d8f-3e82-451d-9d6a-d2f2e7595f45",
     "main",
     "8c680e44-b1d7-4bfd-aed9-2e571eb949e0",
     "2c09f085-5c88-4b8c-9b3a-fd72acd227c9"
