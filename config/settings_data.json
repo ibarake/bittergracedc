@@ -227,10 +227,10 @@
           "collection-0": {
             "type": "featured_collection",
             "settings": {
-              "collection": "new-arrivals",
+              "collection": "workwear-reimagined",
               "collection_img": "shopify:\/\/shop_images\/BG-037.jpg",
               "subheading": "",
-              "overlay-btn-text": "▹ Shop NEW ARRIVALS",
+              "overlay-btn-text": "▹ Shop COLLECTION",
               "show-gradient-overlay": false,
               "overlay_font_color": "#333333",
               "overlay_color": "#323232"
