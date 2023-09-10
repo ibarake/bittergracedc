@@ -1,8 +1,8 @@
 <secction>
   <div class="txt-two-image-container">
     <div class="two-image-text">
-      <h1>{{ section.settings.title }}</h1>
-      <p>{{ section.settings.paragraph }}</p>
+      <h1>{{ product.metafields.custom.title }}</h1>
+      <p>{{ product.metafields.custom.under_title }}</p>
     </div>
    <div class="images-container"> 
     <img src="{{ product.metafields.custom.product_image_2.value | image_url }}" alt="Left Image" width="200" height="200">
