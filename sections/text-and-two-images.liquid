@@ -18,13 +18,13 @@
     </div>
     <div class="images-container"> 
       <img 
-        src="{% if product.metafields.custom.product_image_2.value %}{{ product.metafields.custom.product_image_2.value | image_url }}{% else %}{{ section.settings.left-image | img_url: '200x' }}{% endif %}" 
+        src="{% if product.metafields.custom.product_image_2.value %}{{ product.metafields.custom.product_image_2.value | image_url }}{% else %}{{ section.settings.left-image | image_url }}{% endif %}" 
         alt="Left Image" 
         width="200" 
         height="200"
       >
       <img 
-        src="{% if product.metafields.custom.product_image_3.value %}{{ product.metafields.custom.product_image_3.value | image_url }}{% else %}{{ section.settings.right-image | img_url: '200x' }}{% endif %}" 
+        src="{% if product.metafields.custom.product_image_3.value %}{{ product.metafields.custom.product_image_3.value | image_url }}{% else %}{{ section.settings.right-image | image_url }}{% endif %}" 
         alt="Right Image" 
         width="200" 
         height="200"
