@@ -1,6 +1,11 @@
 {
   "wrapper": "div#div_id.div_class[attribute-one=value]",
   "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
     "main": {
       "type": "template--product",
       "settings": {
@@ -58,12 +63,19 @@
         "title": "Title",
         "paragraph": "Welcome to my shop!"
       }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
     }
   },
   "order": [
+    "zp-product-header-content",
     "main",
     "8c680e44-b1d7-4bfd-aed9-2e571eb949e0",
     "2c09f085-5c88-4b8c-9b3a-fd72acd227c9",
-    "0ba95e2e-f60f-437d-be16-9dccc73fc053"
+    "0ba95e2e-f60f-437d-be16-9dccc73fc053",
+    "zp-product-footer-content"
   ]
 }
