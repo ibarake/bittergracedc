@@ -103,7 +103,7 @@
                 {% if media_item.media_type == 'image' %}
                     {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
                 {% elsif media_item.media_type == 'video' %}
-                        {{ media | video_tag: image_size: '600x' }}
+                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
                 {% endif %}
             </div>
         {% endfor %}
