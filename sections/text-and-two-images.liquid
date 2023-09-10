@@ -15,6 +15,29 @@
 {% schema %}
 {
   "name": "Text and two image",
-  "settings": []
+  "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "default": "Title",
+        "label": "Title"
+      },
+    {
+        "type": "textarea",
+        "id": "paragraph",
+        "label": "paragraph",
+        "default": "paragraph"
+      },
+    {
+  "type": "image_picker",
+  "id": "left-image",
+  "label": "Left image"
+},
+      {
+  "type": "image_picker",
+  "id": "right-image",
+  "label": "right image"
+}
+  ]
 }
 {% endschema %}
