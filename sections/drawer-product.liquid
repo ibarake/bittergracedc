@@ -93,7 +93,7 @@
                     {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
                 {% elsif media_item.media_type == 'video' %}
                     <video width="600" height="600" controls>
-                        <source src="{{ media_item.src | asset_url }}" type="video/mp4">
+                        <source src="{{ media_item | asset_url }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 {% endif %}
