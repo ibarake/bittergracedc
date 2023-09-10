@@ -1125,28 +1125,28 @@
       "product-left": {
         "type": "product-left",
         "blocks": {
-          "2a8a7f51-da18-475b-9872-3a55386ed9d1": {
+          "ec04c11a-4f9c-446a-a087-c3478ccee563": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/S9N00386_1.jpg",
-              "collection": "athleisure-wear",
-              "button-text": "See more Athleisure Wear",
+              "f-image": "shopify:\/\/shop_images\/g3_426672fd-b080-424e-bc48-28450eb8b8f6.png",
+              "collection": "workwear-reimagined",
+              "button-text": "See more Workwear Reimagined",
               "box_position": "left"
             }
           },
-          "9e367cd6-927f-4819-be41-c972fc590292": {
+          "2a8a7f51-da18-475b-9872-3a55386ed9d1": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/6_BG-015copy.jpg",
-              "collection": "basics",
-              "button-text": "See more Back To Basics",
+              "f-image": "shopify:\/\/shop_images\/PDP_1_1200x_4d1a80b6-7c9d-428e-a4fc-05bf00bf9b1f.png",
+              "collection": "athleisure-wear",
+              "button-text": "See more Athleisure Wear",
               "box_position": "right"
             }
           },
           "1e1394c0-b879-4e1d-86a3-49e86dcfa37b": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/PONCHO_4.jpg",
+              "f-image": "shopify:\/\/shop_images\/bg9_bd4e89de-459e-43d5-93f1-e4aa8a569fe9.png",
               "collection": "sustainable-cashmere",
               "button-text": "See more Cashemere Collection",
               "box_position": "left"
@@ -1155,58 +1155,28 @@
           "381bb4cb-5074-48ca-b53a-d4f22b5eddd5": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/mable_ecopy.png",
+              "f-image": "shopify:\/\/shop_images\/ci2.png",
               "collection": "for-the-home",
               "button-text": "See more For The Home",
-              "box_position": "right"
-            }
-          },
-          "2416a4eb-3328-4fa6-aaa1-223c144ee2bc": {
-            "type": "Collection",
-            "settings": {
-              "f-image": "shopify:\/\/shop_images\/BP_4.png",
-              "collection": "new-arrivals",
-              "button-text": "See more New Arrivals",
-              "box_position": "left"
-            }
-          },
-          "69afb520-2f1d-47e1-a84e-bfa87b94cf0c": {
-            "type": "Collection",
-            "settings": {
-              "f-image": "shopify:\/\/shop_images\/BP_2_6d748dc5-f9bb-45aa-8c5e-4aa8afcc6084.png",
-              "collection": "pants",
-              "button-text": "See more Pants",
               "box_position": "right"
             }
           },
           "515c371b-af82-45ce-8a46-678dafe1dd0c": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/IMG_7793.jpg",
+              "f-image": "shopify:\/\/shop_images\/CI5.png",
               "collection": "copilot-appointments",
               "button-text": "See more Wardrobe Services",
-              "box_position": "left"
-            }
-          },
-          "ec04c11a-4f9c-446a-a087-c3478ccee563": {
-            "type": "Collection",
-            "settings": {
-              "f-image": "shopify:\/\/shop_images\/PPS_1.png",
-              "collection": "workwear-reimagined",
-              "button-text": "See more Workwear Reimagined",
               "box_position": "left"
             }
           }
         },
         "block_order": [
+          "ec04c11a-4f9c-446a-a087-c3478ccee563",
           "2a8a7f51-da18-475b-9872-3a55386ed9d1",
-          "9e367cd6-927f-4819-be41-c972fc590292",
           "1e1394c0-b879-4e1d-86a3-49e86dcfa37b",
           "381bb4cb-5074-48ca-b53a-d4f22b5eddd5",
-          "2416a4eb-3328-4fa6-aaa1-223c144ee2bc",
-          "69afb520-2f1d-47e1-a84e-bfa87b94cf0c",
-          "515c371b-af82-45ce-8a46-678dafe1dd0c",
-          "ec04c11a-4f9c-446a-a087-c3478ccee563"
+          "515c371b-af82-45ce-8a46-678dafe1dd0c"
         ],
         "settings": {
           "collection-as": "workwear-reimagined"
