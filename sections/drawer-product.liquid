@@ -85,31 +85,30 @@
           class="grid product-single product-sticky-wrapper{% if section.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
           data-section-id="{{ section.id }}"
         >
-          <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
-            <div id="slider-right-drawer">
-              {% render 'product-media',
-                product: product,
-                style: style,
-                enable_image_zoom: section.settings.enable_image_zoom,
-                hide_soldout_variants: section.settings.hide_soldout_variants
-              %}
+           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
+    <div class="slider-for" id="slider-for">
+        {% for media_item in product.media %}
+            <div>
+                {% if media_item.media_type == 'image' %}
+                    {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
+                {% elsif media_item.media_type == 'video' %}
+                        {{ media | video_tag: image_size: '600x' }}
+                {% endif %}
             </div>
-
-            <div class="slider-for" id="slider-for">
-              {% for image in product.media %}
-                <div>
-                  {{ image | img_tag: image.alt, 'product', '600x600' }}
-                </div>
-              {% endfor %}
+        {% endfor %}
+    </div>
+    <div class="slider-nav">
+        {% for media_item in product.media %}
+            <div style="margin-right:.8%;">
+                {% if media_item.media_type == 'image' %}
+                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
+                {% elsif media_item.media_type == 'video' %}
+                        {{ media | video_tag: image_size: '600x' }}
+                {% endif %}
             </div>
-            <div class="slider-nav">
-              {% for image in product.media %}
-                <div style="margin-right:.8%;">
-                  {{ image | img_tag: image.alt, 'product', '250x200' }}
-                </div>
-              {% endfor %}
-            </div>
-          </div>
+        {% endfor %}
+    </div>
+</div>
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
             <div>
