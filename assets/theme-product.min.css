@@ -141,10 +141,6 @@ img.product {
   margin: auto;
 }
 
-hr#line-gray {
-  margin: -4% 14% 0% 14%;
-  background: gainsboro;
-}
 .style-with-container {
     display: flex;
     flex-direction: column;
