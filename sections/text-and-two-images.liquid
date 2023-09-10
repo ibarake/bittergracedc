@@ -1,17 +1,38 @@
-<secction>
+<section>
   <div class="txt-two-image-container">
     <div class="two-image-text">
-      <h1>{{ product.metafields.custom.title }}</h1>
-      <p>{{ product.metafields.custom.under_title }}</p>
+      <h1>
+        {% if product.metafields.custom.title %}
+          {{ product.metafields.custom.title }}
+        {% else %}
+          {{ section.settings.title }}
+        {% endif %}
+      </h1>
+      <p>
+        {% if product.metafields.custom.under_title %}
+          {{ product.metafields.custom.under_title }}
+        {% else %}
+          {{ section.settings.paragraph }}
+        {% endif %}
+      </p>
     </div>
-   <div class="images-container"> 
-    <img src="{{ product.metafields.custom.product_image_2.value | image_url }}" alt="Left Image" width="200" height="200">
-    <img src="{{ product.metafields.custom.product_image_3.value | image_url }}" alt="Right Image" width="200" height="200">
-</div>
-
+    <div class="images-container"> 
+      <img 
+        src="{% if product.metafields.custom.product_image_2.value %}{{ product.metafields.custom.product_image_2.value | image_url }}{% else %}{{ section.settings.left-image | img_url: '200x' }}{% endif %}" 
+        alt="Left Image" 
+        width="200" 
+        height="200"
+      >
+      <img 
+        src="{% if product.metafields.custom.product_image_3.value %}{{ product.metafields.custom.product_image_3.value | image_url }}{% else %}{{ section.settings.right-image | img_url: '200x' }}{% endif %}" 
+        alt="Right Image" 
+        width="200" 
+        height="200"
+      >
+    </div>
   </div>
   <hr id="line-gray">
-</secction>
+</section>
 {% schema %}
 {
   "name": "Text and two image",
@@ -29,15 +50,15 @@
         "default": "paragraph"
       },
     {
-  "type": "image_picker",
-  "id": "left-image",
-  "label": "Left image"
-},
-      {
-  "type": "image_picker",
-  "id": "right-image",
-  "label": "right image"
-}
+      "type": "image_picker",
+      "id": "left-image",
+      "label": "Left image"
+    },
+    {
+      "type": "image_picker",
+      "id": "right-image",
+      "label": "Right image"
+    }
   ]
 }
 {% endschema %}
