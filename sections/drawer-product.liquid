@@ -120,11 +120,11 @@
                         </div>
                     {% when 'video' %}
                         <div class="media-container">
-                            {{ media_item | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none" }}
+                            {{ media_item | media_tag:  autoplay: true, loop: loop, controls: true, preload: "none" }}
                         </div>
                     {% when 'model' %}
                         <div class="media-container">
-                            {{ media_item | media_tag: image_size: "2048x", toggleable: true }}
+                            {{ media_item | media_tag: toggleable: true }}
                         </div>
                 {% endcase %}
             </div>
