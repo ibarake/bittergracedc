@@ -60,6 +60,6 @@ svg.svg-multicolumn-background {
   padding: 0.3% !important;
   }
   .multicolumn-container-responsive{
-    padding: 0px;
+    padding: 0px !important;
   }
 }
