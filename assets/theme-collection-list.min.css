@@ -17517,7 +17517,7 @@ body.js-drawer-open {
   opacity: 1;
 }
 .grid-view-item--desc-wrapper {
-  height: 7.5rem;
+  height: auto;
   text-align: center;
   position: relative;
   z-index: 1;
