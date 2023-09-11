@@ -72,7 +72,15 @@
   {% endif %}
 
   {% render 'shogun-head' %}
-  
+  <style>
+    .media-container {
+        height: 600px !important;
+    }
+    .media-container video, .media-container iframe {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+</style>
 </head>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
