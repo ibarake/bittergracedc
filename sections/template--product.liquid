@@ -85,15 +85,40 @@
           class="grid product-single product-sticky-wrapper{% if section.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
           data-section-id="{{ section.id }}"
         >
-          <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
+
+<div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
+  <div id="slider-right-drawer">
+              {% render 'product-media',
+                product: product,
+                style: style,
+                enable_image_zoom: section.settings.enable_image_zoom,
+                hide_soldout_variants: section.settings.hide_soldout_variants
+              %}
+            </div>
     <div class="slider-for" id="slider-for">
         {% for media_item in product.media %}
             <div>
-                {% if media_item.media_type == 'image' %}
-                    {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
-                {% elsif media_item.media_type == 'video' %}
-                        {{ media | video_tag: image_size: '600x' }}
-                {% endif %}
+                {% case media_item.media_type %}
+                    {% when 'image' %}
+                        {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
+                    {% when 'external_video' %}
+                        <div class="media-container">
+                            {% assign video_class = 'js-' | append: media_item.host %}
+                            {% if media_item.host == 'youtube' %}
+                                {{ media_item | external_video_url: autoplay: true, loop: loop, playlist: media_item.external_id | external_video_tag: class: video_class, loading: "lazy" }}
+                            {% else %}
+                                {{ media_item | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy" }}
+                            {% endif %}
+                        </div>
+                    {% when 'video' %}
+                        <div class="media-container">
+                            {{ media_item | media_tag:  autoplay: true, loop: loop, controls: true, preload: "none" }}
+                        </div>
+                    {% when 'model' %}
+                        <div class="media-container">
+                            {{ media_item | media_tag: toggleable: true }}
+                        </div>
+                {% endcase %}
             </div>
         {% endfor %}
     </div>
@@ -102,14 +127,13 @@
             <div style="margin-right:.8%;">
                 {% if media_item.media_type == 'image' %}
                     {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
-                {% elsif media_item.media_type == 'video' %}
-                        {{ media | video_tag: image_size: '600x' }}
+                {% elsif media_item.media_type == 'video' or media_item.media_type == 'external_video' %}
+                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
                 {% endif %}
             </div>
         {% endfor %}
     </div>
 </div>
-
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
             <div>
