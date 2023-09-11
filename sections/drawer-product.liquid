@@ -85,7 +85,24 @@
           class="grid product-single product-sticky-wrapper{% if section.settings.product_variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}"
           data-section-id="{{ section.id }}"
         >
-           <div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
+<style>
+    .media-container {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+    }
+    .media-container video, .media-container iframe {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<div class="grid__item {{ product_image_width }} context mobile--no-top-margin">
     <div class="slider-for" id="slider-for">
         {% for media_item in product.media %}
             <div>
@@ -93,16 +110,22 @@
                     {% when 'image' %}
                         {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
                     {% when 'external_video' %}
-                        {% assign video_class = 'js-' | append: media_item.host %}
-                        {% if media_item.host == 'youtube' %}
-                            {{ media_item | external_video_url: autoplay: true, loop: loop, playlist: media_item.external_id | external_video_tag: class: video_class, loading: "lazy" }}
-                        {% else %}
-                            {{ media_item | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy" }}
-                        {% endif %}
+                        <div class="media-container">
+                            {% assign video_class = 'js-' | append: media_item.host %}
+                            {% if media_item.host == 'youtube' %}
+                                {{ media_item | external_video_url: autoplay: true, loop: loop, playlist: media_item.external_id | external_video_tag: class: video_class, loading: "lazy" }}
+                            {% else %}
+                                {{ media_item | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy" }}
+                            {% endif %}
+                        </div>
                     {% when 'video' %}
-                        {{ media_item | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none" }}
+                        <div class="media-container">
+                            {{ media_item | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none" }}
+                        </div>
                     {% when 'model' %}
-                        {{ media_item | media_tag: image_size: "2048x", toggleable: true }}
+                        <div class="media-container">
+                            {{ media_item | media_tag: image_size: "2048x", toggleable: true }}
+                        </div>
                 {% endcase %}
             </div>
         {% endfor %}
@@ -119,6 +142,7 @@
         {% endfor %}
     </div>
 </div>
+
 
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
