@@ -89,14 +89,21 @@
     <div class="slider-for" id="slider-for">
         {% for media_item in product.media %}
             <div>
-                {% if media_item.media_type == 'image' %}
-                    {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
-                {% elsif media_item.media_type == 'video' %}
-                    <video width="600" height="600" controls>
-                        <source src="{{ media_item | asset_url }}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                {% endif %}
+                {% case media_item.media_type %}
+                    {% when 'image' %}
+                        {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
+                    {% when 'external_video' %}
+                        {% assign video_class = 'js-' | append: media_item.host %}
+                        {% if media_item.host == 'youtube' %}
+                            {{ media_item | external_video_url: autoplay: true, loop: loop, playlist: media_item.external_id | external_video_tag: class: video_class, loading: "lazy" }}
+                        {% else %}
+                            {{ media_item | external_video_url: autoplay: true, loop: loop | external_video_tag: class: video_class, loading: "lazy" }}
+                        {% endif %}
+                    {% when 'video' %}
+                        {{ media_item | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none" }}
+                    {% when 'model' %}
+                        {{ media_item | media_tag: image_size: "2048x", toggleable: true }}
+                {% endcase %}
             </div>
         {% endfor %}
     </div>
@@ -105,13 +112,14 @@
             <div style="margin-right:.8%;">
                 {% if media_item.media_type == 'image' %}
                     {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
-                {% elsif media_item.media_type == 'video' %}
+                {% elsif media_item.media_type == 'video' or media_item.media_type == 'external_video' %}
                     {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
                 {% endif %}
             </div>
         {% endfor %}
     </div>
 </div>
+
 
           <div class="left_space grid__item {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}">
             <div>
