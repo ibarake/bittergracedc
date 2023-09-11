@@ -57,6 +57,6 @@ svg.svg-multicolumn-background {
 @media screen and (max-width: 768px) {
   .multicolumn-item-conntainer {
   width: 350px !important;
-  padding: 0.3%!important;
+  padding: 0px !important;
   }
 }
