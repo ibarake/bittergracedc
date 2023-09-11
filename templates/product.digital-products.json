@@ -7,7 +7,7 @@
       }
     },
     "main": {
-      "type": "template--product",
+      "type": "drawer-product",
       "settings": {
         "show_quantity_selector": true,
         "show_tags": false,
