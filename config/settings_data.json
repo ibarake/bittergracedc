@@ -106,7 +106,7 @@
           "@media screen and (max-width: 768px) {.site-header__logo-image img {width: 9em !important; } .site-nav__link {transform: scale(0.6); }}"
         ],
         "settings": {
-          "sticky_header": true,
+          "sticky_header": false,
           "logo": "shopify:\/\/shop_images\/BG_Logo_BROWN_1.png",
           "logo-placement": "center",
           "logo_padding": 10,
@@ -118,7 +118,7 @@
           "cart-number": "quantity",
           "enable_search": false,
           "overlay_header_homepage": false,
-          "overlay_header_collection": true,
+          "overlay_header_collection": false,
           "overlay_header_list_collection": false,
           "overlay_header_contact": true,
           "overlay_logo": "shopify:\/\/shop_images\/Bitter_Grace_DC_Boutique.png",
