@@ -525,7 +525,7 @@
       "template--collection": {
         "type": "template--collection",
         "settings": {
-          "show-collection-image": true,
+          "show-collection-image": false,
           "parallax": true,
           "collection-image-size": "20vh",
           "collection-layout": "sidebar",
