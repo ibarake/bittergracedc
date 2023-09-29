@@ -7,7 +7,7 @@
   {% endif %}
 {% endfor %}
 
-{% if product_in_collections %}
+{% if product_in_collections == false %}
   {{ 'multicolumn-product.css' | asset_url | stylesheet_tag }}
   <style>
       .multicolumn-container {
