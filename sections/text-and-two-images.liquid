@@ -21,13 +21,21 @@
       {% if product.metafields.custom.product_image_2.value %}
         {{ product.metafields.custom.product_image_2.value | media_tag: width: 200, height: 200 }}
       {% else %}
-        {{ section.settings['left-image'] | media_tag: width: 200, height: 200 }}
+        {% if section.settings['left-media-type'] == 'image' %}
+          {{ section.settings['left-image'] | media_tag: width: 200, height: 200 }}
+        {% else %}
+          {{ section.settings.video1 | media_tag }}
+        {% endif %}
       {% endif %}
 
       {% if product.metafields.custom.product_image_3.value %}
         {{ product.metafields.custom.product_image_3.value | media_tag: width: 200, height: 200 }}
       {% else %}
-        {{ section.settings['right-image'] | media_tag: width: 200, height: 200 }}
+        {% if section.settings['right-media-type'] == 'image' %}
+          {{ section.settings['right-image'] | media_tag: width: 200, height: 200 }}
+        {% else %}
+          {{ section.settings.video2 | media_tag }}
+        {% endif %}
       {% endif %}
     </div>
   </div>
