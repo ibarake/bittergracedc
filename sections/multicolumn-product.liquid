@@ -6,6 +6,7 @@
     {% break %}
   {% endif %}
 {% endfor %}
+
 {% unless product_in_collections %}
   {{ 'multicolumn-product.css' | asset_url | stylesheet_tag }}
   <style>
