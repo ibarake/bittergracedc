@@ -52,7 +52,7 @@
     {{ 'theme-collection.min.css' | asset_url | stylesheet_tag }}
   {% elsif template == 'list-collections' %}
     {{ 'theme-collection-list.min.css' | asset_url | stylesheet_tag }}
-  {% elsif template == 'product' or template == 'digital-product' %}
+  {% elsif template == 'product' %}
     {{ 'theme-product.min.css' | asset_url | stylesheet_tag }}
   {% elsif template == 'blog' %}
     {{ 'theme-blog.min.css' | asset_url | stylesheet_tag }}
@@ -63,7 +63,8 @@
   {% endif %}
 
   {{ 'custom.css' | asset_url | stylesheet_tag }}
-
+  {{ 'theme-product.min.css' | asset_url | stylesheet_tag }}
+  
   <!-- Header hook for plugins ================================================== -->
   {%- render 'header-scripts.zipifypages', renderctx: 'thm' -%}{{ content_for_header }}
 
