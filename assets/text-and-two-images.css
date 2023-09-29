@@ -29,7 +29,10 @@
 .images-container {
     display: flex;
     width: 80%;
-  justify-content: space-evenly;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 .txt-two-image-container img{
   width: 50%;
