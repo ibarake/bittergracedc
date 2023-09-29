@@ -36,11 +36,11 @@
         {% if product.metafields.custom.product_image_3.value contains '.mp4' %}
           {{ product.metafields.custom.product_image_3.value | video_tag }}
         {% else %}
-          {{ product.metafields.custom.product_image_3.value | image_url | image_tag: width: 200, height: 200 }}
+          {{ product.metafields.custom.product_image_3.value | image_url: width: 200, height: 200 | image_tag }}
         {% endif %}
       {% else %}
         {% if section.settings['right-media-type'] == 'image' %}
-          {{ section.settings['right-image'] | image_url | image_tag: width: 200, height: 200 }}
+          {{ section.settings['right-image'] | image_url: width: 200, height: 200 | image_tag }}
         {% else %}
           {{ section.settings.video2 | video_tag }}
         {% endif %}
