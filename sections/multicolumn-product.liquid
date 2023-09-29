@@ -19,16 +19,19 @@
   <div class="multicolumn-container" id="multicolumn-container">
     {% render 'multicolumn-background' %}
     <item class="multicolumn-item-conntainer">
+      <img src="{{ section.settings.image1 | image_url }}" alt="Image 1" class="multicolumn-image">
       <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title1'] }}</h3>
       <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title1'] }}</h1>
       <p>{{ section.settings['paragraph-item-1'] }}</p>
     </item>
     <item class="multicolumn-item-conntainer">
+      <img src="{{ section.settings.image2 | image_url }}" alt="Image 2" class="multicolumn-image">
       <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title2'] }}</h3>
       <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title2'] }}</h1>
       <p>{{ section.settings['paragraph-item-2'] }}</p>
     </item>
     <item class="multicolumn-item-conntainer">
+      <img src="{{ section.settings.image3 | image_url }}" alt="Image 3" class="multicolumn-image">
       <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title3'] }}</h3>
       <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title3'] }}</h1>
       <p>{{ section.settings['paragraph-item-3'] }}</p>
