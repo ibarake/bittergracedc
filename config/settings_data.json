@@ -1092,7 +1092,6 @@
       "multicolumn-product": {
         "type": "multicolumn-product",
         "settings": {
-          "image1": "shopify:\/\/shop_images\/CI5.png",
           "multicolumn-short-title1": "QUALITY",
           "multicolumn-short-title2": "SUPPLY",
           "multicolumn-short-title3": "SUSTAINABILITY",
@@ -1115,8 +1114,8 @@
           "right-image": "shopify:\/\/shop_images\/PDP_1_1200x_5e0dc050-9d1f-4560-8b9f-d20a1cc06659.png",
           "video1": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
           "video2": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
-          "left-media-type": "video",
-          "right-media-type": "video"
+          "left-media-type": "image",
+          "right-media-type": "image"
         }
       },
       "template--style-with": {
