@@ -22,11 +22,15 @@
         {% if product.metafields.custom.product_image_2.value contains '.mp4' %}
           {{ product.metafields.custom.product_image_2.value | video_tag }}
         {% else %}
-          {{ product.metafields.custom.product_image_2.value | image_url | image_tag: width: 200, height: 200 }}
+          {{
+            product.metafields.custom.product_image_2.value
+            | image_url: width: 500, height: 500
+            | image_tag: width: 200, height: 200
+          }}
         {% endif %}
       {% else %}
         {% if section.settings['left-media-type'] == 'image' %}
-          {{ section.settings['left-image'] | image_url | image_tag: width: 200, height: 200 }}
+          {{ section.settings['left-image'] | image_url: width: 500, height: 500 | image_tag: width: 200, height: 200 }}
         {% else %}
           {{ section.settings.video1 | video_tag }}
         {% endif %}
@@ -36,11 +40,19 @@
         {% if product.metafields.custom.product_image_3.value contains '.mp4' %}
           {{ product.metafields.custom.product_image_3.value | video_tag }}
         {% else %}
-          {{ product.metafields.custom.product_image_3.value | image_url: width: 200, height: 200 | image_tag }}
+          {{
+            product.metafields.custom.product_image_3.value
+            | image_url: width: 500, height: 500
+            | image_tag: width: 200, height: 200
+          }}
         {% endif %}
       {% else %}
         {% if section.settings['right-media-type'] == 'image' %}
-          {{ section.settings['right-image'] | image_url: width: 200, height: 200 | image_tag }}
+          {{
+            section.settings['right-image']
+            | image_url: width: 500, height: 500
+            | image_tag: width: 200, height: 200
+          }}
         {% else %}
           {{ section.settings.video2 | video_tag }}
         {% endif %}
