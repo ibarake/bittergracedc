@@ -20,7 +20,7 @@
     <div class="images-container">
       {% if product.metafields.custom.product_image_2.value %}
         {% if product.metafields.custom.product_image_2.value contains '.mp4' %}
-          {{ product.metafields.custom.product_image_2.value | video_tag }}
+          {{ product.metafields.custom.product_image_2.value | video_tag: controls, autoplay, width: 500, height: 500 }}
         {% else %}
           {{
             product.metafields.custom.product_image_2.value
@@ -32,13 +32,13 @@
         {% if section.settings['left-media-type'] == 'image' %}
           {{ section.settings['left-image'] | image_url: width: 500, height: 500 | image_tag: width: 200, height: 200 }}
         {% else %}
-          {{ section.settings.video1 | video_tag }}
+          {{ section.settings.video1 | video_tag: controls, autoplay, width: 500, height: 500 }}
         {% endif %}
       {% endif %}
 
       {% if product.metafields.custom.product_image_3.value %}
         {% if product.metafields.custom.product_image_3.value contains '.mp4' %}
-          {{ product.metafields.custom.product_image_3.value | video_tag }}
+          {{ product.metafields.custom.product_image_3.value | video_tag: controls, autoplay, width: 500, height: 500 }}
         {% else %}
           {{
             product.metafields.custom.product_image_3.value
