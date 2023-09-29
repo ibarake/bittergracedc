@@ -1,45 +1,45 @@
 {% for collection in section.settings.collections %}
   {% if product.collections contains collection %}
+  {% else %}
+    {{ 'multicolumn-product.css' | asset_url | stylesheet_tag }}
+    <style>
+        .multicolumn-container {
+        background-color: {{ section.settings.bg_color }} !important;
+      }
+      .multicolumn-container-responsive {
+        background-color: {{ section.settings.bg_color }} !important;
+      }
+      .multicolumn-container path{
+        stroke-opacity: 1;
+        stroke: {{ section.settings.lines_color }} !important;
+      }
+      .multicolumn-container{
+        position: relative;
+        overflow: hidden;
+      }
+    </style>
+    <section class="mcc">
+      <div class="multicolumn-container" id="multicolumn-container">
+        {% render 'multicolumn-background' %}
+        <item class="multicolumn-item-conntainer">
+          <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title1'] }}</h3>
+          <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title1'] }}</h1>
+          <p>{{ section.settings['paragraph-item-1'] }}</p>
+        </item>
+        <item class="multicolumn-item-conntainer">
+          <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title2'] }}</h3>
+          <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title2'] }}</h1>
+          <p>{{ section.settings['paragraph-item-2'] }}</p>
+        </item>
+        <item class="multicolumn-item-conntainer">
+          <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title3'] }}</h3>
+          <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title3'] }}</h1>
+          <p>{{ section.settings['paragraph-item-3'] }}</p>
+        </item>
+      </div>
+    </section>
   {% endif %}
 {% endfor %}
-
-{{ 'multicolumn-product.css' | asset_url | stylesheet_tag }}
-<style>
-    .multicolumn-container {
-    background-color: {{ section.settings.bg_color }} !important;
-  }
-  .multicolumn-container-responsive {
-    background-color: {{ section.settings.bg_color }} !important;
-  }
-  .multicolumn-container path{
-    stroke-opacity: 1;
-    stroke: {{ section.settings.lines_color }} !important;
-  }
-  .multicolumn-container{
-    position: relative;
-    overflow: hidden;
-  }
-</style>
-<section class="mcc">
-  <div class="multicolumn-container" id="multicolumn-container">
-    {% render 'multicolumn-background' %}
-    <item class="multicolumn-item-conntainer">
-      <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title1'] }}</h3>
-      <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title1'] }}</h1>
-      <p>{{ section.settings['paragraph-item-1'] }}</p>
-    </item>
-    <item class="multicolumn-item-conntainer">
-      <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title2'] }}</h3>
-      <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title2'] }}</h1>
-      <p>{{ section.settings['paragraph-item-2'] }}</p>
-    </item>
-    <item class="multicolumn-item-conntainer">
-      <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title3'] }}</h3>
-      <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title3'] }}</h1>
-      <p>{{ section.settings['paragraph-item-3'] }}</p>
-    </item>
-  </div>
-</section>
 
 {% schema %}
 {
