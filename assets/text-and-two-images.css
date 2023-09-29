@@ -29,10 +29,7 @@
 .images-container {
     display: flex;
     width: 80%;
-  flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  justify-content: space-evenly;
 }
 .txt-two-image-container img{
   width: 50%;
@@ -46,7 +43,7 @@ hr#line-gray {
 }
 @media screen and (max-width: 768px) {
   .txt-two-image-container img {
-    width: 50% !important;
+    width: 80% !important;
     height: auto !important;
   }
   .txt-two-image-container {
@@ -54,6 +51,10 @@ hr#line-gray {
   }
   .images-container {
     width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
   .two-image-text {
     width: 80% !important;
