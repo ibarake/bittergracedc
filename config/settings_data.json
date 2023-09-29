@@ -1100,7 +1100,12 @@
           "multicolumn-main-title3": "NATURAL CHOICES",
           "paragraph-item-1": "We will repair any garments that did not meet our product standards and commitment to quality.",
           "paragraph-item-2": "We are committed to reducing waste by producing in small batch quantities.",
-          "paragraph-item-3": "We intentionally choose natural fabrics and plastic-free materials for our garments."
+          "paragraph-item-3": "We intentionally choose natural fabrics and plastic-free materials for our garments.",
+          "bg_color": "#ceb8a4",
+          "lines_color": "#ffffff",
+          "collection_list": [
+            "copilot-appointments"
+          ]
         }
       },
       "text-and-two-images": {
