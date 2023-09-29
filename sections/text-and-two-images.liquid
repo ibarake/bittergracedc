@@ -19,20 +19,20 @@
     </div>
     <div class="images-container">
       {% if product.metafields.custom.product_image_2.value %}
-        {{ product.metafields.custom.product_image_2.value | media_tag: width: 200, height: 200 }}
+        {{ product.metafields.custom.product_image_2.value | media_tag: width: 500, height: 500 }}
       {% else %}
         {% if section.settings['left-media-type'] == 'image' %}
-          {{ section.settings['left-image'] | media_tag: width: 200, height: 200 }}
+          {{ section.settings['left-image'] | media_tag: width: 500, height: 500 }}
         {% else %}
           {{ section.settings.video1 | media_tag }}
         {% endif %}
       {% endif %}
 
       {% if product.metafields.custom.product_image_3.value %}
-        {{ product.metafields.custom.product_image_3.value | media_tag: width: 200, height: 200 }}
+        {{ product.metafields.custom.product_image_3.value | media_tag: width: 500, height: 500 }}
       {% else %}
         {% if section.settings['right-media-type'] == 'image' %}
-          {{ section.settings['right-image'] | media_tag: width: 200, height: 200 }}
+          {{ section.settings['right-image'] | media_tag: width: 500, height: 500 }}
         {% else %}
           {{ section.settings.video2 | media_tag }}
         {% endif %}
