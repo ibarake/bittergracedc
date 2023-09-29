@@ -52,7 +52,7 @@
     {{ 'theme-collection.min.css' | asset_url | stylesheet_tag }}
   {% elsif template == 'list-collections' %}
     {{ 'theme-collection-list.min.css' | asset_url | stylesheet_tag }}
-  {% elsif template == 'product' %}
+  {% elsif template == 'product' or template == 'digital-product' %}
     {{ 'theme-product.min.css' | asset_url | stylesheet_tag }}
   {% elsif template == 'blog' %}
     {{ 'theme-blog.min.css' | asset_url | stylesheet_tag }}
