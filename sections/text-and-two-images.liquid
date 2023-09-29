@@ -22,7 +22,13 @@
         {% if product.metafields.custom.product_image_2.value contains '.mp4' %}
           {{
             product.metafields.custom.product_image_2.value
-            | video_tag: image_size: '400x', autoplay: false, loop: true, muted: false, controls: true
+            | video_tag:
+              class: 'custom-video',
+              image_size: '400x',
+              autoplay: false,
+              loop: true,
+              muted: false,
+              controls: true
           }}
         {% else %}
           {{
@@ -37,7 +43,13 @@
         {% else %}
           {{
             section.settings.video1
-            | video_tag: image_size: '400x', autoplay: false, loop: true, muted: false, controls: true
+            | video_tag:
+              class: 'custom-video',
+              image_size: '400x',
+              autoplay: false,
+              loop: true,
+              muted: false,
+              controls: true
           }}
         {% endif %}
       {% endif %}
@@ -46,7 +58,13 @@
         {% if product.metafields.custom.product_image_3.value contains '.mp4' %}
           {{
             product.metafields.custom.product_image_3.value
-            | video_tag: image_size: '400x', autoplay: false, loop: true, muted: false, controls: true
+            | video_tag:
+              class: 'custom-video',
+              image_size: '400x',
+              autoplay: false,
+              loop: true,
+              muted: false,
+              controls: true
           }}
         {% else %}
           {{
@@ -65,7 +83,13 @@
         {% else %}
           {{
             section.settings.video2
-            | video_tag: image_size: '400x', autoplay: false, loop: true, muted: false, controls: true
+            | video_tag:
+              class: 'custom-video',
+              image_size: '400x',
+              autoplay: false,
+              loop: true,
+              muted: false,
+              controls: true
           }}
         {% endif %}
       {% endif %}
