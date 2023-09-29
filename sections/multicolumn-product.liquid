@@ -36,7 +36,11 @@
     </item>
     <item class="multicolumn-item-conntainer">
       {% if section.settings.image2 %}
-        <img src="{{ section.settings.image2 | img_url }}" width="500px" alt="Image 2" class="multicolumn-image">
+        {{
+          section.settings.image2
+          | image_url: width: '500x', height: '500x'
+          | image_tag: class: 'multicolumn-image', width: '500x', height: '500x'
+        }}
       {% endif %}
       <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title2'] }}</h3>
       <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title2'] }}</h1>
@@ -44,7 +48,11 @@
     </item>
     <item class="multicolumn-item-conntainer">
       {% if section.settings.image3 %}
-        <img src="{{ section.settings.image3 | img_url }}" width="500px" alt="Image 3" class="multicolumn-image">
+        {{
+          section.settings.image3
+          | image_url: width: '500x', height: '500x'
+          | image_tag: class: 'multicolumn-image', width: '500x', height: '500x'
+        }}
       {% endif %}
       <h3 style="font-family: Kinfolk !important;">{{ section.settings['multicolumn-short-title3'] }}</h3>
       <h1 style="font-family: Avenir Next LT Pro !important;">{{ section.settings['multicolumn-main-title3'] }}</h1>
