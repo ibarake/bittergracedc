@@ -1,1 +1,6 @@
 {{ content_for_index }}
+<script>
+    window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+      });
+</script>
