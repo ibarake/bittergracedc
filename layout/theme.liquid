@@ -204,7 +204,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
     window.addEventListener('popstate', function(event) {
-      location.reload(true); // Reload the page to reflect the previous state
+      location.reload(); // Reload the page to reflect the previous state
+      console.log('popstate event fired')
   });
   window.initializeSlickSlider = () => {
     initializeProductPageSlider()
