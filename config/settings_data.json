@@ -837,8 +837,8 @@
           "1610049303ae374df1-0": {
             "type": "text",
             "settings": {
-              "heading": "YOUR PURCHASE MAKES A DIFFERENCE",
-              "subheading": "10% of each purchase goes to support Women’s HQ.",
+              "heading": "NEED HELP FINDING THE RIGHT PRODUCT FOR YOU?",
+              "subheading": "Take the quiz!",
               "link": "https:\/\/womenshq.org\/"
             }
           },
@@ -1108,10 +1108,10 @@
       "text-and-two-images": {
         "type": "text-and-two-images",
         "settings": {
-          "title": "Behind our Garments",
-          "paragraph": "Designed in D.C., Crafted in Colombia",
+          "title": "Behind our Clothes",
+          "paragraph": "Hand-Crafted in Colombia",
           "left-image": "shopify:\/\/shop_images\/PDP_1_1200x_90fad07b-3154-46e4-99d8-ec8bc98441c0.png",
-          "right-image": "shopify:\/\/shop_images\/IMG_0364.jpg",
+          "right-image": "shopify:\/\/shop_images\/PDP_1_1200x_5e0dc050-9d1f-4560-8b9f-d20a1cc06659.png",
           "video1": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
           "video2": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
           "left-media-type": "image",
