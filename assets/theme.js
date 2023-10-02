@@ -5,7 +5,10 @@ We recommend using this file to make small edits to the theme's code.
 For instructions on switching between minified and un-minified files see our documentation:
 https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-minified-css-javascript-and-theme-developer-editions
 If you want more control over source files please request the Developer Edition from support.
-***** */ 
+***** */   window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+      console.log('El evento se está ejecutando')
+      });
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};  
