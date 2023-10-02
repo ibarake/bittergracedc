@@ -203,6 +203,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
+    window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+  });
   window.initializeSlickSlider = () => {
     initializeProductPageSlider()
 $('.style-product-recent').each(function() {
@@ -311,9 +314,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 };
   $(document).ready(function() {
         window.initializeSlickSlider();
-      window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-  });
     });
   $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
