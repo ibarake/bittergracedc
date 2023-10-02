@@ -338,7 +338,7 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
     
     document.querySelectorAll('.shop-now-button').forEach((snb) => {
     snb.addEventListener('click', () => {
-        setTimeout(window.initializeSlickSlider, 100);
+        setTimeout(window.initializeSlickSlider, 1000);
     });
 });
 });
@@ -360,7 +360,9 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
     });
 });
   }
-
+$(window).load(function() {
+    setTimeout(initializeProductPageSlider, 5000);
+});
 </script>
 <style>
   @media (max-width: 768px) {
