@@ -363,10 +363,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 $(window).load(function() {
     setTimeout(initializeProductPageSlider, 5000);
 });
-  window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-      console.log('El evento se está ejecutando')
-  });
 </script>
 <style>
   @media (max-width: 768px) {
@@ -421,6 +417,12 @@ $(window).load(function() {
     object-position: top center;
   }
 </style>
+    <script>
+       window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+      console.log('El evento se está ejecutando')
+  });
+    </script>
   </body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPVZ5QS"
