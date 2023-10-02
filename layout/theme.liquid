@@ -311,6 +311,9 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 };
   $(document).ready(function() {
         window.initializeSlickSlider();
+      window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+  });
     });
   $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -363,10 +366,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 $(window).load(function() {
     setTimeout(initializeProductPageSlider, 5000);
 });
-
-  window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-  });
   
 </script>
 <style>
