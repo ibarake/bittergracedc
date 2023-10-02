@@ -197,9 +197,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </script>
     <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Nnq7zH"></script>
     <script>
-    window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-      });
+  window.addEventListener('popstate', function(event) {
+  // Obtener la URL actual
+  var currentUrl = window.location.href;
+  
+  // Verificar si la URL cumple con ciertas condiciones
+  if (currentUrl.includes('pagina-especifica')) {
+    // Si la URL cumple con las condiciones, recargar la página
+    window.location.reload();
+  }
+});
+
 </script>
 {%- render 'page-footer.zipifypages', renderctx: 'thm', ocuapp: oneclickupsellapp -%}
 
