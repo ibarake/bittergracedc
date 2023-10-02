@@ -203,10 +203,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
-    window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-      console.log('popstate event fired')
-  });
   window.initializeSlickSlider = () => {
     initializeProductPageSlider()
 $('.style-product-recent').each(function() {
@@ -367,7 +363,10 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 $(window).load(function() {
     setTimeout(initializeProductPageSlider, 5000);
 });
-  
+  window.addEventListener('popstate', function(event) {
+      location.reload(); // Reload the page to reflect the previous state
+      console.log('popstate event fired')
+  });
 </script>
 <style>
   @media (max-width: 768px) {
