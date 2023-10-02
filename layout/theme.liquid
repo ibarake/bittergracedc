@@ -133,16 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
   <script type="text/javascript">
-      window.addEventListener('popstate', function(event) {
-  console.log('El evento se está ejecutando');
-  setTimeout(function() {
-    location.reload(); // Reload the page to reflect the previous state
-  }, 1000); // Recargar la página después de 1 segundo (ajusta el tiempo según tus necesidades)
-});
-  window.addEventListener('popstate', function(event) {
-      location.reload(); // Reload the page to reflect the previous state
-      console.log('El evento se está ejecutando')
-      });
+    
     window.lazySizesConfig = window.lazySizesConfig || {};
     window.lazySizesConfig.rias = window.lazySizesConfig.rias || {};
 
