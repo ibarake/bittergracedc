@@ -317,11 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Agrega un event listener para el evento popstate
   window.addEventListener('popstate', function(event) {
     // Realiza acciones en respuesta al cambio en el historial
-    console.log('Se ha producido un cambio en el historial de navegación');
-    console.log('Nueva URL:', window.location.href);
-    console.log('Estado del historial:', history.state);
-    
-    // Puedes realizar otras acciones aquí, como cargar contenido dinámico.
+    window.location.reload();
   });
 });
 
