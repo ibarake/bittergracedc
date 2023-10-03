@@ -8978,7 +8978,7 @@ video::-webkit-media-text-track-display {
   opacity: 1;
 }
 .supports-js body.page-fade.unloading {
-  opacity: 0;
+  opacity: 1;
 }
 @keyframes FadeIn {
   0% {
