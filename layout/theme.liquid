@@ -306,9 +306,6 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 });
 };
   $(document).ready(function() {
-  window.initializeSlickSlider();
-});
-  $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     var element = document.getElementById('multicolumn-container');
     if (screenWidth < 768) {
@@ -359,7 +356,9 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 $(window).load(function() {
     setTimeout(initializeProductPageSlider, 6000);
 });
-  
+  $(document).load(function() {
+  window.initializeSlickSlider();
+}); 
 </script>
 <style>
   @media (max-width: 768px) {
