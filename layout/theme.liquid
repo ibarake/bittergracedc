@@ -419,11 +419,10 @@ $(window).load(function() {
   console.log('Estado del historial:', history.state);
 
   // Recarga la página
-   window.initializeSlickSlider(); 
   window.location.reload();
-
- 
-
+  $(document).ready(function() {
+  window.initializeSlickSlider();
+}); 
      });
     </script>
   </body>
