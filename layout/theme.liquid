@@ -311,15 +311,18 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 };
   $(document).ready(function() {
         window.initializeSlickSlider();
-    });
-// custom.js
-document.addEventListener('DOMContentLoaded', function() {
-  // Agrega un event listener para el evento popstate
-  window.addEventListener('popstate', function(event) {
-    // Realiza acciones en respuesta al cambio en el historial
-    window.location.reload();
-  });
+    window.addEventListener('popstate', function(event) {
+  // Realiza acciones en respuesta al cambio en el historial
+  console.log('Se ha producido un cambio en el historial de navegación');
+  console.log('Nueva URL:', window.location.href);
+  console.log('Estado del historial:', history.state);
+
+  // Recarga la página
+  window.location.reload();
 });
+
+    });
+// custo
 
   $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
