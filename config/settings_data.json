@@ -1275,6 +1275,12 @@
         "settings": {
           "show_list": true
         }
+      },
+      "9278379683843197553": {
+        "type": "shopify:\/\/apps\/appointo\/blocks\/app-embed\/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
