@@ -68,7 +68,7 @@
     class="lazyload {{ class }}{% if crop %} lazyload-crop-{{ crop }}{% endif %}"
     src="{{ src }}"
     data-src="{{ responsive_img_url }}"
-    data-sizes="100%"
+    data-sizes="auto"
     {% if blur %}
       data-lowsrc="{{ src }}"
       data-blur="true"
