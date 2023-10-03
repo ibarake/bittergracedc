@@ -423,8 +423,15 @@ $(window).load(function() {
   }
 </style>
     <script>
-    
+     window.addEventListener('popstate', function(event) {
+  // Realiza acciones en respuesta al cambio en el historial
+  console.log('Se ha producido un cambio en el historial de navegación');
+  console.log('Nueva URL:', window.location.href);
+  console.log('Estado del historial:', history.state);
+
+  // Recarga la página
   window.location.reload();
+     }
     </script>
   </body>
     <!-- Google Tag Manager (noscript) -->
