@@ -17705,6 +17705,10 @@ line-height: 44px; /* 137.5% */
 .reveal .hidden .lazyload-wrapper img {
   height: auto;
 }
+
+.collection-main-body-inner--sidebar .reveal .hidden .lazyload-wrapper img {
+  height: 100%;
+}
 @media only screen and (max-width: 992px) {
   .sold-out-button {
     padding: 10px 25px;
