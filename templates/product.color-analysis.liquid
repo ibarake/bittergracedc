@@ -1,3 +1,5 @@
+{% render 'shogun-products', content: product %}
+{{product.metafields.shogun.above}}
 {% include 'product-content.zipifypages', contentprt: 'header' %}
 <!-- /templates/product.liquid -->
 {% comment %}
@@ -34,3 +36,4 @@
 </div>
 <!-- End Stamped.io Auto Installation -->
 {% include 'product-content.zipifypages', contentprt: 'footer' %}
+{{product.metafields.shogun.below}}
