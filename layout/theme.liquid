@@ -354,7 +354,8 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 });
   }
 $(window).load(function() {
-    setTimeout(initializeProductPageSlider, 6000);
+    window.initializeSlickSlider();
+    setTimeout(initializeProductPageSlider, 6000); 
 });
 
 </script>
@@ -417,14 +418,9 @@ $(window).load(function() {
   console.log('Se ha producido un cambio en el historial de navegación');
   console.log('Nueva URL:', window.location.href);
   console.log('Estado del historial:', history.state);
-
   // Recarga la página
   window.location.reload();
- 
      });
-$(document).load(function() {
-  window.initializeSlickSlider();
-});  
     </script>
   </body>
     <!-- Google Tag Manager (noscript) -->
