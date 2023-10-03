@@ -306,6 +306,9 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 });
 };
   $(document).ready(function() {
+  window.initializeSlickSlider();
+});
+  $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     var element = document.getElementById('multicolumn-container');
     if (screenWidth < 768) {
@@ -354,10 +357,9 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
 });
   }
 $(window).load(function() {
-    window.initializeSlickSlider();
-    setTimeout(initializeProductPageSlider, 6000); 
+    setTimeout(initializeProductPageSlider, 6000);
 });
-
+  
 </script>
 <style>
   @media (max-width: 768px) {
@@ -418,6 +420,7 @@ $(window).load(function() {
   console.log('Se ha producido un cambio en el historial de navegación');
   console.log('Nueva URL:', window.location.href);
   console.log('Estado del historial:', history.state);
+
   // Recarga la página
   window.location.reload();
      });
