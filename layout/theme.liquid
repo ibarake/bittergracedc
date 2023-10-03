@@ -261,9 +261,6 @@ $('.style-product-recent').each(function() {
         });
     }
 });
-
-
-
 document.querySelectorAll('.easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
 
@@ -307,15 +304,11 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         esh.dataset.listenerAdded = 'true'; // Mark the element as having the listener added
     }
 });
-
+        window.initializeSlickSlider();
 };
   $(document).ready(function() {
-        window.initializeSlickSlider();
+
 });
-
-  
-// custo
-
   $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     var element = document.getElementById('multicolumn-container');
