@@ -54,6 +54,7 @@
     <img
       class="{{ class }}"
       src="{{ default_src }}"
+      data-sizes="auto"
       {% if alt %}
         alt="{{ alt | escape }}"
       {% else %}
@@ -67,6 +68,7 @@
     class="lazyload {{ class }}{% if crop %} lazyload-crop-{{ crop }}{% endif %}"
     src="{{ src }}"
     data-src="{{ responsive_img_url }}"
+    data-sizes="auto"
     {% if blur %}
       data-lowsrc="{{ src }}"
       data-blur="true"
