@@ -16,7 +16,7 @@ https://flowdocs.wetheme.com/faqs/custom-coding-and-shopify-app-integrations/un-
 display:none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 #slider-right-drawer{
 display:block;
 }
