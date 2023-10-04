@@ -10,6 +10,9 @@ This file can be re-written at any time.
 
 <head>
   
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -244,9 +247,6 @@ $('.style-product-recent').each(function() {
         });
     }
 });
-
-
-
 document.querySelectorAll('.easyslider-header').forEach((esh) => {
     const content = esh.parentNode.querySelector('.easyslider-content');
 
@@ -290,11 +290,10 @@ document.querySelectorAll('.easyslider-header').forEach((esh) => {
         esh.dataset.listenerAdded = 'true'; // Mark the element as having the listener added
     }
 });
-
 };
-  $(document).ready(function() {
-        window.initializeSlickSlider();
-    });
+$(document).ready(function() {
+  window.initializeSlickSlider();
+});
   $(document).ready(function() {
     var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     var element = document.getElementById('multicolumn-container');
@@ -349,7 +348,15 @@ $(window).load(function() {
   
 </script>
 <script>
-     
+     window.addEventListener('popstate', function(event) {
+  // Realiza acciones en respuesta al cambio en el historial
+  console.log('Se ha producido un cambio en el historial de navegación');
+  console.log('Nueva URL:', window.location.href);
+  console.log('Estado del historial:', history.state);
+
+  // Recarga la página
+  window.location.reload();
+     });
     </script>
   <style type="text/css">
     body, html {
