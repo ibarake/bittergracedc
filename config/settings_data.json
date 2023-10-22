@@ -267,7 +267,6 @@
             "type": "featured_collection",
             "settings": {
               "collection": "athleisure-wear",
-              "collection_img": "shopify:\/\/shop_images\/S9N00080.jpg",
               "subheading": "",
               "overlay-btn-text": "▹ SHOP COLLECTION",
               "show-gradient-overlay": false,
@@ -1170,6 +1169,7 @@
           },
           "515c371b-af82-45ce-8a46-678dafe1dd0c": {
             "type": "Collection",
+            "disabled": true,
             "settings": {
               "f-image": "shopify:\/\/shop_images\/CI5.png",
               "collection": "copilot-appointments",
