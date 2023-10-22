@@ -133,6 +133,23 @@
       "image--slideshow": {
         "type": "image--slideshow",
         "blocks": {
+          "e53b2314-769e-4b25-b6c4-b46e3b6405f7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled_design_35.png",
+              "mobile_image": "shopify:\/\/shop_images\/Untitled_design_35_6a1dcbc7-6a6a-447e-883c-7eca595bb4eb.png",
+              "title": "Wardrobe Services",
+              "text": "<p>Revitalize you & your style<\/p>",
+              "button_label": "▹ LEARN MORE",
+              "button_link": "shopify:\/\/pages\/wardrobe-services",
+              "caption-background": "#ffffff",
+              "caption-text": "#000000",
+              "button-text": "#ffffff",
+              "button-background": "#000000",
+              "captionHorizontal": "center",
+              "captionAlignment": "center"
+            }
+          },
           "876ab2a5-eac9-4739-955e-41d6f620fec9": {
             "type": "image",
             "settings": {
@@ -168,23 +185,6 @@
               "captionAlignment": "right"
             }
           },
-          "e53b2314-769e-4b25-b6c4-b46e3b6405f7": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Untitled_design_35.png",
-              "mobile_image": "shopify:\/\/shop_images\/Untitled_design_35_6a1dcbc7-6a6a-447e-883c-7eca595bb4eb.png",
-              "title": "Wardrobe Services",
-              "text": "<p>Revitalize you & your style<\/p>",
-              "button_label": "▹ LEARN MORE",
-              "button_link": "shopify:\/\/pages\/wardrobe-services",
-              "caption-background": "#ffffff",
-              "caption-text": "#000000",
-              "button-text": "#ffffff",
-              "button-background": "#000000",
-              "captionHorizontal": "center",
-              "captionAlignment": "center"
-            }
-          },
           "96db5bb4-04bc-4cc7-b974-199844f6124b": {
             "type": "image",
             "disabled": true,
@@ -205,9 +205,9 @@
           }
         },
         "block_order": [
+          "e53b2314-769e-4b25-b6c4-b46e3b6405f7",
           "876ab2a5-eac9-4739-955e-41d6f620fec9",
           "slideshow-0",
-          "e53b2314-769e-4b25-b6c4-b46e3b6405f7",
           "96db5bb4-04bc-4cc7-b974-199844f6124b"
         ],
         "settings": {
