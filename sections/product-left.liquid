@@ -3,12 +3,15 @@
     <h2>Product Collections</h2>
   </m-title>
   {% for block in section.blocks %}
-    <container-products style="{% if block.settings.box_position == "left" %} flex-direction: row; {% else %} flex-direction: row-reverse; {% endif %}">
+    <container-products
+      style="{% if block.settings.box_position == "left" %} flex-direction: row; {% else %} flex-direction: row-reverse; {% endif %}"
+      style="overflow: hidden;"
+    >
       <div class="f-container">
         <div class="contaier-title">
           <h2>{{ block.settings.collection.title }}</h2>
         </div>
-        <div class="container-image" style="overflow: hidden;">
+        <div class="container-image">
           <img src=" {{ block.settings.f-image | image_url }} ">
         </div>
       </div>
