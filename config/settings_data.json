@@ -283,7 +283,7 @@
           "collection-1"
         ],
         "custom_css": [
-          ".lazyload-wrapper img{height: auto !important;}"
+
         ],
         "settings": {
           "colors": "white",
