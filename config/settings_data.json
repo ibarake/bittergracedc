@@ -267,6 +267,7 @@
             "type": "featured_collection",
             "settings": {
               "collection": "athleisure-wear",
+              "collection_img": "shopify:\/\/shop_images\/bg_w.png",
               "subheading": "",
               "overlay-btn-text": "▹ SHOP COLLECTION",
               "show-gradient-overlay": false,
