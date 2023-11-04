@@ -282,6 +282,9 @@
           "51b1c3a2-477d-4c1a-9487-1a5e354622b4",
           "collection-1"
         ],
+        "custom_css": [
+          ".lazyload-wrapper img{height: auto !important;}"
+        ],
         "settings": {
           "colors": "white",
           "title": "",
