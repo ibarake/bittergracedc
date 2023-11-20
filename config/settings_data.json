@@ -794,7 +794,7 @@
       "template--product--recently-viewed": {
         "type": "template--product--recently-viewed",
         "settings": {
-          "enable_recently_viewed": true,
+          "enable_recently_viewed": false,
           "recently_viewed_title": "Recently viewed products"
         }
       },
