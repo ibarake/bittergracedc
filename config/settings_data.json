@@ -71,7 +71,7 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "<p>Use code \"<strong>blackfriday<\/strong>\" at checkout for 10% your order! <em>Ends 11\/24<\/em><\/p>",
+          "message_text": "<p>Free Shipping & Returns over $100, anywhere in the U.S.<\/p>",
           "message_link": "shopify:\/\/pages\/our-mission",
           "announcement-bar--background-color": "#704f38",
           "announcement-bar--text-color": "#ffffff",
