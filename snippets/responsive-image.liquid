@@ -20,7 +20,7 @@
 {% endcomment %}
 
 {% if default_size == blank %}
-  {% assign default_size = '1000x' %}
+  {% assign default_size = '500x' %}
 {% endif %}
 
 {% if blur == null %}
@@ -28,12 +28,12 @@
 {% endif %}
 
 {% if crop == blank %}
-  {% assign default_src = responsive-image | img_url: '1000x1000' %}
-  {% assign responsive_img_url = default_src | replace: '_1000x1000.', '_{width}.' %}
+  {% assign default_src = responsive-image | img_url: '500x500' %}
+  {% assign responsive_img_url = default_src | replace: '_500x500.', '_{width}.' %}
   {% assign src = responsive-image | img_url: default_size %}
 {% else %}
-  {% assign default_src = responsive-image | img_url: '1000x1000', crop: crop %}
-  {% assign responsive_img_url = default_src | replace: '_1000x1000_', '_{width}_' %}
+  {% assign default_src = responsive-image | img_url: '500x500', crop: crop %}
+  {% assign responsive_img_url = default_src | replace: '_500x500_', '_{width}_' %}
   {% assign src = responsive-image | img_url: default_size, crop: crop %}
 {% endif %}
 
