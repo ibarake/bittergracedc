@@ -100,7 +100,7 @@
             <div>
                 {% case media_item.media_type %}
                     {% when 'image' %}
-                        {{ media_item | img_tag: media_item.alt, 'product', '600x600' }}
+                        {{ media_item | image_url: '600' | image_tag: media_item.alt, 'product', '600x600', preload: true, loading: 'lazy' }}
                     {% when 'external_video' %}
                         <div class="media-container">
                             {% assign video_class = 'js-' | append: media_item.host %}
@@ -126,9 +126,9 @@
         {% for media_item in product.media %}
             <div style="margin-right:.8%;">
                 {% if media_item.media_type == 'image' %}
-                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
+                    {{ media_item | image_url: '250' | image_tag: media_item.alt, 'product', '250x200', preload: true, loading: 'lazy' }}
                 {% elsif media_item.media_type == 'video' or media_item.media_type == 'external_video' %}
-                    {{ media_item | img_tag: media_item.alt, 'product', '250x200' }}
+                    {{ media_item | image_url: '250' | image_tag: media_item.alt, 'product', '250x200', preload: true, loading: 'lazy' }}
                 {% endif %}
             </div>
         {% endfor %}
