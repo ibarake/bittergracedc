@@ -1253,12 +1253,6 @@
         "settings": {
         }
       },
-      "1449514830453105753": {
-        "type": "shopify:\/\/apps\/slots-appointment-scheduling\/blocks\/appointment-scheduler-embed\/eaf7446e-338e-4b9e-81ce-08f8dd90199c",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "9935253873646526303": {
         "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-page-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
         "disabled": false,
@@ -1283,6 +1277,12 @@
       },
       "9278379683843197553": {
         "type": "shopify:\/\/apps\/appointo\/blocks\/app-embed\/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7292877812810369780": {
+        "type": "shopify:\/\/apps\/fordeer-preorder-now-presale\/blocks\/preOrder-embed\/fc52eb6a-d4c7-47e1-9c4c-db0485af36b4",
         "disabled": false,
         "settings": {
         }
