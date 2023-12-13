@@ -1281,9 +1281,15 @@
         "settings": {
         }
       },
+      "7939148295143303891": {
+        "type": "shopify:\/\/apps\/preorderly\/blocks\/app-embed\/78f4ad8e-4f2e-4238-808a-21c6ab9dfbdc",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "16987187365865460165": {
         "type": "shopify:\/\/apps\/ez-preorder\/blocks\/pre-order\/27f5c03b-584b-4f19-8dc2-99bf52c8c09f",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
