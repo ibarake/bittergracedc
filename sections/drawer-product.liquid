@@ -100,7 +100,7 @@
             <div>
                 {% case media_item.media_type %}
                     {% when 'image' %}
-                        {{ media_item | image_url: width: '600' | image_tag: media_item.alt, 'product', '600x600', preload: true, loading: 'lazy' }}
+                        {{ media_item | image_url: width: '600' | image_tag: 'product', '600x600', preload: true, loading: 'lazy', alt: media_item.alt }}
                     {% when 'external_video' %}
                         <div class="media-container">
                             {% assign video_class = 'js-' | append: media_item.host %}
