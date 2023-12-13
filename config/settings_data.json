@@ -1281,20 +1281,8 @@
         "settings": {
         }
       },
-      "7292877812810369780": {
-        "type": "shopify:\/\/apps\/fordeer-preorder-now-presale\/blocks\/preOrder-embed\/fc52eb6a-d4c7-47e1-9c4c-db0485af36b4",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "5439026248262864547": {
-        "type": "shopify:\/\/apps\/preorder-globo\/blocks\/app-embed\/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "1097096201824731535": {
-        "type": "shopify:\/\/apps\/kaktus-preorder-now-presale\/blocks\/app-embeded\/65705a60-a3b0-43ae-9dc8-15db78d76b3b",
+      "16987187365865460165": {
+        "type": "shopify:\/\/apps\/ez-preorder\/blocks\/pre-order\/27f5c03b-584b-4f19-8dc2-99bf52c8c09f",
         "disabled": false,
         "settings": {
         }
