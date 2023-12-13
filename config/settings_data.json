@@ -1283,7 +1283,7 @@
       },
       "7292877812810369780": {
         "type": "shopify:\/\/apps\/fordeer-preorder-now-presale\/blocks\/preOrder-embed\/fc52eb6a-d4c7-47e1-9c4c-db0485af36b4",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
