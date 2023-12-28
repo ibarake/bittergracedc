@@ -841,8 +841,8 @@
           "1610049303ae374df1-0": {
             "type": "text",
             "settings": {
-              "heading": "NEED HELP FINDING THE RIGHT PRODUCT FOR YOU?",
-              "subheading": "Take the quiz!",
+              "heading": "STYLE QUIZ",
+              "subheading": "Need help finding the right style for you?",
               "link": "#quiz-3KHArw"
             }
           },
@@ -850,7 +850,7 @@
             "type": "text",
             "settings": {
               "heading": "CONSCIOUS LIVING",
-              "subheading": "Offering a holistic approach to revitalizing you and your style.",
+              "subheading": "A holistic approach to revitalizing you and your style.",
               "link": "shopify:\/\/pages\/wardrobe-services"
             }
           },
@@ -858,7 +858,7 @@
             "type": "text",
             "settings": {
               "heading": "INNER ELEGANCE",
-              "subheading": "A safe space to build meaningful connections and to connect to your purpose.",
+              "subheading": "Connect with your purpose and with heart-minded individuals.",
               "link": "https:\/\/www.innerelegancecircle.com\/"
             }
           }
