@@ -818,6 +818,7 @@
       },
       "16100319042eec0318": {
         "type": "video--video-hero",
+        "disabled": true,
         "settings": {
           "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/58f8059f6c3446c1842f4b535beefca0.mp4",
           "desktopHeight": "650",
