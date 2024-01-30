@@ -150,6 +150,22 @@
               "captionAlignment": "center"
             }
           },
+          "image_Bzf4WX": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Valentine_s_Day_18.png",
+              "title": "Celebrate Valentine's Day at Bitter Grace",
+              "text": "<p>Join us for an unforgettable evening filled with romance, laughter, and meaningful connections...<\/p>",
+              "button_label": "▹ RSVP TODAY",
+              "button_link": "https:\/\/www.eventbrite.com\/e\/valentines-day-at-bitter-grace-tickets-810739994147?aff=oddtdtcreator",
+              "caption-background": "#ffffff",
+              "caption-text": "#333333",
+              "button-text": "#ffffff",
+              "button-background": "#000",
+              "captionHorizontal": "center",
+              "captionAlignment": "left"
+            }
+          },
           "876ab2a5-eac9-4739-955e-41d6f620fec9": {
             "type": "image",
             "settings": {
@@ -188,6 +204,7 @@
         },
         "block_order": [
           "e53b2314-769e-4b25-b6c4-b46e3b6405f7",
+          "image_Bzf4WX",
           "876ab2a5-eac9-4739-955e-41d6f620fec9",
           "96db5bb4-04bc-4cc7-b974-199844f6124b"
         ],
@@ -196,7 +213,7 @@
           "slider-width": "full-screen",
           "slider-slide-time": 5,
           "caption-heading-size": 40,
-          "caption-subheading-size": 18,
+          "caption-subheading-size": 16,
           "caption-button-size": 16,
           "show-slide-dots": false,
           "show-slide-arrows": true,
