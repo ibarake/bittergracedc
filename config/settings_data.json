@@ -195,8 +195,8 @@
               "caption-text": "#414141",
               "button-text": "#ffffff",
               "button-background": "#000000",
-              "captionHorizontal": "left",
-              "captionAlignment": "left"
+              "captionHorizontal": "right",
+              "captionAlignment": "right"
             }
           },
           "96db5bb4-04bc-4cc7-b974-199844f6124b": {
