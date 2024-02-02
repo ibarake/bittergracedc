@@ -186,7 +186,8 @@
           "image_eggEDK": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Untitled_design_76.png",
+              "image": "shopify:\/\/shop_images\/Untitled_design_78.png",
+              "mobile_image": "shopify:\/\/shop_images\/Untitled_1400_x_1400_px_1.png",
               "title": "Begin Your Authentic Journey",
               "text": "<p>How to Master Effortless<\/p>",
               "button_label": "▹ ENROLL NOW",
