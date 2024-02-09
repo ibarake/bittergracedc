@@ -1188,6 +1188,14 @@
               "box_position": "right"
             }
           },
+          "collection_eUznqM": {
+            "type": "Collection",
+            "settings": {
+              "collection": "",
+              "button-text": "See more accesories",
+              "box_position": "left"
+            }
+          },
           "515c371b-af82-45ce-8a46-678dafe1dd0c": {
             "type": "Collection",
             "disabled": true,
@@ -1204,6 +1212,7 @@
           "2a8a7f51-da18-475b-9872-3a55386ed9d1",
           "1e1394c0-b879-4e1d-86a3-49e86dcfa37b",
           "381bb4cb-5074-48ca-b53a-d4f22b5eddd5",
+          "collection_eUznqM",
           "515c371b-af82-45ce-8a46-678dafe1dd0c"
         ],
         "settings": {
@@ -1295,18 +1304,6 @@
       "9278379683843197553": {
         "type": "shopify:\/\/apps\/appointo\/blocks\/app-embed\/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "7939148295143303891": {
-        "type": "shopify:\/\/apps\/preorderly\/blocks\/app-embed\/78f4ad8e-4f2e-4238-808a-21c6ab9dfbdc",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16987187365865460165": {
-        "type": "shopify:\/\/apps\/ez-preorder\/blocks\/pre-order\/27f5c03b-584b-4f19-8dc2-99bf52c8c09f",
-        "disabled": true,
         "settings": {
         }
       }
