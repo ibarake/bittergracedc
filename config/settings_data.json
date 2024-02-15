@@ -141,7 +141,7 @@
               "title": "Wardrobe Services",
               "text": "<p>Personal Styling, Color Analysis, Closet Revamp<\/p>",
               "button_label": "▹ LEARN MORE",
-              "button_link": "shopify:\/\/pages\/personal-styling",
+              "button_link": "shopify:\/\/pages\/wardrobe-services",
               "caption-background": "#ffffff",
               "caption-text": "#000000",
               "button-text": "#ffffff",
@@ -868,7 +868,7 @@
             "settings": {
               "heading": "CONSCIOUS LIVING",
               "subheading": "A holistic approach to revitalizing you and your style.",
-              "link": "shopify:\/\/pages\/personal-styling"
+              "link": "shopify:\/\/pages\/wardrobe-services"
             }
           },
           "1610049303ae374df1-2": {
