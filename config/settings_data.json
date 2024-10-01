@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_body_text": "#333333",
@@ -44,17 +53,17 @@
     "product-grid": "natural",
     "quick_shop_enable": true,
     "quick_add_enable": true,
-    "sm_facebook_link": "https:\/\/www.facebook.com\/bittergracedc",
-    "sm_instagram_link": "https:\/\/www.instagram.com\/bittergracedc\/",
+    "sm_facebook_link": "https://www.facebook.com/bittergracedc",
+    "sm_instagram_link": "https://www.instagram.com/bittergracedc/",
     "sm_pinterest_link": "",
-    "sm_youtube_link": "https:\/\/www.youtube.com\/channel\/UC8TpZdDwkrus6HgZoGd9v2g\/videos?view_as=subscriber",
+    "sm_youtube_link": "https://www.youtube.com/channel/UC8TpZdDwkrus6HgZoGd9v2g/videos?view_as=subscriber",
     "share_twitter": false,
     "popup--enable": false,
     "pop-up-time": "7",
     "desktop-popup-style": "fullscreen",
     "popup--test-mode": false,
-    "favicon": "shopify:\/\/shop_images\/BG_Beige_Logo.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/bitter-grace-sustainable-lifestyle-brand.png",
+    "favicon": "shopify://shop_images/BG_Beige_Logo.png",
+    "checkout_logo_image": "shopify://shop_images/bitter-grace-sustainable-lifestyle-brand.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#fff",
@@ -71,8 +80,8 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "<p>Free Shipping & Returns over $100, anywhere in the U.S.<\/p>",
-          "message_link": "shopify:\/\/pages\/our-mission",
+          "message_text": "<p>Free Shipping & Returns over $100, anywhere in the U.S.</p>",
+          "message_link": "shopify://pages/our-mission",
           "announcement-bar--background-color": "#704f38",
           "announcement-bar--text-color": "#ffffff",
           "enable_social_icons": false
@@ -85,10 +94,10 @@
             "type": "content",
             "settings": {
               "mega-menu": "Shop",
-              "mega_image_1": "shopify:\/\/shop_images\/Gift_Card.png",
+              "mega_image_1": "shopify://shop_images/Gift_Card.png",
               "mega_image_header_1": "",
               "mega_image_subheader_1": "",
-              "mega_image_link_1": "https:\/\/bittergracedc.com\/products\/gift-card",
+              "mega_image_link_1": "https://bittergracedc.com/products/gift-card",
               "mega_image_header_2": "",
               "mega_image_subheader_2": "",
               "mega_image_link_2": ""
@@ -107,7 +116,7 @@
         ],
         "settings": {
           "sticky_header": false,
-          "logo": "shopify:\/\/shop_images\/BG_Logo_BROWN_1.png",
+          "logo": "shopify://shop_images/BG_Logo_BROWN_1.png",
           "logo-placement": "center",
           "logo_padding": 10,
           "logo_max_width": 250,
@@ -121,7 +130,7 @@
           "overlay_header_collection": false,
           "overlay_header_list_collection": false,
           "overlay_header_contact": true,
-          "overlay_logo": "shopify:\/\/shop_images\/Bitter_Grace_DC_Boutique.png",
+          "overlay_logo": "shopify://shop_images/Bitter_Grace_DC_Boutique.png",
           "overlay_opacity": 0,
           "show_locale_selector": false,
           "show_currency_selector": false,
@@ -136,12 +145,12 @@
           "e53b2314-769e-4b25-b6c4-b46e3b6405f7": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Untitled_design_35.png",
-              "mobile_image": "shopify:\/\/shop_images\/Untitled_design_35_6a1dcbc7-6a6a-447e-883c-7eca595bb4eb.png",
+              "image": "shopify://shop_images/Untitled_design_35.png",
+              "mobile_image": "shopify://shop_images/Untitled_design_35_6a1dcbc7-6a6a-447e-883c-7eca595bb4eb.png",
               "title": "Wardrobe Services",
-              "text": "<p>Personal Styling, Color Analysis, Closet Revamp<\/p>",
+              "text": "<p>Personal Styling, Color Analysis, Closet Revamp</p>",
               "button_label": "▹ LEARN MORE",
-              "button_link": "shopify:\/\/pages\/personal-styling",
+              "button_link": "shopify://pages/wardrobe-services",
               "caption-background": "#ffffff",
               "caption-text": "#000000",
               "button-text": "#ffffff",
@@ -153,11 +162,11 @@
           "image_Bzf4WX": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Valentine_s_Day_20.png",
+              "image": "shopify://shop_images/Valentine_s_Day_20.png",
               "title": "Celebrate Valentine's Day at Bitter Grace",
-              "text": "<p>Join us for an unforgettable evening filled with romance, laughter, and meaningful connections...<\/p>",
+              "text": "<p>Join us for an unforgettable evening filled with romance, laughter, and meaningful connections...</p>",
               "button_label": "▹ RSVP TODAY",
-              "button_link": "https:\/\/www.eventbrite.com\/e\/valentines-day-at-bitter-grace-tickets-810739994147?aff=oddtdtcreator",
+              "button_link": "https://www.eventbrite.com/e/valentines-day-at-bitter-grace-tickets-810739994147?aff=oddtdtcreator",
               "caption-background": "#ffffff",
               "caption-text": "#333333",
               "button-text": "#ffffff",
@@ -169,12 +178,12 @@
           "876ab2a5-eac9-4739-955e-41d6f620fec9": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BGBanner_Updated.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/BGBanner_Updated.jpg",
+              "image": "shopify://shop_images/BGBanner_Updated.jpg",
+              "mobile_image": "shopify://shop_images/BGBanner_Updated.jpg",
               "title": "Workwear Reimagined",
-              "text": "<p>Timeless styles made of natural materials<\/p>",
+              "text": "<p>Timeless styles made of natural materials</p>",
               "button_label": "▹ SHOP THE COLLECTION",
-              "button_link": "shopify:\/\/collections\/workwear-reimagined",
+              "button_link": "shopify://collections/workwear-reimagined",
               "caption-background": "#faf8f8",
               "caption-text": "#000000",
               "button-text": "#ffffff",
@@ -186,12 +195,12 @@
           "image_eggEDK": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Untitled_design_78.png",
-              "mobile_image": "shopify:\/\/shop_images\/Untitled_1400_x_1400_px_1.png",
+              "image": "shopify://shop_images/Untitled_design_78.png",
+              "mobile_image": "shopify://shop_images/Untitled_1400_x_1400_px_1.png",
               "title": "Begin Your Authentic Journey",
-              "text": "<p>How to Master Effortless<\/p>",
+              "text": "<p>How to Master Effortless</p>",
               "button_label": "▹ ENROLL NOW",
-              "button_link": "https:\/\/www.innerelegancecircle.com\/challenges",
+              "button_link": "https://www.innerelegancecircle.com/challenges",
               "caption-background": "#ffffff",
               "caption-text": "#414141",
               "button-text": "#ffffff",
@@ -204,12 +213,12 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/sustainably-made-cashemere-sweaters.jpg",
+              "image": "shopify://shop_images/sustainably-made-cashemere-sweaters.jpg",
+              "mobile_image": "shopify://shop_images/sustainably-made-cashemere-sweaters.jpg",
               "title": "Sustainably-Made Cashmere",
-              "text": "<p>Versatile, hand-crafted<br\/>cashmere staples<\/p>",
+              "text": "<p>Versatile, hand-crafted<br/>cashmere staples</p>",
               "button_label": "▹ SHOP THE COLLECTION",
-              "button_link": "https:\/\/bittergracedc.com\/collections\/sustainable-cashmere",
+              "button_link": "https://bittergracedc.com/collections/sustainable-cashmere",
               "caption-background": "rgba(0,0,0,0)",
               "caption-text": "#333333",
               "button-text": "#ffffff",
@@ -245,7 +254,7 @@
             "type": "featured_collection",
             "settings": {
               "collection": "workwear-reimagined",
-              "collection_img": "shopify:\/\/shop_images\/BG-037.jpg",
+              "collection_img": "shopify://shop_images/BG-037.jpg",
               "subheading": "",
               "overlay-btn-text": "▹ Shop COLLECTION",
               "show-gradient-overlay": false,
@@ -258,7 +267,7 @@
             "disabled": true,
             "settings": {
               "collection": "jewelry-styles",
-              "collection_img": "shopify:\/\/shop_images\/handcrafted-diamond-boob-earrings.png",
+              "collection_img": "shopify://shop_images/handcrafted-diamond-boob-earrings.png",
               "subheading": "",
               "overlay-btn-text": "▹ Shop Jewelry",
               "show-gradient-overlay": false,
@@ -271,7 +280,7 @@
             "disabled": true,
             "settings": {
               "collection": "mothers-day-gift-guide",
-              "collection_img": "shopify:\/\/shop_images\/VOLO_SILVER_031d205c-1a1f-4fa8-9159-aef40228f6b3.png",
+              "collection_img": "shopify://shop_images/VOLO_SILVER_031d205c-1a1f-4fa8-9159-aef40228f6b3.png",
               "subheading": "",
               "overlay-btn-text": "Shop now",
               "show-gradient-overlay": false,
@@ -283,7 +292,7 @@
             "type": "featured_collection",
             "settings": {
               "collection": "athleisure-wear",
-              "collection_img": "shopify:\/\/shop_images\/bgw_6c456d6e-c917-4047-b1f3-932cf5abcc76.png",
+              "collection_img": "shopify://shop_images/bgw_6c456d6e-c917-4047-b1f3-932cf5abcc76.png",
               "subheading": "",
               "overlay-btn-text": "▹ SHOP COLLECTION",
               "show-gradient-overlay": false,
@@ -329,7 +338,7 @@
           "gallery-1": {
             "type": "image",
             "settings": {
-              "link": "shopify:\/\/collections\/all",
+              "link": "shopify://collections/all",
               "subheading": "Subheading",
               "title": "Title",
               "overlay-btn-text": "SHOP NOW",
@@ -341,7 +350,7 @@
           "gallery-2": {
             "type": "image",
             "settings": {
-              "link": "shopify:\/\/collections\/all",
+              "link": "shopify://collections/all",
               "subheading": "Subheading",
               "title": "Title",
               "overlay-btn-text": "SHOP NOW",
@@ -384,8 +393,8 @@
           "gallery-0-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC02215_1500x_b4e0f177-a9a9-4111-9886-d8df92026a97.jpg",
-              "link": "shopify:\/\/products\/bitter-grace-charcoal-cropped-long-sleeve-sweatshirt",
+              "image": "shopify://shop_images/DSC02215_1500x_b4e0f177-a9a9-4111-9886-d8df92026a97.jpg",
+              "link": "shopify://products/bitter-grace-charcoal-cropped-long-sleeve-sweatshirt",
               "subheading": "",
               "title": "Charcoal Cropped Long Sleeve Sweatshirt",
               "overlay-btn-text": "▹ SHOP THE LOOK",
@@ -397,8 +406,8 @@
           "gallery-0-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC02240_1500x_b66249cd-a87f-4649-a3d2-1fa5ff5f1ec3.jpg",
-              "link": "shopify:\/\/products\/bitter-grace-mint-tie-dye-high-low-sweatshirt",
+              "image": "shopify://shop_images/DSC02240_1500x_b66249cd-a87f-4649-a3d2-1fa5ff5f1ec3.jpg",
+              "link": "shopify://products/bitter-grace-mint-tie-dye-high-low-sweatshirt",
               "subheading": "",
               "title": "Mint Tie Dye High-Low Sweatshirt",
               "overlay-btn-text": "▹ SHOP THE LOOK",
@@ -410,8 +419,8 @@
           "gallery-0-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC02301_1500x_ae23e503-ae37-44af-858f-f76812f985b3.jpg",
-              "link": "shopify:\/\/products\/bitter-grace-tie-dye-cropped-t-shirt",
+              "image": "shopify://shop_images/DSC02301_1500x_ae23e503-ae37-44af-858f-f76812f985b3.jpg",
+              "link": "shopify://products/bitter-grace-tie-dye-cropped-t-shirt",
               "subheading": "",
               "title": "Tie Dye Cropped T-Shirt",
               "overlay-btn-text": "▹ SHOP THE LOOK",
@@ -423,8 +432,8 @@
           "gallery-0-3": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC02276_1500x_f199e164-63cc-4d79-8f6f-e0feb18b79bd.jpg",
-              "link": "shopify:\/\/products\/bitter-grace-cropped-sweatshirt-with-dropped-puff-sleeves",
+              "image": "shopify://shop_images/DSC02276_1500x_f199e164-63cc-4d79-8f6f-e0feb18b79bd.jpg",
+              "link": "shopify://products/bitter-grace-cropped-sweatshirt-with-dropped-puff-sleeves",
               "subheading": "",
               "title": "Cropped Sweatshirt with Dropped Puff Sleeves",
               "overlay-btn-text": "▹ SHOP THE LOOK",
@@ -465,8 +474,8 @@
           "e51df719-6c89-4e95-86fc-4972a84798f9": {
             "type": "imageAndtext",
             "settings": {
-              "imageLogo": "shopify:\/\/shop_images\/BG_LOGO_CREAM.png",
-              "linkLogo": "\/",
+              "imageLogo": "shopify://shop_images/BG_LOGO_CREAM.png",
+              "linkLogo": "/",
               "description": "We use fashion as a medium to unite our community and leave the world better than we found it."
             }
           },
@@ -474,7 +483,7 @@
             "type": "text",
             "settings": {
               "title": "Visit Our Flagship Store",
-              "richtext": "<p><a href=\"\/pages\/visit-us\" title=\"Visit Us\">BITTER GRACE<\/a><br\/>1325 5th St NE, Suite D<br\/>Washington, DC 20002<\/p>",
+              "richtext": "<p><a href=\"/pages/visit-us\" title=\"Visit Us\">BITTER GRACE</a><br/>1325 5th St NE, Suite D<br/>Washington, DC 20002</p>",
               "footer_phone": "202-948-2435"
             }
           },
@@ -587,7 +596,7 @@
           "text--testimonials-0": {
             "type": "text",
             "settings": {
-              "testimonial_text": "<p>“This online boutique is one of my favorite places to shop of all time! Bitter Grace Boutique has positioned itself to be a leader in the purposeful fashion market. I always feel great that a portion of my purchases are paid forward to organizations I believe in.”<\/p>",
+              "testimonial_text": "<p>“This online boutique is one of my favorite places to shop of all time! Bitter Grace Boutique has positioned itself to be a leader in the purposeful fashion market. I always feel great that a portion of my purchases are paid forward to organizations I believe in.”</p>",
               "customer_name": "- Alev",
               "link": "",
               "stars": 5
@@ -596,7 +605,7 @@
           "fddf51f6-c99e-475b-8683-fbbc40689bec": {
             "type": "text",
             "settings": {
-              "testimonial_text": "<p>“By way of the Bitter Grace and the Inner Elegance Community, I’ve met some of the most empowering and talented people I&#x27;ve had the pleasure of meeting. I love how it&#x27;s all tied by this concept that Elegance comes from within.”<\/p>",
+              "testimonial_text": "<p>“By way of the Bitter Grace and the Inner Elegance Community, I’ve met some of the most empowering and talented people I&#x27;ve had the pleasure of meeting. I love how it&#x27;s all tied by this concept that Elegance comes from within.”</p>",
               "customer_name": "- Jane",
               "link": "",
               "stars": 5
@@ -605,7 +614,7 @@
           "6675c8d8-5858-483d-9e22-fa0c2aa7cff7": {
             "type": "text",
             "settings": {
-              "testimonial_text": "<p>“The clothing you carry is beautiful, the encouragement to each of us is wonderful, and your support to our community and those in need is priceless. I highly recommend Bitter Grace!”<\/p>",
+              "testimonial_text": "<p>“The clothing you carry is beautiful, the encouragement to each of us is wonderful, and your support to our community and those in need is priceless. I highly recommend Bitter Grace!”</p>",
               "customer_name": "- Bonnie",
               "link": "",
               "stars": 5
@@ -630,15 +639,15 @@
         ],
         "settings": {
           "colors": "light",
-          "image": "shopify:\/\/shop_images\/worwear-that_s-comfortable_900x_47864ec5-e586-40f0-bf6f-4303fafec07a.png",
+          "image": "shopify://shop_images/worwear-that_s-comfortable_900x_47864ec5-e586-40f0-bf6f-4303fafec07a.png",
           "text_overlapping_image": false,
           "section-width": "full",
           "layout": "left",
           "text_alignment": "center",
           "title": "TIMELESS WORKWEAR YOU'LL REACH FOR DAILY",
-          "text": "<p>Sustainably Made Workwear Collection<\/p>",
+          "text": "<p>Sustainably Made Workwear Collection</p>",
           "button_label": "▹ Shop WORKWEAR",
-          "button_link": "shopify:\/\/collections\/workwear-reimagined"
+          "button_link": "shopify://collections/workwear-reimagined"
         }
       },
       "image--image-with-text-1": {
@@ -648,15 +657,15 @@
         ],
         "settings": {
           "colors": "light",
-          "image": "shopify:\/\/shop_images\/Inner_Elegance_Community_Washington_DC.jpg",
+          "image": "shopify://shop_images/Inner_Elegance_Community_Washington_DC.jpg",
           "text_overlapping_image": false,
           "section-width": "full",
           "layout": "right",
           "text_alignment": "center",
           "title": "JOIN US INSIDE THE INNER ELEGANCE COMMUNITY",
-          "text": "<p>Connect with your higher-self, your purpose, and with heart-minded individuals. <\/p>",
+          "text": "<p>Connect with your higher-self, your purpose, and with heart-minded individuals. </p>",
           "button_label": "▹ LEARN MORE",
-          "button_link": "https:\/\/www.innerelegancecircle.com"
+          "button_link": "https://www.innerelegancecircle.com"
         }
       },
       "newsletter--newsletter": {
@@ -696,36 +705,36 @@
           "image--logo-list-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/washington-football-team.png",
-              "link": "https:\/\/www.washingtonfootball.com\/ben\/shop-black"
+              "image": "shopify://shop_images/washington-football-team.png",
+              "link": "https://www.washingtonfootball.com/ben/shop-black"
             }
           },
           "image--logo-list-1": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Washingtonian-featuring-bitter-grace.png",
-              "link": "https:\/\/www.washingtonian.com\/2019\/08\/27\/you-can-meditate-and-shop-local-goods-from-women-owned-businesses-at-this-dc-self-care-retreat\/"
+              "image": "shopify://shop_images/Washingtonian-featuring-bitter-grace.png",
+              "link": "https://www.washingtonian.com/2019/08/27/you-can-meditate-and-shop-local-goods-from-women-owned-businesses-at-this-dc-self-care-retreat/"
             }
           },
           "image--logo-list-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HillRag-features-bitter-grace.png",
-              "link": "https:\/\/www.hillrag.com\/2020\/12\/16\/bitter-grace-boasts-unique-clothing-and-accessories\/"
+              "image": "shopify://shop_images/HillRag-features-bitter-grace.png",
+              "link": "https://www.hillrag.com/2020/12/16/bitter-grace-boasts-unique-clothing-and-accessories/"
             }
           },
           "image--logo-list-3": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/arlington-magazine-features-bitter-grace.png",
-              "link": "https:\/\/www.arlingtonmagazine.com\/fashion-find-bitter-grace-boutique\/"
+              "image": "shopify://shop_images/arlington-magazine-features-bitter-grace.png",
+              "link": "https://www.arlingtonmagazine.com/fashion-find-bitter-grace-boutique/"
             }
           },
           "722895ef-d831-454e-b7da-5e89a66a2f82": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Copy_of_Untitled_1.png",
-              "link": "https:\/\/wjla.com\/sports\/washington-football-team\/shop-black-washington-football-team-promotes-small-businesses-owned-by-people-of-color"
+              "image": "shopify://shop_images/Copy_of_Untitled_1.png",
+              "link": "https://wjla.com/sports/washington-football-team/shop-black-washington-football-team-promotes-small-businesses-owned-by-people-of-color"
             }
           }
         },
@@ -746,7 +755,7 @@
         "type": "video--video-hero",
         "disabled": true,
         "settings": {
-          "url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
           "desktopHeight": "450",
           "mobileHeight": "350",
           "title": "Share your story",
@@ -756,7 +765,7 @@
           "textShadow": false,
           "heading--text-size": 38,
           "subheading--text-size": 24,
-          "button_link": "shopify:\/\/collections\/all",
+          "button_link": "shopify://collections/all",
           "button_label": "Shop now",
           "button-text": "#ffffff",
           "button-background": "#000000"
@@ -768,7 +777,7 @@
           "46180c0a-cc10-4f49-af57-faab92b91c8a": {
             "type": "image_picker",
             "settings": {
-              "sidebar_image": "shopify:\/\/shop_images\/laying-on-the-beach.jpg",
+              "sidebar_image": "shopify://shop_images/laying-on-the-beach.jpg",
               "image_title": "Personal Stylist Washington D.C.",
               "image_link": ""
             }
@@ -818,7 +827,7 @@
         "type": "template--blog",
         "settings": {
           "show_author_name": true,
-          "blog-sidebar-image": "shopify:\/\/shop_images\/bravely-be-you.jpg",
+          "blog-sidebar-image": "shopify://shop_images/bravely-be-you.jpg",
           "show_blog_tags": true,
           "show_recent_posts": false,
           "blog_show_date": false
@@ -836,7 +845,7 @@
         "type": "video--video-hero",
         "disabled": true,
         "settings": {
-          "url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/58f8059f6c3446c1842f4b535beefca0.mp4",
+          "url": "https://cdn.shopify.com/videos/c/o/v/58f8059f6c3446c1842f4b535beefca0.mp4",
           "desktopHeight": "650",
           "mobileHeight": "fullscreen",
           "title": "Behind-the-Scenes of Creating Workwear Reimagined",
@@ -846,7 +855,7 @@
           "textShadow": false,
           "heading--text-size": 56,
           "subheading--text-size": 20,
-          "button_link": "shopify:\/\/collections\/workwear-reimagined",
+          "button_link": "shopify://collections/workwear-reimagined",
           "button_label": "▹ SHOP NEW ARRIVALS",
           "button-text": "#ffffff",
           "button-background": "#704f38"
@@ -868,7 +877,7 @@
             "settings": {
               "heading": "CONSCIOUS LIVING",
               "subheading": "A holistic approach to revitalizing you and your style.",
-              "link": "shopify:\/\/pages\/personal-styling"
+              "link": "shopify://pages/wardrobe-services"
             }
           },
           "1610049303ae374df1-2": {
@@ -876,7 +885,7 @@
             "settings": {
               "heading": "INNER ELEGANCE",
               "subheading": "Connect with your purpose and with heart-minded individuals.",
-              "link": "https:\/\/www.innerelegancecircle.com\/"
+              "link": "https://www.innerelegancecircle.com/"
             }
           }
         },
@@ -952,7 +961,7 @@
           "31256608-dc63-4f3f-9ea2-0255c017abfe"
         ],
         "settings": {
-          "banner_image": "shopify:\/\/shop_images\/Bitter_Grace_DC_in_Capitol_Hill.jpg",
+          "banner_image": "shopify://shop_images/Bitter_Grace_DC_in_Capitol_Hill.jpg",
           "banner-image-size": "40vh",
           "parallax": true,
           "layout": "left",
@@ -960,7 +969,7 @@
           "height": "40vw",
           "map_address": "526 8th St SE, Suite A, Washington, DC 20003",
           "api_key": "",
-          "background_image": "shopify:\/\/shop_images\/bravely-be-you-is-our-motto.jpg"
+          "background_image": "shopify://shop_images/bravely-be-you-is-our-motto.jpg"
         }
       },
       "1611596786bbc1fbeb": {
@@ -969,8 +978,8 @@
           "1611596786bbc1fbeb-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/grey-wrap-dress.jpg",
-              "link": "shopify:\/\/products\/the-hemp-wrap-dress",
+              "image": "shopify://shop_images/grey-wrap-dress.jpg",
+              "link": "shopify://products/the-hemp-wrap-dress",
               "subheading": "",
               "title": "Hemp Wrap Dress",
               "overlay-btn-text": "▹ SHOP THIS LOOK",
@@ -982,8 +991,8 @@
           "1611596786bbc1fbeb-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/white-work-blazer.jpg",
-              "link": "shopify:\/\/products\/the-cotton-boyfriend-blazer",
+              "image": "shopify://shop_images/white-work-blazer.jpg",
+              "link": "shopify://products/the-cotton-boyfriend-blazer",
               "subheading": "",
               "title": "Cotton Boyfriend Blazer",
               "overlay-btn-text": "▹ SHOP THIS LOOK",
@@ -995,8 +1004,8 @@
           "1611596786bbc1fbeb-2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/grey-linen-shirt.jpg",
-              "link": "shopify:\/\/products\/the-hemp-boyfriend-shirt",
+              "image": "shopify://shop_images/grey-linen-shirt.jpg",
+              "link": "shopify://products/the-hemp-boyfriend-shirt",
               "subheading": "",
               "title": "Hemp Boyfriend Shirt",
               "overlay-btn-text": "▹ SHOP THIS LOOK",
@@ -1008,8 +1017,8 @@
           "475edd64-7abb-4f08-b305-70936c91a5d1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/white-wrap-dress.jpg",
-              "link": "shopify:\/\/products\/the-cotton-coat-dress",
+              "image": "shopify://shop_images/white-wrap-dress.jpg",
+              "link": "shopify://products/the-cotton-coat-dress",
               "subheading": "",
               "title": "Cotton Coat Dress",
               "overlay-btn-text": "▹ SHOP THIS LOOK",
@@ -1042,19 +1051,19 @@
         "type": "image--image-with-text-overlay",
         "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/personal-styling-experience-washington-dc.jpg",
+          "image": "shopify://shop_images/personal-styling-experience-washington-dc.jpg",
           "image_height": "30vw",
           "bg_image_overlay_opacity": 25,
           "parallax": true,
           "title": "Personal Styling",
-          "text": "<p>Rediscover your personal style. Ignite your Confidence. Align the next phase of your life with your self-image and purpose.<\/p>",
+          "text": "<p>Rediscover your personal style. Ignite your Confidence. Align the next phase of your life with your self-image and purpose.</p>",
           "colors": "white",
           "textPosition": "center",
           "textAlignment": "center",
           "heading--text-size": 26,
           "text--text-size": 18,
           "button_label": "▹ BOOK APPOINTMENT",
-          "button_link": "shopify:\/\/pages\/personal-styling-1"
+          "button_link": "shopify://pages/personal-styling-1"
         }
       },
       "1630275458948ebbb4": {
@@ -1097,11 +1106,11 @@
         "disabled": true,
         "settings": {
           "homepage-hero-featured-content": "homepage-hero-image-selection",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
           "homepage-hero-video-autoplay": false,
           "homepage-hero-video-loop": false,
           "homepage-hero-video-mute": false,
-          "home-page-hero-image": "shopify:\/\/shop_images\/Sustainable-athleisure.jpg",
+          "home-page-hero-image": "shopify://shop_images/Sustainable-athleisure.jpg",
           "image_overlay_opacity": 0,
           "homepage-hero-image-heading": "Athleisure",
           "homepage-hero-image-description": "Elevated Every Day",
@@ -1131,10 +1140,10 @@
         "settings": {
           "title": "Behind Our Collection",
           "paragraph": "Designed in D.C., Handmade in Colombia",
-          "left-image": "shopify:\/\/shop_images\/Screen_Shot_2023-10-30_at_12.23.08_PM.png",
-          "right-image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-08_at_4.16.07_PM_3cf7ea67-88ac-4775-b313-f9a6302afbd7.png",
-          "video1": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
-          "video2": "shopify:\/\/files\/videos\/SHOPIFYCLIPS(24).mp4",
+          "left-image": "shopify://shop_images/Screen_Shot_2023-10-30_at_12.23.08_PM.png",
+          "right-image": "shopify://shop_images/Screen_Shot_2023-09-08_at_4.16.07_PM_3cf7ea67-88ac-4775-b313-f9a6302afbd7.png",
+          "video1": "shopify://files/videos/SHOPIFYCLIPS(24).mp4",
+          "video2": "shopify://files/videos/SHOPIFYCLIPS(24).mp4",
           "left-media-type": "image",
           "right-media-type": "image"
         }
@@ -1155,7 +1164,7 @@
           "ec04c11a-4f9c-446a-a087-c3478ccee563": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/g3_426672fd-b080-424e-bc48-28450eb8b8f6.png",
+              "f-image": "shopify://shop_images/g3_426672fd-b080-424e-bc48-28450eb8b8f6.png",
               "collection": "workwear-reimagined",
               "button-text": "See more Workwear Reimagined",
               "box_position": "left"
@@ -1164,7 +1173,7 @@
           "2a8a7f51-da18-475b-9872-3a55386ed9d1": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/PDP_1_1200x_4d1a80b6-7c9d-428e-a4fc-05bf00bf9b1f.png",
+              "f-image": "shopify://shop_images/PDP_1_1200x_4d1a80b6-7c9d-428e-a4fc-05bf00bf9b1f.png",
               "collection": "athleisure-wear",
               "button-text": "See more Athleisure Wear",
               "box_position": "right"
@@ -1173,7 +1182,7 @@
           "1e1394c0-b879-4e1d-86a3-49e86dcfa37b": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/bg9_bd4e89de-459e-43d5-93f1-e4aa8a569fe9.png",
+              "f-image": "shopify://shop_images/bg9_bd4e89de-459e-43d5-93f1-e4aa8a569fe9.png",
               "collection": "sustainable-cashmere",
               "button-text": "See more Cashmere Collection",
               "box_position": "left"
@@ -1182,7 +1191,7 @@
           "381bb4cb-5074-48ca-b53a-d4f22b5eddd5": {
             "type": "Collection",
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/ci2.png",
+              "f-image": "shopify://shop_images/ci2.png",
               "collection": "for-the-home",
               "button-text": "See more For The Home",
               "box_position": "right"
@@ -1200,7 +1209,7 @@
             "type": "Collection",
             "disabled": true,
             "settings": {
-              "f-image": "shopify:\/\/shop_images\/CI5.png",
+              "f-image": "shopify://shop_images/CI5.png",
               "collection": "copilot-appointments",
               "button-text": "See more Wardrobe Services",
               "box_position": "left"
@@ -1274,20 +1283,20 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "9935253873646526303": {
-        "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-page-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
+        "type": "shopify://apps/easyslide/blocks/easyslider-embed-page-widget/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
         "disabled": false,
         "settings": {
           "placement_selector": ""
         }
       },
       "6570643953009571346": {
-        "type": "shopify:\/\/apps\/easyslide\/blocks\/easyslider-embed-product-widget\/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
+        "type": "shopify://apps/easyslide/blocks/easyslider-embed-product-widget/ef09cb22-75b5-48cd-995b-9c0856fc69a2",
         "disabled": false,
         "settings": {
           "placement_selector": "",
@@ -1295,14 +1304,14 @@
         }
       },
       "2209279550302034861": {
-        "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/link-popup\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+        "type": "shopify://apps/shop-quiz-product-recommender/blocks/link-popup/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
         "disabled": false,
         "settings": {
           "show_list": true
         }
       },
       "9278379683843197553": {
-        "type": "shopify:\/\/apps\/appointo\/blocks\/app-embed\/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
+        "type": "shopify://apps/appointo/blocks/app-embed/8e9086b8-9c22-4cd3-b1d1-0967727a5d97",
         "disabled": false,
         "settings": {
         }
@@ -1364,7 +1373,7 @@
               "type": "image",
               "settings": {
                 "button_label": "Shop now",
-                "button_link": "shopify:\/\/collections\/all",
+                "button_link": "shopify://collections/all",
                 "captionHorizontal": "right",
                 "captionAlignment": "right"
               }
@@ -1428,7 +1437,7 @@
             "desktopHeight": "550",
             "mobileHeight": "350",
             "textAlignment": "center-left",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Learn more"
           }
         },
@@ -1446,7 +1455,7 @@
             "bg_image_overlay_opacity": 0,
             "parallax": true,
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "image--logo-list": {
@@ -1490,7 +1499,7 @@
               "type": "text",
               "settings": {
                 "image": "",
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe",
                 "link": "",
                 "stars": 5
@@ -1500,7 +1509,7 @@
               "type": "text",
               "settings": {
                 "image": "",
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe",
                 "link": "",
                 "stars": 5
@@ -1510,7 +1519,7 @@
               "type": "text",
               "settings": {
                 "image": "",
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe",
                 "link": "",
                 "stars": 5
@@ -1532,7 +1541,7 @@
             "text_overlapping_image": true,
             "text_alignment": "left",
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections\/all"
+            "button_link": "shopify://collections/all"
           }
         },
         "products--featured-product": {
@@ -1987,7 +1996,7 @@
               "type": "image",
               "settings": {
                 "button_label": "Shop now",
-                "button_link": "shopify:\/\/collections\/all",
+                "button_link": "shopify://collections/all",
                 "captionHorizontal": "right",
                 "captionAlignment": "right"
               }
@@ -1996,7 +2005,7 @@
               "type": "image",
               "settings": {
                 "button_label": "Shop now",
-                "button_link": "shopify:\/\/collections\/all",
+                "button_link": "shopify://collections/all",
                 "captionHorizontal": "right",
                 "captionAlignment": "right"
               }
@@ -2022,7 +2031,7 @@
           "type": "video--video-hero",
           "settings": {
             "desktopHeight": "550",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Shop now"
           }
         },
@@ -2032,7 +2041,7 @@
             "text--testimonials-0": {
               "type": "text",
               "settings": {
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe",
                 "link": "",
                 "stars": 5
@@ -2042,7 +2051,7 @@
               "type": "text",
               "settings": {
                 "image": "",
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe",
                 "link": "",
                 "stars": 5
@@ -2257,7 +2266,7 @@
             "gallery-0": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2268,7 +2277,7 @@
             "gallery-1": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2279,7 +2288,7 @@
             "gallery-2": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2290,8 +2299,8 @@
             "gallery-3": {
               "type": "image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/pomme_shoot16794.jpg",
-                "link": "shopify:\/\/products\/juliette-cami",
+                "image": "shopify://shop_images/pomme_shoot16794.jpg",
+                "link": "shopify://products/juliette-cami",
                 "subheading": "£41.00",
                 "title": "Juliette Cami",
                 "overlay-btn-text": "SHOP NOW",
@@ -2317,7 +2326,7 @@
             "gallery-0-0": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2328,7 +2337,7 @@
             "gallery-0-1": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2339,7 +2348,7 @@
             "gallery-0-2": {
               "type": "image",
               "settings": {
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "subheading": "Subheading",
                 "title": "Title",
                 "overlay-btn-text": "SHOP NOW",
@@ -2350,8 +2359,8 @@
             "gallery-0-3": {
               "type": "image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/pomme_shoot16794.jpg",
-                "link": "shopify:\/\/products\/juliette-cami",
+                "image": "shopify://shop_images/pomme_shoot16794.jpg",
+                "link": "shopify://products/juliette-cami",
                 "subheading": "£41.00",
                 "title": "Juliette Cami",
                 "overlay-btn-text": "SHOP NOW",
@@ -2384,7 +2393,7 @@
               "type": "text",
               "settings": {
                 "title": "Contact us",
-                "richtext": "<p>Shorditch High Street<br>London, UK<br>L1 3HG<\/p>\n<p><\/p>\n<p>enquiry@cannes.com<\/p>"
+                "richtext": "<p>Shorditch High Street<br>London, UK<br>L1 3HG</p>\n<p></p>\n<p>enquiry@cannes.com</p>"
               }
             },
             "footer-1": {
@@ -2448,7 +2457,7 @@
             "text--testimonials-0": {
               "type": "text",
               "settings": {
-                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"<\/p>",
+                "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
                 "customer_name": "John Doe"
               }
             }
@@ -2465,7 +2474,7 @@
           "type": "image--image-with-text",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify://collections"
           }
         },
         "image--image-with-text-1": {
@@ -2473,7 +2482,7 @@
           "settings": {
             "layout": "right",
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify://collections"
           }
         },
         "newsletter--newsletter": {
@@ -2500,35 +2509,35 @@
             "image--logo-list-0": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/Asset_2.png",
+                "image": "shopify://shop_images/Asset_2.png",
                 "link": ""
               }
             },
             "image--logo-list-1": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/logo2.png",
+                "image": "shopify://shop_images/logo2.png",
                 "link": ""
               }
             },
             "image--logo-list-2": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/logo1.png",
+                "image": "shopify://shop_images/logo1.png",
                 "link": ""
               }
             },
             "image--logo-list-3": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/logo3.png",
+                "image": "shopify://shop_images/logo3.png",
                 "link": ""
               }
             },
             "image--logo-list-4": {
               "type": "logo_image",
               "settings": {
-                "image": "shopify:\/\/shop_images\/logo4.png",
+                "image": "shopify://shop_images/logo4.png",
                 "link": ""
               }
             }
@@ -2552,7 +2561,7 @@
             "desktopHeight": "450",
             "mobileHeight": "350",
             "heading--text-size": 38,
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_label": "Shop now"
           }
         }
